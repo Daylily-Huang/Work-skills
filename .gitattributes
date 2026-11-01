@@ -1,0 +1,9 @@
+# 仓库内文本统一按 LF 存储与检出，使任意平台 clone 后字节一致，
+# 技能包里的 SHA256SUMS.txt 才能直接校验。
+* text=auto eol=lf
+
+*.pptx  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.pdf   binary

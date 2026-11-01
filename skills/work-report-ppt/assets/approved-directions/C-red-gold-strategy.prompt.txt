@@ -1,0 +1,13 @@
+Use case: productivity-visual. Asset: one flat landscape 16:9 Chinese enterprise PowerPoint strategy slide, original visual-direction preview based on attached commercial PPT seller collage.
+The attached reference demonstrates a sophisticated white/red/pink/gold corporate strategy layout with dimensional concentric elliptical platforms, structured dense text panels and tiered management frameworks. Match its visual grammar, material softness, depth, and real information density. Focus on the upper CONTENT SLIDE's left structured measures plus right stacked platforms. Do not reproduce the outer “255页” sales poster, advertising labels, creator handle/watermark, or sample wording.
+Title “协同发展体系：从战略统筹到业务落地”, black bold sans-serif, fine dark divider. Subhead in warm gold “目标牵引 · 资源协同 · 闭环执行”.
+Composition left 50% width: two organized vertical columns, each containing three stacked strategy modules. Each module has a restrained dimensional burgundy heading and short two-line gray body, with very pale pink content surface, burgundy fine separators, small gold sequence numbers. Six headings and short bodies:
+01 组织协同 / 明确部门职责与协作边界 / 建立跨部门议题清单
+02 人才建设 / 完善岗位能力与培养路径 / 形成梯队发展计划
+03 资源统筹 / 盘点关键资源与投入重点 / 建立动态调配机制
+04 业务拓展 / 聚焦核心客户与业务场景 / 推进重点项目落地
+05 流程优化 / 统一执行节点与反馈口径 / 减少重复沟通成本
+06 数据支撑 / 建立指标口径与经营看板 / 支持周期复盘与纠偏
+Right 46% width: beautiful precise three-tier suspended elliptical framework, subtle perspective, transparent pale blush surfaces, burgundy rims, soft controlled shadows and warm gold base trim. The rings and platforms express hierarchy, not random decoration.
+Top larger thin elliptical platform labeled above “战略总目标：稳进提质”, three readable labels on front-facing segments “机制完善”“业务拓展”“能力积累”. Middle smaller elliptical platform titled “协同赋能平台”, three labels “组织协同”“资源适配”“流程贯通”. Lower deep burgundy cylinder/platform “统筹调度与执行闭环”. All supported by final pale burgundy/gold circular base reading “全域协同发展体系”. Fine vertical alignment and subtle connecting lines make the relationships clear. Text sits on frontal surfaces at readable orientations, not tiny curved text. Dimensional platform occupies enough area to be the visual anchor. Soft red gradients, genuine business diagram polish, no excessive chrome glitter.
+Footer “合成示例 · 视觉预览 · 非真实业务数据” and page03. White full-bleed slide, strong compact Chinese type hierarchy. No generic 3-card UI, no robot or floating unrelated objects. Output a single complete slide canvas.

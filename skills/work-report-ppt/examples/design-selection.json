@@ -1,0 +1,39 @@
+{
+  "requirements": {
+    "status": "pending",
+    "brief": {
+      "purpose": "",
+      "audience": "",
+      "duration_or_pages": "",
+      "key_message": "",
+      "source_scope": "",
+      "content_constraints": "",
+      "design_constraints": ""
+    },
+    "evidence": {
+      "purpose": "",
+      "audience": "",
+      "duration_or_pages": "",
+      "key_message": "",
+      "source_scope": "",
+      "content_constraints": "",
+      "design_constraints": ""
+    },
+    "open_questions": [
+      "先读取用户需求和资料，再逐项记录并询问所有模糊处；未澄清不得编制逐页计划或生成。"
+    ],
+    "conflicts": [],
+    "resolved_questions": []
+  },
+  "selection": {
+    "scenario": "project",
+    "palette": "P1",
+    "template": "T01",
+    "assets": []
+  },
+  "approval": {
+    "mode": "pending",
+    "evidence": "",
+    "fields": []
+  }
+}

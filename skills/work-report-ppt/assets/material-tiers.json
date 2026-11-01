@@ -1,0 +1,3312 @@
+{
+  "bioicons/CRISPR_Cas9": {
+    "tier": "specialized",
+    "label": "基因编辑示意",
+    "category": "分子与细胞"
+  },
+  "bioicons/DNA_double_helix": {
+    "tier": "specialized",
+    "label": "DNA双螺旋",
+    "category": "分子与细胞"
+  },
+  "bioicons/Illumina_sequencing_reads": {
+    "tier": "specialized",
+    "label": "测序片段示意",
+    "category": "分子与细胞"
+  },
+  "bioicons/mitochondria": {
+    "tier": "specialized",
+    "label": "线粒体",
+    "category": "分子与细胞"
+  },
+  "bioicons/plasmid-2": {
+    "tier": "specialized",
+    "label": "质粒示意",
+    "category": "分子与细胞"
+  },
+  "bioicons/restriction_enzyme": {
+    "tier": "specialized",
+    "label": "限制酶",
+    "category": "分子与细胞"
+  },
+  "bioicons/ribosome": {
+    "tier": "specialized",
+    "label": "核糖体",
+    "category": "分子与细胞"
+  },
+  "bioicons/simple_cell1": {
+    "tier": "specialized",
+    "label": "细胞示意",
+    "category": "分子与细胞"
+  },
+  "bioicons/simple_e_coli": {
+    "tier": "specialized",
+    "label": "细菌示意",
+    "category": "分子与细胞"
+  },
+  "bioicons/ssDNA-single-stranded": {
+    "tier": "specialized",
+    "label": "单链DNA",
+    "category": "分子与细胞"
+  },
+  "bioicons/tRNA_secondary_structure": {
+    "tier": "specialized",
+    "label": "tRNA示意",
+    "category": "分子与细胞"
+  },
+  "servier/antibody-1": {
+    "tier": "specialized",
+    "label": "抗体",
+    "category": "分子与细胞"
+  },
+  "servier/b-lymphocyte": {
+    "tier": "specialized",
+    "label": "淋巴细胞",
+    "category": "分子与细胞"
+  },
+  "servier/cell-complete": {
+    "tier": "specialized",
+    "label": "细胞结构",
+    "category": "分子与细胞"
+  },
+  "servier/dna-1": {
+    "tier": "specialized",
+    "label": "DNA双链",
+    "category": "分子与细胞"
+  },
+  "servier/dna-3": {
+    "tier": "specialized",
+    "label": "DNA片段",
+    "category": "分子与细胞"
+  },
+  "servier/dna-double-stranded-ribbon": {
+    "tier": "specialized",
+    "label": "双链核酸",
+    "category": "分子与细胞"
+  },
+  "servier/dna-nucleotides-forked": {
+    "tier": "specialized",
+    "label": "DNA分叉示意",
+    "category": "分子与细胞"
+  },
+  "servier/endoplasmatic-reticulum-rough-3d": {
+    "tier": "specialized",
+    "label": "粗面内质网",
+    "category": "分子与细胞"
+  },
+  "servier/enzyme-blue": {
+    "tier": "specialized",
+    "label": "酶分子",
+    "category": "分子与细胞"
+  },
+  "servier/enzyme-green-3d": {
+    "tier": "specialized",
+    "label": "蛋白质分子",
+    "category": "分子与细胞"
+  },
+  "servier/erythrocyte": {
+    "tier": "specialized",
+    "label": "红细胞",
+    "category": "分子与细胞"
+  },
+  "servier/golgi-3d-1": {
+    "tier": "specialized",
+    "label": "高尔基体",
+    "category": "分子与细胞"
+  },
+  "servier/microtubule": {
+    "tier": "specialized",
+    "label": "微管",
+    "category": "分子与细胞"
+  },
+  "servier/mitochondrium-1": {
+    "tier": "specialized",
+    "label": "线粒体结构",
+    "category": "分子与细胞"
+  },
+  "servier/nucleus": {
+    "tier": "specialized",
+    "label": "细胞核",
+    "category": "分子与细胞"
+  },
+  "servier/plasmid": {
+    "tier": "specialized",
+    "label": "质粒",
+    "category": "分子与细胞"
+  },
+  "servier/ribosome-translation": {
+    "tier": "specialized",
+    "label": "核糖体翻译",
+    "category": "分子与细胞"
+  },
+  "servier/rna": {
+    "tier": "specialized",
+    "label": "RNA",
+    "category": "分子与细胞"
+  },
+  "servier/transkription": {
+    "tier": "specialized",
+    "label": "转录示意",
+    "category": "分子与细胞"
+  },
+  "servier/translation": {
+    "tier": "specialized",
+    "label": "翻译示意",
+    "category": "分子与细胞"
+  },
+  "servier/aorta": {
+    "tier": "specialized",
+    "label": "主动脉",
+    "category": "医学与生理"
+  },
+  "servier/blood-flow": {
+    "tier": "specialized",
+    "label": "血流示意",
+    "category": "医学与生理"
+  },
+  "servier/brain-1": {
+    "tier": "specialized",
+    "label": "脑部示意",
+    "category": "医学与生理"
+  },
+  "servier/capillaries-2": {
+    "tier": "specialized",
+    "label": "毛细血管",
+    "category": "医学与生理"
+  },
+  "servier/heart": {
+    "tier": "specialized",
+    "label": "心脏示意",
+    "category": "医学与生理"
+  },
+  "servier/liver": {
+    "tier": "specialized",
+    "label": "肝脏示意",
+    "category": "医学与生理"
+  },
+  "servier/lung": {
+    "tier": "specialized",
+    "label": "肺部示意",
+    "category": "医学与生理"
+  },
+  "lucide/backpack": {
+    "tier": "common",
+    "label": "野外背包",
+    "category": "地图与野外"
+  },
+  "lucide/battery-charging": {
+    "tier": "common",
+    "label": "设备供电",
+    "category": "地图与野外"
+  },
+  "lucide/battery-full": {
+    "tier": "common",
+    "label": "电池",
+    "category": "地图与野外"
+  },
+  "lucide/binoculars": {
+    "tier": "common",
+    "label": "观测",
+    "category": "地图与野外"
+  },
+  "lucide/camera": {
+    "tier": "common",
+    "label": "相机",
+    "category": "地图与野外"
+  },
+  "lucide/cloud-fog": {
+    "tier": "common",
+    "label": "雾",
+    "category": "地图与野外"
+  },
+  "lucide/cloud-rain-wind": {
+    "tier": "common",
+    "label": "风雨",
+    "category": "地图与野外"
+  },
+  "lucide/compass": {
+    "tier": "common",
+    "label": "指南针",
+    "category": "地图与野外"
+  },
+  "lucide/drafting-compass": {
+    "tier": "common",
+    "label": "制图",
+    "category": "地图与野外"
+  },
+  "lucide/fence": {
+    "tier": "common",
+    "label": "样地围栏",
+    "category": "地图与野外"
+  },
+  "lucide/flashlight": {
+    "tier": "common",
+    "label": "手电筒",
+    "category": "地图与野外"
+  },
+  "lucide/footprints": {
+    "tier": "common",
+    "label": "足迹",
+    "category": "地图与野外"
+  },
+  "lucide/land-plot": {
+    "tier": "common",
+    "label": "样地",
+    "category": "地图与野外"
+  },
+  "lucide/locate": {
+    "tier": "common",
+    "label": "坐标定位",
+    "category": "地图与野外"
+  },
+  "lucide/locate-fixed": {
+    "tier": "common",
+    "label": "定位",
+    "category": "地图与野外"
+  },
+  "lucide/map": {
+    "tier": "common",
+    "label": "地图",
+    "category": "地图与野外"
+  },
+  "lucide/map-minus": {
+    "tier": "common",
+    "label": "调整点位",
+    "category": "地图与野外"
+  },
+  "lucide/map-pin": {
+    "tier": "common",
+    "label": "点位",
+    "category": "地图与野外"
+  },
+  "lucide/map-pin-check": {
+    "tier": "common",
+    "label": "点位确认",
+    "category": "地图与野外"
+  },
+  "lucide/map-pin-check-inside": {
+    "tier": "common",
+    "label": "样点核验",
+    "category": "地图与野外"
+  },
+  "lucide/map-pin-pen": {
+    "tier": "common",
+    "label": "记录点位",
+    "category": "地图与野外"
+  },
+  "lucide/map-pin-plus": {
+    "tier": "common",
+    "label": "新采样点",
+    "category": "地图与野外"
+  },
+  "lucide/map-pin-search": {
+    "tier": "common",
+    "label": "查找点位",
+    "category": "地图与野外"
+  },
+  "lucide/map-pin-x": {
+    "tier": "common",
+    "label": "异常点位",
+    "category": "地图与野外"
+  },
+  "lucide/map-pinned": {
+    "tier": "common",
+    "label": "采样点",
+    "category": "地图与野外"
+  },
+  "lucide/map-plus": {
+    "tier": "common",
+    "label": "增加点位",
+    "category": "地图与野外"
+  },
+  "lucide/mountain": {
+    "tier": "common",
+    "label": "山地",
+    "category": "地图与野外"
+  },
+  "lucide/mountain-snow": {
+    "tier": "common",
+    "label": "高山",
+    "category": "地图与野外"
+  },
+  "lucide/navigation": {
+    "tier": "common",
+    "label": "导航",
+    "category": "地图与野外"
+  },
+  "lucide/navigation-2": {
+    "tier": "common",
+    "label": "行进方向",
+    "category": "地图与野外"
+  },
+  "lucide/notebook-pen": {
+    "tier": "common",
+    "label": "调查记录",
+    "category": "地图与野外"
+  },
+  "lucide/pencil-ruler": {
+    "tier": "common",
+    "label": "测量工具",
+    "category": "地图与野外"
+  },
+  "lucide/radar": {
+    "tier": "common",
+    "label": "探测",
+    "category": "地图与野外"
+  },
+  "lucide/radio": {
+    "tier": "common",
+    "label": "野外电台",
+    "category": "地图与野外"
+  },
+  "lucide/radio-receiver": {
+    "tier": "common",
+    "label": "接收设备",
+    "category": "地图与野外"
+  },
+  "lucide/ruler": {
+    "tier": "common",
+    "label": "样方测量",
+    "category": "地图与野外"
+  },
+  "lucide/satellite": {
+    "tier": "common",
+    "label": "卫星",
+    "category": "地图与野外"
+  },
+  "lucide/satellite-dish": {
+    "tier": "common",
+    "label": "遥感接收",
+    "category": "地图与野外"
+  },
+  "lucide/signpost": {
+    "tier": "common",
+    "label": "路标",
+    "category": "地图与野外"
+  },
+  "lucide/signpost-big": {
+    "tier": "common",
+    "label": "指示牌",
+    "category": "地图与野外"
+  },
+  "lucide/tent": {
+    "tier": "common",
+    "label": "野外",
+    "category": "地图与野外"
+  },
+  "lucide/tent-tree": {
+    "tier": "common",
+    "label": "林间营地",
+    "category": "地图与野外"
+  },
+  "lucide/tree-palm": {
+    "tier": "common",
+    "label": "棕榈树",
+    "category": "地图与野外"
+  },
+  "maki/bridge": {
+    "tier": "common",
+    "label": "桥梁",
+    "category": "地图与野外"
+  },
+  "maki/campsite": {
+    "tier": "common",
+    "label": "营地",
+    "category": "地图与野外"
+  },
+  "maki/danger": {
+    "tier": "common",
+    "label": "危险提示",
+    "category": "地图与野外"
+  },
+  "maki/drinking-water": {
+    "tier": "common",
+    "label": "饮水点",
+    "category": "地图与野外"
+  },
+  "maki/entrance": {
+    "tier": "common",
+    "label": "入口",
+    "category": "地图与野外"
+  },
+  "maki/fence": {
+    "tier": "common",
+    "label": "围栏",
+    "category": "地图与野外"
+  },
+  "maki/information": {
+    "tier": "common",
+    "label": "信息点",
+    "category": "地图与野外"
+  },
+  "maki/marker": {
+    "tier": "common",
+    "label": "点位",
+    "category": "地图与野外"
+  },
+  "maki/marker-stroked": {
+    "tier": "common",
+    "label": "空心点位",
+    "category": "地图与野外"
+  },
+  "maki/mountain": {
+    "tier": "common",
+    "label": "山峰",
+    "category": "地图与野外"
+  },
+  "maki/observation-tower": {
+    "tier": "common",
+    "label": "观察塔",
+    "category": "地图与野外"
+  },
+  "maki/park": {
+    "tier": "common",
+    "label": "公园",
+    "category": "地图与野外"
+  },
+  "maki/park-alt1": {
+    "tier": "common",
+    "label": "林地",
+    "category": "地图与野外"
+  },
+  "maki/picnic-site": {
+    "tier": "common",
+    "label": "野外休憩",
+    "category": "地图与野外"
+  },
+  "maki/ranger-station": {
+    "tier": "common",
+    "label": "管护站",
+    "category": "地图与野外"
+  },
+  "maki/shelter": {
+    "tier": "common",
+    "label": "庇护所",
+    "category": "地图与野外"
+  },
+  "maki/viewpoint": {
+    "tier": "common",
+    "label": "观测点",
+    "category": "地图与野外"
+  },
+  "maki/volcano": {
+    "tier": "common",
+    "label": "火山",
+    "category": "地图与野外"
+  },
+  "maki/water": {
+    "tier": "common",
+    "label": "水域",
+    "category": "地图与野外"
+  },
+  "maki/waterfall": {
+    "tier": "common",
+    "label": "瀑布",
+    "category": "地图与野外"
+  },
+  "maki/wetland": {
+    "tier": "common",
+    "label": "湿地",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f30b": {
+    "tier": "common",
+    "label": "火山",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f30d": {
+    "tier": "common",
+    "label": "地球",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f392": {
+    "tier": "common",
+    "label": "野外背包",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f3d4": {
+    "tier": "common",
+    "label": "高山",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f3d5": {
+    "tier": "common",
+    "label": "野外营地",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f3d6": {
+    "tier": "common",
+    "label": "海岸",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f3dc": {
+    "tier": "common",
+    "label": "沙漠",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f3dd": {
+    "tier": "common",
+    "label": "岛屿",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f3de": {
+    "tier": "common",
+    "label": "景观",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f3e0": {
+    "tier": "common",
+    "label": "野外驻地示意",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f4cc": {
+    "tier": "common",
+    "label": "固定标记",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f4cd": {
+    "tier": "common",
+    "label": "点位标记",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f4f7": {
+    "tier": "common",
+    "label": "相机",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f4fb": {
+    "tier": "common",
+    "label": "野外电台",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f52d": {
+    "tier": "common",
+    "label": "远距离观测",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f681": {
+    "tier": "common",
+    "label": "直升机",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f699": {
+    "tier": "common",
+    "label": "野外车辆",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f6a4": {
+    "tier": "common",
+    "label": "船只",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f6b2": {
+    "tier": "common",
+    "label": "自行车",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f6b6": {
+    "tier": "common",
+    "label": "徒步",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f6f0": {
+    "tier": "common",
+    "label": "遥感卫星",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f97e": {
+    "tier": "common",
+    "label": "登山鞋",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f9e4": {
+    "tier": "common",
+    "label": "防护手套",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f9e5": {
+    "tier": "common",
+    "label": "野外外套",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f9ed": {
+    "tier": "common",
+    "label": "罗盘",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1f9f0": {
+    "tier": "common",
+    "label": "工具箱",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1fa9c": {
+    "tier": "common",
+    "label": "梯具",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1fa9d": {
+    "tier": "common",
+    "label": "挂钩",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1faa2": {
+    "tier": "common",
+    "label": "绳结",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1faa8": {
+    "tier": "common",
+    "label": "岩石",
+    "category": "地图与野外"
+  },
+  "noto/emoji_u1fab5": {
+    "tier": "common",
+    "label": "枯木",
+    "category": "地图与野外"
+  },
+  "servier/autumn": {
+    "tier": "common",
+    "label": "秋季示意",
+    "category": "地图与野外"
+  },
+  "servier/earth": {
+    "tier": "common",
+    "label": "地球插图",
+    "category": "地图与野外"
+  },
+  "servier/spring": {
+    "tier": "common",
+    "label": "春季示意",
+    "category": "地图与野外"
+  },
+  "servier/summer": {
+    "tier": "common",
+    "label": "夏季示意",
+    "category": "地图与野外"
+  },
+  "servier/winter": {
+    "tier": "common",
+    "label": "冬季示意",
+    "category": "地图与野外"
+  },
+  "tabler/binoculars": {
+    "tier": "common",
+    "label": "观测",
+    "category": "地图与野外"
+  },
+  "tabler/camera": {
+    "tier": "common",
+    "label": "相机",
+    "category": "地图与野外"
+  },
+  "tabler/map-pin": {
+    "tier": "common",
+    "label": "点位",
+    "category": "地图与野外"
+  },
+  "tabler/mountain": {
+    "tier": "common",
+    "label": "山地",
+    "category": "地图与野外"
+  },
+  "temaki/benchmark_disk": {
+    "tier": "common",
+    "label": "测量标志",
+    "category": "地图与野外"
+  },
+  "temaki/binoculars": {
+    "tier": "common",
+    "label": "双筒望远镜",
+    "category": "地图与野外"
+  },
+  "temaki/campfire": {
+    "tier": "common",
+    "label": "营火",
+    "category": "地图与野外"
+  },
+  "temaki/cliff_falling_rocks": {
+    "tier": "common",
+    "label": "崖壁落石",
+    "category": "地图与野外"
+  },
+  "temaki/compass": {
+    "tier": "common",
+    "label": "罗盘",
+    "category": "地图与野外"
+  },
+  "temaki/fishing_pier": {
+    "tier": "common",
+    "label": "水边平台",
+    "category": "地图与野外"
+  },
+  "temaki/grass": {
+    "tier": "common",
+    "label": "草地",
+    "category": "地图与野外"
+  },
+  "temaki/hunting_blind": {
+    "tier": "common",
+    "label": "隐蔽观察棚",
+    "category": "地图与野外"
+  },
+  "temaki/island_trees_building": {
+    "tier": "common",
+    "label": "林地岛屿",
+    "category": "地图与野外"
+  },
+  "temaki/islet_tree": {
+    "tier": "common",
+    "label": "小岛",
+    "category": "地图与野外"
+  },
+  "temaki/mountain_range": {
+    "tier": "common",
+    "label": "山脉",
+    "category": "地图与野外"
+  },
+  "temaki/os_benchmark": {
+    "tier": "common",
+    "label": "高程基准",
+    "category": "地图与野外"
+  },
+  "temaki/picnic_shelter": {
+    "tier": "common",
+    "label": "野外雨棚",
+    "category": "地图与野外"
+  },
+  "temaki/rope_fence": {
+    "tier": "common",
+    "label": "绳索围栏",
+    "category": "地图与野外"
+  },
+  "temaki/security_camera": {
+    "tier": "common",
+    "label": "摄像监测",
+    "category": "地图与野外"
+  },
+  "temaki/sleep_shelter": {
+    "tier": "common",
+    "label": "宿营庇护所",
+    "category": "地图与野外"
+  },
+  "temaki/tree_broadleaved": {
+    "tier": "common",
+    "label": "阔叶树",
+    "category": "地图与野外"
+  },
+  "temaki/tree_needleleaved": {
+    "tier": "common",
+    "label": "针叶树",
+    "category": "地图与野外"
+  },
+  "temaki/tree_row": {
+    "tier": "common",
+    "label": "林带",
+    "category": "地图与野外"
+  },
+  "temaki/tree_stump": {
+    "tier": "common",
+    "label": "树桩",
+    "category": "地图与野外"
+  },
+  "temaki/water_bottle": {
+    "tier": "common",
+    "label": "水壶",
+    "category": "地图与野外"
+  },
+  "temaki/water_tap_drinkable": {
+    "tier": "common",
+    "label": "饮水设备",
+    "category": "地图与野外"
+  },
+  "bioicons/96_well_plate": {
+    "tier": "specialized",
+    "label": "96孔板",
+    "category": "实验与分子"
+  },
+  "bioicons/96well_pcr_plate_sky": {
+    "tier": "specialized",
+    "label": "PCR反应板",
+    "category": "实验与分子"
+  },
+  "bioicons/Beakers": {
+    "tier": "specialized",
+    "label": "烧杯组",
+    "category": "实验与分子"
+  },
+  "bioicons/Graduated_Cylinder_tall_form_250ml": {
+    "tier": "specialized",
+    "label": "量筒",
+    "category": "实验与分子"
+  },
+  "bioicons/Pipette": {
+    "tier": "specialized",
+    "label": "移液器",
+    "category": "实验与分子"
+  },
+  "bioicons/agarose-gel": {
+    "tier": "specialized",
+    "label": "琼脂糖凝胶示意",
+    "category": "实验与分子"
+  },
+  "bioicons/blood_sample_tube": {
+    "tier": "specialized",
+    "label": "血液样品管示意（非粪便样品）",
+    "category": "实验与分子"
+  },
+  "bioicons/cryo_vial": {
+    "tier": "specialized",
+    "label": "冻存管",
+    "category": "实验与分子"
+  },
+  "bioicons/erlenmeyer_filled": {
+    "tier": "specialized",
+    "label": "锥形瓶试剂",
+    "category": "实验与分子"
+  },
+  "bioicons/flow-cytometer-cell-sorter": {
+    "tier": "specialized",
+    "label": "流式细胞仪",
+    "category": "实验与分子"
+  },
+  "bioicons/incubator": {
+    "tier": "specialized",
+    "label": "培养箱",
+    "category": "实验与分子"
+  },
+  "bioicons/ln2_tank": {
+    "tier": "specialized",
+    "label": "液氮罐",
+    "category": "实验与分子"
+  },
+  "bioicons/microscope-cartoon": {
+    "tier": "specialized",
+    "label": "显微镜",
+    "category": "实验与分子"
+  },
+  "bioicons/qpcr_machine": {
+    "tier": "specialized",
+    "label": "定量PCR仪",
+    "category": "实验与分子"
+  },
+  "bioicons/round-bottomed-flask-cartoon": {
+    "tier": "specialized",
+    "label": "圆底烧瓶",
+    "category": "实验与分子"
+  },
+  "bioicons/sonicator": {
+    "tier": "specialized",
+    "label": "超声仪",
+    "category": "实验与分子"
+  },
+  "bioicons/vortex_mixer": {
+    "tier": "specialized",
+    "label": "涡旋混合仪",
+    "category": "实验与分子"
+  },
+  "bioicons/water_bath": {
+    "tier": "specialized",
+    "label": "水浴",
+    "category": "实验与分子"
+  },
+  "lucide/atom": {
+    "tier": "specialized",
+    "label": "分子",
+    "category": "实验与分子"
+  },
+  "lucide/beaker": {
+    "tier": "specialized",
+    "label": "烧杯",
+    "category": "实验与分子"
+  },
+  "lucide/biohazard": {
+    "tier": "specialized",
+    "label": "生物安全",
+    "category": "实验与分子"
+  },
+  "lucide/clipboard-check": {
+    "tier": "specialized",
+    "label": "核验",
+    "category": "实验与分子"
+  },
+  "lucide/dna": {
+    "tier": "specialized",
+    "label": "DNA",
+    "category": "实验与分子"
+  },
+  "lucide/droplet": {
+    "tier": "specialized",
+    "label": "液滴",
+    "category": "实验与分子"
+  },
+  "lucide/flask-conical": {
+    "tier": "specialized",
+    "label": "锥形瓶",
+    "category": "实验与分子"
+  },
+  "lucide/flask-round": {
+    "tier": "specialized",
+    "label": "圆底烧瓶",
+    "category": "实验与分子"
+  },
+  "lucide/magnet": {
+    "tier": "specialized",
+    "label": "磁场",
+    "category": "实验与分子"
+  },
+  "lucide/microscope": {
+    "tier": "specialized",
+    "label": "显微镜",
+    "category": "实验与分子"
+  },
+  "lucide/pipette": {
+    "tier": "specialized",
+    "label": "移液器",
+    "category": "实验与分子"
+  },
+  "lucide/radiation": {
+    "tier": "specialized",
+    "label": "辐射",
+    "category": "实验与分子"
+  },
+  "lucide/scan": {
+    "tier": "specialized",
+    "label": "检测",
+    "category": "实验与分子"
+  },
+  "lucide/scan-eye": {
+    "tier": "specialized",
+    "label": "识别",
+    "category": "实验与分子"
+  },
+  "lucide/scan-line": {
+    "tier": "specialized",
+    "label": "扫描",
+    "category": "实验与分子"
+  },
+  "lucide/test-tube": {
+    "tier": "specialized",
+    "label": "试管",
+    "category": "实验与分子"
+  },
+  "lucide/test-tubes": {
+    "tier": "specialized",
+    "label": "试管组",
+    "category": "实验与分子"
+  },
+  "lucide/thermometer": {
+    "tier": "specialized",
+    "label": "温度",
+    "category": "实验与分子"
+  },
+  "lucide/timer": {
+    "tier": "specialized",
+    "label": "计时",
+    "category": "实验与分子"
+  },
+  "noto/emoji_u1f321": {
+    "tier": "specialized",
+    "label": "温度计",
+    "category": "实验与分子"
+  },
+  "noto/emoji_u1f52c": {
+    "tier": "specialized",
+    "label": "显微镜",
+    "category": "实验与分子"
+  },
+  "noto/emoji_u1f9ea": {
+    "tier": "specialized",
+    "label": "试管",
+    "category": "实验与分子"
+  },
+  "noto/emoji_u1f9eb": {
+    "tier": "specialized",
+    "label": "培养皿",
+    "category": "实验与分子"
+  },
+  "noto/emoji_u1f9ec": {
+    "tier": "specialized",
+    "label": "DNA",
+    "category": "实验与分子"
+  },
+  "noto/emoji_u2696": {
+    "tier": "specialized",
+    "label": "比较天平",
+    "category": "实验与分子"
+  },
+  "noto/emoji_u2697": {
+    "tier": "specialized",
+    "label": "实验器皿",
+    "category": "实验与分子"
+  },
+  "servier/beaker-orange": {
+    "tier": "specialized",
+    "label": "烧杯",
+    "category": "实验与分子"
+  },
+  "servier/centrifuge": {
+    "tier": "specialized",
+    "label": "离心机",
+    "category": "实验与分子"
+  },
+  "servier/electrophoresis-chamber": {
+    "tier": "specialized",
+    "label": "电泳槽",
+    "category": "实验与分子"
+  },
+  "servier/erlenmeyer-blue": {
+    "tier": "specialized",
+    "label": "锥形瓶",
+    "category": "实验与分子"
+  },
+  "servier/gel-electrophoresis": {
+    "tier": "specialized",
+    "label": "电泳装置示意",
+    "category": "实验与分子"
+  },
+  "servier/incubator": {
+    "tier": "specialized",
+    "label": "培养箱",
+    "category": "实验与分子"
+  },
+  "servier/labcoat": {
+    "tier": "specialized",
+    "label": "实验服",
+    "category": "实验与分子"
+  },
+  "servier/magnet-stirringplate": {
+    "tier": "specialized",
+    "label": "磁力搅拌器",
+    "category": "实验与分子"
+  },
+  "servier/measuringcylinder-blue": {
+    "tier": "specialized",
+    "label": "量筒",
+    "category": "实验与分子"
+  },
+  "servier/micropipette": {
+    "tier": "specialized",
+    "label": "单道移液器",
+    "category": "实验与分子"
+  },
+  "servier/micropipette-multi": {
+    "tier": "specialized",
+    "label": "多道移液器",
+    "category": "实验与分子"
+  },
+  "servier/microscope": {
+    "tier": "specialized",
+    "label": "显微镜",
+    "category": "实验与分子"
+  },
+  "servier/pipette-box": {
+    "tier": "specialized",
+    "label": "吸头盒",
+    "category": "实验与分子"
+  },
+  "servier/scale": {
+    "tier": "specialized",
+    "label": "实验天平",
+    "category": "实验与分子"
+  },
+  "servier/spectrophotometer": {
+    "tier": "specialized",
+    "label": "分光光度计",
+    "category": "实验与分子"
+  },
+  "servier/testtube-green": {
+    "tier": "specialized",
+    "label": "试剂管",
+    "category": "实验与分子"
+  },
+  "tabler/atom-2": {
+    "tier": "specialized",
+    "label": "原子",
+    "category": "实验与分子"
+  },
+  "tabler/droplet": {
+    "tier": "specialized",
+    "label": "试剂",
+    "category": "实验与分子"
+  },
+  "tabler/flask": {
+    "tier": "specialized",
+    "label": "锥形瓶",
+    "category": "实验与分子"
+  },
+  "tabler/flask-2": {
+    "tier": "specialized",
+    "label": "烧瓶",
+    "category": "实验与分子"
+  },
+  "tabler/microscope": {
+    "tier": "specialized",
+    "label": "显微镜",
+    "category": "实验与分子"
+  },
+  "tabler/test-pipe-2": {
+    "tier": "specialized",
+    "label": "试管",
+    "category": "实验与分子"
+  },
+  "servier/12-well-plate": {
+    "tier": "specialized",
+    "label": "十二孔板",
+    "category": "微生物与培养"
+  },
+  "servier/24-well-plate": {
+    "tier": "specialized",
+    "label": "二十四孔板",
+    "category": "微生物与培养"
+  },
+  "servier/6-well-plate": {
+    "tier": "specialized",
+    "label": "六孔板",
+    "category": "微生物与培养"
+  },
+  "servier/bacterium": {
+    "tier": "specialized",
+    "label": "细菌",
+    "category": "微生物与培养"
+  },
+  "servier/bacterium-interior": {
+    "tier": "specialized",
+    "label": "细菌内部",
+    "category": "微生物与培养"
+  },
+  "servier/bottle-medium-green": {
+    "tier": "specialized",
+    "label": "培养基",
+    "category": "微生物与培养"
+  },
+  "servier/counting-chamber": {
+    "tier": "specialized",
+    "label": "计数板",
+    "category": "微生物与培养"
+  },
+  "servier/culture-flask-empty": {
+    "tier": "specialized",
+    "label": "培养瓶",
+    "category": "微生物与培养"
+  },
+  "servier/culture-flask-filled-lid": {
+    "tier": "specialized",
+    "label": "培养液",
+    "category": "微生物与培养"
+  },
+  "servier/falcon-15ml-empty": {
+    "tier": "specialized",
+    "label": "十五毫升离心管",
+    "category": "微生物与培养"
+  },
+  "servier/falcon-50ml-pink": {
+    "tier": "specialized",
+    "label": "五十毫升离心管",
+    "category": "微生物与培养"
+  },
+  "servier/glass-slide-flat": {
+    "tier": "specialized",
+    "label": "载玻片",
+    "category": "微生物与培养"
+  },
+  "servier/microtube-closed-blue": {
+    "tier": "specialized",
+    "label": "微量离心管",
+    "category": "微生物与培养"
+  },
+  "servier/microtube-open-translucent": {
+    "tier": "specialized",
+    "label": "开盖微量管",
+    "category": "微生物与培养"
+  },
+  "servier/pipette-plastic": {
+    "tier": "specialized",
+    "label": "塑料滴管",
+    "category": "微生物与培养"
+  },
+  "bioicons/Outlier": {
+    "tier": "general",
+    "label": "离群点示意",
+    "category": "数据与统计"
+  },
+  "bioicons/SingleCell_Clustering_DataReduction_UMAP": {
+    "tier": "general",
+    "label": "降维聚类示意",
+    "category": "数据与统计"
+  },
+  "bioicons/qPCR_plot": {
+    "tier": "general",
+    "label": "扩增曲线示意",
+    "category": "数据与统计"
+  },
+  "bioicons/sequence_histogram": {
+    "tier": "general",
+    "label": "序列分布示意",
+    "category": "数据与统计"
+  },
+  "lucide/activity": {
+    "tier": "general",
+    "label": "波动",
+    "category": "数据与统计"
+  },
+  "lucide/boxes": {
+    "tier": "general",
+    "label": "数据集",
+    "category": "数据与统计"
+  },
+  "lucide/calculator": {
+    "tier": "general",
+    "label": "计算",
+    "category": "数据与统计"
+  },
+  "lucide/chart-area": {
+    "tier": "general",
+    "label": "面积图",
+    "category": "数据与统计"
+  },
+  "lucide/chart-bar": {
+    "tier": "general",
+    "label": "条形图",
+    "category": "数据与统计"
+  },
+  "lucide/chart-candlestick": {
+    "tier": "general",
+    "label": "区间",
+    "category": "数据与统计"
+  },
+  "lucide/chart-column": {
+    "tier": "general",
+    "label": "柱状图",
+    "category": "数据与统计"
+  },
+  "lucide/chart-line": {
+    "tier": "general",
+    "label": "折线图",
+    "category": "数据与统计"
+  },
+  "lucide/chart-no-axes-column-increasing": {
+    "tier": "general",
+    "label": "趋势",
+    "category": "数据与统计"
+  },
+  "lucide/chart-no-axes-combined": {
+    "tier": "general",
+    "label": "组合图",
+    "category": "数据与统计"
+  },
+  "lucide/chart-pie": {
+    "tier": "general",
+    "label": "饼图",
+    "category": "数据与统计"
+  },
+  "lucide/chart-scatter": {
+    "tier": "general",
+    "label": "散点图",
+    "category": "数据与统计"
+  },
+  "lucide/chart-spline": {
+    "tier": "general",
+    "label": "曲线",
+    "category": "数据与统计"
+  },
+  "lucide/database": {
+    "tier": "general",
+    "label": "数据库",
+    "category": "数据与统计"
+  },
+  "lucide/funnel": {
+    "tier": "general",
+    "label": "筛选",
+    "category": "数据与统计"
+  },
+  "lucide/percent": {
+    "tier": "general",
+    "label": "百分比",
+    "category": "数据与统计"
+  },
+  "lucide/sigma": {
+    "tier": "general",
+    "label": "求和",
+    "category": "数据与统计"
+  },
+  "lucide/sliders-horizontal": {
+    "tier": "general",
+    "label": "参数",
+    "category": "数据与统计"
+  },
+  "lucide/table": {
+    "tier": "general",
+    "label": "表格",
+    "category": "数据与统计"
+  },
+  "lucide/table-2": {
+    "tier": "general",
+    "label": "数据表",
+    "category": "数据与统计"
+  },
+  "tabler/chart-area": {
+    "tier": "general",
+    "label": "面积图",
+    "category": "数据与统计"
+  },
+  "tabler/chart-area-line": {
+    "tier": "general",
+    "label": "趋势",
+    "category": "数据与统计"
+  },
+  "tabler/chart-donut": {
+    "tier": "general",
+    "label": "环图",
+    "category": "数据与统计"
+  },
+  "tabler/chart-dots": {
+    "tier": "general",
+    "label": "散点",
+    "category": "数据与统计"
+  },
+  "tabler/chart-funnel": {
+    "tier": "general",
+    "label": "筛选",
+    "category": "数据与统计"
+  },
+  "tabler/chart-pie": {
+    "tier": "general",
+    "label": "比例",
+    "category": "数据与统计"
+  },
+  "tabler/clipboard-data": {
+    "tier": "general",
+    "label": "数据记录",
+    "category": "数据与统计"
+  },
+  "tabler/database": {
+    "tier": "general",
+    "label": "数据库",
+    "category": "数据与统计"
+  },
+  "tabler/filter": {
+    "tier": "general",
+    "label": "筛选条件",
+    "category": "数据与统计"
+  },
+  "lucide/book-open": {
+    "tier": "specialized",
+    "label": "文献",
+    "category": "文献与表达"
+  },
+  "lucide/book-open-check": {
+    "tier": "specialized",
+    "label": "文献核对",
+    "category": "文献与表达"
+  },
+  "lucide/file-chart-column": {
+    "tier": "specialized",
+    "label": "结果报告",
+    "category": "文献与表达"
+  },
+  "lucide/file-search": {
+    "tier": "specialized",
+    "label": "文献搜索",
+    "category": "文献与表达"
+  },
+  "lucide/file-text": {
+    "tier": "specialized",
+    "label": "文档",
+    "category": "文献与表达"
+  },
+  "lucide/files": {
+    "tier": "specialized",
+    "label": "资料",
+    "category": "文献与表达"
+  },
+  "lucide/folder-open": {
+    "tier": "specialized",
+    "label": "文件夹",
+    "category": "文献与表达"
+  },
+  "lucide/languages": {
+    "tier": "specialized",
+    "label": "双语",
+    "category": "文献与表达"
+  },
+  "lucide/notebook-text": {
+    "tier": "specialized",
+    "label": "笔记",
+    "category": "文献与表达"
+  },
+  "lucide/presentation": {
+    "tier": "specialized",
+    "label": "汇报",
+    "category": "文献与表达"
+  },
+  "lucide/quote": {
+    "tier": "specialized",
+    "label": "引用",
+    "category": "文献与表达"
+  },
+  "lucide/search": {
+    "tier": "specialized",
+    "label": "检索",
+    "category": "文献与表达"
+  },
+  "noto/emoji_u1f4a1": {
+    "tier": "specialized",
+    "label": "思路",
+    "category": "文献与表达"
+  },
+  "noto/emoji_u1f4c8": {
+    "tier": "specialized",
+    "label": "趋势",
+    "category": "文献与表达"
+  },
+  "noto/emoji_u1f4ca": {
+    "tier": "specialized",
+    "label": "数据",
+    "category": "文献与表达"
+  },
+  "noto/emoji_u1f4cb": {
+    "tier": "specialized",
+    "label": "台账",
+    "category": "文献与表达"
+  },
+  "noto/emoji_u1f50d": {
+    "tier": "specialized",
+    "label": "检索",
+    "category": "文献与表达"
+  },
+  "tabler/book": {
+    "tier": "specialized",
+    "label": "文献",
+    "category": "文献与表达"
+  },
+  "tabler/file-text": {
+    "tier": "specialized",
+    "label": "文档",
+    "category": "文献与表达"
+  },
+  "lucide/alarm-clock": {
+    "tier": "general",
+    "label": "截止时间",
+    "category": "时间与进展"
+  },
+  "lucide/calendar-check": {
+    "tier": "general",
+    "label": "完成日期",
+    "category": "时间与进展"
+  },
+  "lucide/calendar-clock": {
+    "tier": "general",
+    "label": "计划",
+    "category": "时间与进展"
+  },
+  "lucide/calendar-days": {
+    "tier": "general",
+    "label": "日历",
+    "category": "时间与进展"
+  },
+  "lucide/calendar-range": {
+    "tier": "general",
+    "label": "时间窗",
+    "category": "时间与进展"
+  },
+  "lucide/clipboard-list": {
+    "tier": "general",
+    "label": "台账",
+    "category": "时间与进展"
+  },
+  "lucide/clock": {
+    "tier": "general",
+    "label": "时间",
+    "category": "时间与进展"
+  },
+  "lucide/clock-3": {
+    "tier": "general",
+    "label": "时刻",
+    "category": "时间与进展"
+  },
+  "lucide/hourglass": {
+    "tier": "general",
+    "label": "等待",
+    "category": "时间与进展"
+  },
+  "lucide/list-ordered": {
+    "tier": "general",
+    "label": "顺序",
+    "category": "时间与进展"
+  },
+  "lucide/list-todo": {
+    "tier": "general",
+    "label": "任务",
+    "category": "时间与进展"
+  },
+  "lucide/timer-reset": {
+    "tier": "general",
+    "label": "重复实验",
+    "category": "时间与进展"
+  },
+  "tabler/calendar": {
+    "tier": "general",
+    "label": "日历",
+    "category": "时间与进展"
+  },
+  "tabler/calendar-event": {
+    "tier": "general",
+    "label": "计划",
+    "category": "时间与进展"
+  },
+  "tabler/clipboard-list": {
+    "tier": "general",
+    "label": "任务",
+    "category": "时间与进展"
+  },
+  "lucide/arrow-left-right": {
+    "tier": "general",
+    "label": "双向",
+    "category": "流程与关系"
+  },
+  "lucide/arrow-right": {
+    "tier": "general",
+    "label": "右箭头",
+    "category": "流程与关系"
+  },
+  "lucide/combine": {
+    "tier": "general",
+    "label": "整合",
+    "category": "流程与关系"
+  },
+  "lucide/component": {
+    "tier": "general",
+    "label": "组件",
+    "category": "流程与关系"
+  },
+  "lucide/flag": {
+    "tier": "general",
+    "label": "标记",
+    "category": "流程与关系"
+  },
+  "lucide/git-branch": {
+    "tier": "general",
+    "label": "分支",
+    "category": "流程与关系"
+  },
+  "lucide/goal": {
+    "tier": "general",
+    "label": "研究目标",
+    "category": "流程与关系"
+  },
+  "lucide/merge": {
+    "tier": "general",
+    "label": "汇合",
+    "category": "流程与关系"
+  },
+  "lucide/milestone": {
+    "tier": "general",
+    "label": "里程碑",
+    "category": "流程与关系"
+  },
+  "lucide/network": {
+    "tier": "general",
+    "label": "网络",
+    "category": "流程与关系"
+  },
+  "lucide/refresh-cw": {
+    "tier": "general",
+    "label": "迭代",
+    "category": "流程与关系"
+  },
+  "lucide/repeat-2": {
+    "tier": "general",
+    "label": "循环",
+    "category": "流程与关系"
+  },
+  "lucide/route": {
+    "tier": "general",
+    "label": "路线",
+    "category": "流程与关系"
+  },
+  "lucide/shuffle": {
+    "tier": "general",
+    "label": "重排",
+    "category": "流程与关系"
+  },
+  "lucide/split": {
+    "tier": "general",
+    "label": "分流",
+    "category": "流程与关系"
+  },
+  "lucide/target": {
+    "tier": "general",
+    "label": "目标",
+    "category": "流程与关系"
+  },
+  "lucide/waypoints": {
+    "tier": "general",
+    "label": "节点",
+    "category": "流程与关系"
+  },
+  "lucide/workflow": {
+    "tier": "general",
+    "label": "工作流",
+    "category": "流程与关系"
+  },
+  "servier/arrow-circular": {
+    "tier": "general",
+    "label": "循环箭头",
+    "category": "流程与关系"
+  },
+  "servier/arrow-right-three-start": {
+    "tier": "general",
+    "label": "多源汇合",
+    "category": "流程与关系"
+  },
+  "servier/arrow-right-two-ends": {
+    "tier": "general",
+    "label": "双输出箭头",
+    "category": "流程与关系"
+  },
+  "servier/arrow-split": {
+    "tier": "general",
+    "label": "分支箭头",
+    "category": "流程与关系"
+  },
+  "servier/arrow-twosides-horizontal": {
+    "tier": "general",
+    "label": "双向联系",
+    "category": "流程与关系"
+  },
+  "servier/arrow3d-clockwise-1": {
+    "tier": "general",
+    "label": "立体循环",
+    "category": "流程与关系"
+  },
+  "tabler/affiliate": {
+    "tier": "general",
+    "label": "关联",
+    "category": "流程与关系"
+  },
+  "tabler/arrow-big-right": {
+    "tier": "general",
+    "label": "方向",
+    "category": "流程与关系"
+  },
+  "tabler/binary-tree": {
+    "tier": "general",
+    "label": "系统关系",
+    "category": "流程与关系"
+  },
+  "tabler/bulb": {
+    "tier": "general",
+    "label": "构想",
+    "category": "流程与关系"
+  },
+  "tabler/puzzle": {
+    "tier": "general",
+    "label": "拼接",
+    "category": "流程与关系"
+  },
+  "tabler/settings": {
+    "tier": "general",
+    "label": "参数",
+    "category": "流程与关系"
+  },
+  "lucide/battery": {
+    "tier": "specialized",
+    "label": "储能",
+    "category": "环境与能源"
+  },
+  "lucide/cloud": {
+    "tier": "specialized",
+    "label": "云",
+    "category": "环境与能源"
+  },
+  "lucide/cloud-lightning": {
+    "tier": "specialized",
+    "label": "雷暴",
+    "category": "环境与能源"
+  },
+  "lucide/cloud-rain": {
+    "tier": "specialized",
+    "label": "降水",
+    "category": "环境与能源"
+  },
+  "lucide/cloud-sun": {
+    "tier": "specialized",
+    "label": "天气",
+    "category": "环境与能源"
+  },
+  "lucide/droplets": {
+    "tier": "specialized",
+    "label": "水分",
+    "category": "环境与能源"
+  },
+  "lucide/earth": {
+    "tier": "specialized",
+    "label": "地球",
+    "category": "环境与能源"
+  },
+  "lucide/flame": {
+    "tier": "specialized",
+    "label": "火",
+    "category": "环境与能源"
+  },
+  "lucide/gauge": {
+    "tier": "specialized",
+    "label": "仪表",
+    "category": "环境与能源"
+  },
+  "lucide/globe": {
+    "tier": "specialized",
+    "label": "全球",
+    "category": "环境与能源"
+  },
+  "lucide/house": {
+    "tier": "specialized",
+    "label": "建筑",
+    "category": "环境与能源"
+  },
+  "lucide/plug": {
+    "tier": "specialized",
+    "label": "供电",
+    "category": "环境与能源"
+  },
+  "lucide/snowflake": {
+    "tier": "specialized",
+    "label": "低温",
+    "category": "环境与能源"
+  },
+  "lucide/sun": {
+    "tier": "specialized",
+    "label": "日照",
+    "category": "环境与能源"
+  },
+  "lucide/thermometer-snowflake": {
+    "tier": "specialized",
+    "label": "低温变化",
+    "category": "环境与能源"
+  },
+  "lucide/thermometer-sun": {
+    "tier": "specialized",
+    "label": "高温",
+    "category": "环境与能源"
+  },
+  "lucide/utility-pole": {
+    "tier": "specialized",
+    "label": "电网",
+    "category": "环境与能源"
+  },
+  "lucide/waves-horizontal": {
+    "tier": "specialized",
+    "label": "水体",
+    "category": "环境与能源"
+  },
+  "lucide/wind": {
+    "tier": "specialized",
+    "label": "风",
+    "category": "环境与能源"
+  },
+  "lucide/zap": {
+    "tier": "specialized",
+    "label": "电力",
+    "category": "环境与能源"
+  },
+  "noto/emoji_u1f30a": {
+    "tier": "specialized",
+    "label": "水体",
+    "category": "环境与能源"
+  },
+  "noto/emoji_u1f324": {
+    "tier": "specialized",
+    "label": "天气",
+    "category": "环境与能源"
+  },
+  "noto/emoji_u1f327": {
+    "tier": "specialized",
+    "label": "降雨",
+    "category": "环境与能源"
+  },
+  "noto/emoji_u1f32c": {
+    "tier": "specialized",
+    "label": "风",
+    "category": "环境与能源"
+  },
+  "noto/emoji_u1f4a7": {
+    "tier": "specialized",
+    "label": "水滴",
+    "category": "环境与能源"
+  },
+  "noto/emoji_u1f50b": {
+    "tier": "specialized",
+    "label": "储能",
+    "category": "环境与能源"
+  },
+  "noto/emoji_u1f525": {
+    "tier": "specialized",
+    "label": "火",
+    "category": "环境与能源"
+  },
+  "noto/emoji_u2600": {
+    "tier": "specialized",
+    "label": "日照",
+    "category": "环境与能源"
+  },
+  "noto/emoji_u2744": {
+    "tier": "specialized",
+    "label": "雪",
+    "category": "环境与能源"
+  },
+  "tabler/battery": {
+    "tier": "specialized",
+    "label": "储能",
+    "category": "环境与能源"
+  },
+  "tabler/bolt": {
+    "tier": "specialized",
+    "label": "电力",
+    "category": "环境与能源"
+  },
+  "tabler/cloud": {
+    "tier": "specialized",
+    "label": "云",
+    "category": "环境与能源"
+  },
+  "tabler/sun": {
+    "tier": "specialized",
+    "label": "日照",
+    "category": "环境与能源"
+  },
+  "bioicons/Alpaca": {
+    "tier": "specialized",
+    "label": "羊驼示意",
+    "category": "生态与生物"
+  },
+  "bioicons/ArabidopsisTopView": {
+    "tier": "specialized",
+    "label": "植株俯视",
+    "category": "生态与生物"
+  },
+  "bioicons/Arabidopsis_DeepRoots": {
+    "tier": "specialized",
+    "label": "深根示意",
+    "category": "生态与生物"
+  },
+  "bioicons/Arabidopsis_ShallowRoots": {
+    "tier": "specialized",
+    "label": "浅根示意",
+    "category": "生态与生物"
+  },
+  "bioicons/DicotSeedling": {
+    "tier": "specialized",
+    "label": "幼苗插图",
+    "category": "生态与生物"
+  },
+  "bioicons/Drosophila": {
+    "tier": "specialized",
+    "label": "果蝇示意",
+    "category": "生态与生物"
+  },
+  "bioicons/Leaf": {
+    "tier": "specialized",
+    "label": "叶片插图",
+    "category": "生态与生物"
+  },
+  "bioicons/Lemna": {
+    "tier": "specialized",
+    "label": "浮萍插图",
+    "category": "生态与生物"
+  },
+  "bioicons/Macaque": {
+    "tier": "specialized",
+    "label": "猕猴示意",
+    "category": "生态与生物"
+  },
+  "bioicons/MossColony": {
+    "tier": "specialized",
+    "label": "苔藓群体",
+    "category": "生态与生物"
+  },
+  "bioicons/Moss_Gametophore": {
+    "tier": "specialized",
+    "label": "苔藓植株",
+    "category": "生态与生物"
+  },
+  "bioicons/Mouse": {
+    "tier": "specialized",
+    "label": "实验鼠示意",
+    "category": "生态与生物"
+  },
+  "bioicons/New_celegans": {
+    "tier": "specialized",
+    "label": "线虫示意",
+    "category": "生态与生物"
+  },
+  "bioicons/TomatoFruit": {
+    "tier": "specialized",
+    "label": "果实",
+    "category": "生态与生物"
+  },
+  "bioicons/Xenopus_new": {
+    "tier": "specialized",
+    "label": "两栖动物示意",
+    "category": "生态与生物"
+  },
+  "bioicons/avocet": {
+    "tier": "specialized",
+    "label": "鸟类示意",
+    "category": "生态与生物"
+  },
+  "lucide/bird": {
+    "tier": "specialized",
+    "label": "鸟",
+    "category": "生态与生物"
+  },
+  "lucide/bug": {
+    "tier": "specialized",
+    "label": "昆虫",
+    "category": "生态与生物"
+  },
+  "lucide/clover": {
+    "tier": "specialized",
+    "label": "草本",
+    "category": "生态与生物"
+  },
+  "lucide/egg": {
+    "tier": "specialized",
+    "label": "卵",
+    "category": "生态与生物"
+  },
+  "lucide/fish": {
+    "tier": "specialized",
+    "label": "鱼",
+    "category": "生态与生物"
+  },
+  "lucide/flower": {
+    "tier": "specialized",
+    "label": "花",
+    "category": "生态与生物"
+  },
+  "lucide/flower-2": {
+    "tier": "specialized",
+    "label": "植物",
+    "category": "生态与生物"
+  },
+  "lucide/leaf": {
+    "tier": "specialized",
+    "label": "叶片",
+    "category": "生态与生物"
+  },
+  "lucide/paw-print": {
+    "tier": "specialized",
+    "label": "兽类足迹",
+    "category": "生态与生物"
+  },
+  "lucide/rabbit": {
+    "tier": "specialized",
+    "label": "兔",
+    "category": "生态与生物"
+  },
+  "lucide/rat": {
+    "tier": "specialized",
+    "label": "啮齿动物",
+    "category": "生态与生物"
+  },
+  "lucide/shell": {
+    "tier": "specialized",
+    "label": "贝壳",
+    "category": "生态与生物"
+  },
+  "lucide/shrimp": {
+    "tier": "specialized",
+    "label": "虾",
+    "category": "生态与生物"
+  },
+  "lucide/snail": {
+    "tier": "specialized",
+    "label": "蜗牛",
+    "category": "生态与生物"
+  },
+  "lucide/sprout": {
+    "tier": "specialized",
+    "label": "幼苗",
+    "category": "生态与生物"
+  },
+  "lucide/tree-deciduous": {
+    "tier": "specialized",
+    "label": "阔叶树",
+    "category": "生态与生物"
+  },
+  "lucide/tree-pine": {
+    "tier": "specialized",
+    "label": "针叶树",
+    "category": "生态与生物"
+  },
+  "lucide/trees": {
+    "tier": "specialized",
+    "label": "森林",
+    "category": "生态与生物"
+  },
+  "lucide/turtle": {
+    "tier": "specialized",
+    "label": "龟",
+    "category": "生态与生物"
+  },
+  "lucide/worm": {
+    "tier": "specialized",
+    "label": "蠕虫",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f331": {
+    "tier": "specialized",
+    "label": "幼苗",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f332": {
+    "tier": "specialized",
+    "label": "针叶树",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f333": {
+    "tier": "specialized",
+    "label": "阔叶树",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f33a": {
+    "tier": "specialized",
+    "label": "花卉",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f33b": {
+    "tier": "specialized",
+    "label": "向日葵",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f33e": {
+    "tier": "specialized",
+    "label": "植株",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f33f": {
+    "tier": "specialized",
+    "label": "草本",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f342": {
+    "tier": "specialized",
+    "label": "落叶",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f343": {
+    "tier": "specialized",
+    "label": "叶片",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f344": {
+    "tier": "specialized",
+    "label": "真菌",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f400": {
+    "tier": "specialized",
+    "label": "鼠",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f407": {
+    "tier": "specialized",
+    "label": "兔",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f418": {
+    "tier": "specialized",
+    "label": "象",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f41c": {
+    "tier": "specialized",
+    "label": "蚂蚁",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f41d": {
+    "tier": "specialized",
+    "label": "蜜蜂",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f41e": {
+    "tier": "specialized",
+    "label": "昆虫",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f41f": {
+    "tier": "specialized",
+    "label": "鱼",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f422": {
+    "tier": "specialized",
+    "label": "龟",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f426": {
+    "tier": "specialized",
+    "label": "鸟",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f43a": {
+    "tier": "specialized",
+    "label": "狼",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f43e": {
+    "tier": "specialized",
+    "label": "足迹",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f43f": {
+    "tier": "specialized",
+    "label": "松鼠",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f985": {
+    "tier": "specialized",
+    "label": "猛禽",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f989": {
+    "tier": "specialized",
+    "label": "鸮类",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f98a": {
+    "tier": "specialized",
+    "label": "狐",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f98b": {
+    "tier": "specialized",
+    "label": "蝴蝶",
+    "category": "生态与生物"
+  },
+  "noto/emoji_u1f98c": {
+    "tier": "specialized",
+    "label": "通用鹿类示意（非物种鉴定依据）",
+    "category": "生态与生物"
+  },
+  "servier/bug": {
+    "tier": "specialized",
+    "label": "昆虫插图",
+    "category": "生态与生物"
+  },
+  "servier/carrot": {
+    "tier": "specialized",
+    "label": "胡萝卜插图",
+    "category": "生态与生物"
+  },
+  "servier/fish-1": {
+    "tier": "specialized",
+    "label": "鱼类插图",
+    "category": "生态与生物"
+  },
+  "servier/fruitfly_drosophila-redeyes": {
+    "tier": "specialized",
+    "label": "果蝇插图",
+    "category": "生态与生物"
+  },
+  "servier/horse": {
+    "tier": "specialized",
+    "label": "马插图",
+    "category": "生态与生物"
+  },
+  "servier/leek": {
+    "tier": "specialized",
+    "label": "植物插图",
+    "category": "生态与生物"
+  },
+  "servier/monkey": {
+    "tier": "specialized",
+    "label": "灵长类插图",
+    "category": "生态与生物"
+  },
+  "servier/mouse-gray": {
+    "tier": "specialized",
+    "label": "鼠类插图",
+    "category": "生态与生物"
+  },
+  "servier/olive": {
+    "tier": "specialized",
+    "label": "橄榄插图",
+    "category": "生态与生物"
+  },
+  "servier/ox": {
+    "tier": "specialized",
+    "label": "牛插图",
+    "category": "生态与生物"
+  },
+  "servier/rabbit-brown": {
+    "tier": "specialized",
+    "label": "兔类插图",
+    "category": "生态与生物"
+  },
+  "servier/raspberry": {
+    "tier": "specialized",
+    "label": "浆果插图",
+    "category": "生态与生物"
+  },
+  "servier/tomato": {
+    "tier": "specialized",
+    "label": "番茄插图",
+    "category": "生态与生物"
+  },
+  "servier/white-beans": {
+    "tier": "specialized",
+    "label": "豆类插图",
+    "category": "生态与生物"
+  },
+  "tabler/butterfly": {
+    "tier": "specialized",
+    "label": "昆虫",
+    "category": "生态与生物"
+  },
+  "tabler/flower": {
+    "tier": "specialized",
+    "label": "植物",
+    "category": "生态与生物"
+  },
+  "tabler/leaf": {
+    "tier": "specialized",
+    "label": "叶片",
+    "category": "生态与生物"
+  },
+  "tabler/paw": {
+    "tier": "specialized",
+    "label": "足迹",
+    "category": "生态与生物"
+  },
+  "bioicons/384well_pcr_plate_kelly": {
+    "tier": "specialized",
+    "label": "PCR反应板示意",
+    "category": "生态监测与遗传质控"
+  },
+  "bioicons/Low_speed_centrifuge": {
+    "tier": "specialized",
+    "label": "离心设备",
+    "category": "生态监测与遗传质控"
+  },
+  "bioicons/PCR_cycle": {
+    "tier": "specialized",
+    "label": "PCR循环示意",
+    "category": "生态监测与遗传质控"
+  },
+  "bioicons/electrophoresis-gel": {
+    "tier": "specialized",
+    "label": "电泳装置示意",
+    "category": "生态监测与遗传质控"
+  },
+  "bioicons/thermalcycler-pcr": {
+    "tier": "specialized",
+    "label": "PCR仪示意",
+    "category": "生态监测与遗传质控"
+  },
+  "bioicons/thermalcycler-pcr-2": {
+    "tier": "specialized",
+    "label": "PCR仪与反应管",
+    "category": "生态监测与遗传质控"
+  },
+  "lucide/badge-check": {
+    "tier": "specialized",
+    "label": "复核状态",
+    "category": "生态监测与遗传质控"
+  },
+  "lucide/binary": {
+    "tier": "specialized",
+    "label": "遗传编码示意",
+    "category": "生态监测与遗传质控"
+  },
+  "lucide/git-compare-arrows": {
+    "tier": "specialized",
+    "label": "重复检测对照",
+    "category": "生态监测与遗传质控"
+  },
+  "lucide/refrigerator": {
+    "tier": "specialized",
+    "label": "冷藏保存",
+    "category": "生态监测与遗传质控"
+  },
+  "lucide/scan-barcode": {
+    "tier": "specialized",
+    "label": "样品条码",
+    "category": "生态监测与遗传质控"
+  },
+  "lucide/tags": {
+    "tier": "specialized",
+    "label": "样品标签",
+    "category": "生态监测与遗传质控"
+  },
+  "noto/emoji_u1f4be": {
+    "tier": "specialized",
+    "label": "相机数据存储示意",
+    "category": "生态监测与遗传质控"
+  },
+  "noto/emoji_u1f9ca": {
+    "tier": "specialized",
+    "label": "样品冰冷保存示意",
+    "category": "生态监测与遗传质控"
+  },
+  "noto/emoji_u1f9f4": {
+    "tier": "specialized",
+    "label": "试剂瓶示意",
+    "category": "生态监测与遗传质控"
+  },
+  "noto/emoji_u1f9fc": {
+    "tier": "specialized",
+    "label": "清洁消毒示意",
+    "category": "生态监测与遗传质控"
+  },
+  "lucide/check-check": {
+    "tier": "specialized",
+    "label": "复核",
+    "category": "质量与核查"
+  },
+  "lucide/circle-alert": {
+    "tier": "specialized",
+    "label": "问题",
+    "category": "质量与核查"
+  },
+  "lucide/circle-check-big": {
+    "tier": "specialized",
+    "label": "通过",
+    "category": "质量与核查"
+  },
+  "lucide/eye": {
+    "tier": "specialized",
+    "label": "观察",
+    "category": "质量与核查"
+  },
+  "lucide/fingerprint-pattern": {
+    "tier": "specialized",
+    "label": "个体识别",
+    "category": "质量与核查"
+  },
+  "lucide/list-checks": {
+    "tier": "specialized",
+    "label": "检查清单",
+    "category": "质量与核查"
+  },
+  "lucide/lock-keyhole": {
+    "tier": "specialized",
+    "label": "隐私",
+    "category": "质量与核查"
+  },
+  "lucide/scale": {
+    "tier": "specialized",
+    "label": "比较",
+    "category": "质量与核查"
+  },
+  "lucide/scan-search": {
+    "tier": "specialized",
+    "label": "检查",
+    "category": "质量与核查"
+  },
+  "lucide/shield-check": {
+    "tier": "specialized",
+    "label": "可靠性",
+    "category": "质量与核查"
+  },
+  "lucide/triangle-alert": {
+    "tier": "specialized",
+    "label": "风险",
+    "category": "质量与核查"
+  },
+  "lucide/zoom-in": {
+    "tier": "specialized",
+    "label": "局部放大",
+    "category": "质量与核查"
+  },
+  "tabler/circle-check": {
+    "tier": "specialized",
+    "label": "核验",
+    "category": "质量与核查"
+  },
+  "tabler/clipboard-check": {
+    "tier": "specialized",
+    "label": "检查",
+    "category": "质量与核查"
+  },
+  "tabler/shield-check": {
+    "tier": "specialized",
+    "label": "可靠性",
+    "category": "质量与核查"
+  },
+  "lucide/briefcase-business": {
+    "tier": "general",
+    "label": "briefcase business",
+    "category": "办公与业务"
+  },
+  "lucide/briefcase": {
+    "tier": "general",
+    "label": "briefcase",
+    "category": "办公与业务"
+  },
+  "lucide/shopping-bag": {
+    "tier": "general",
+    "label": "shopping bag",
+    "category": "办公与业务"
+  },
+  "lucide/shopping-cart": {
+    "tier": "general",
+    "label": "shopping cart",
+    "category": "办公与业务"
+  },
+  "lucide/store": {
+    "tier": "general",
+    "label": "store",
+    "category": "办公与业务"
+  },
+  "lucide/building": {
+    "tier": "general",
+    "label": "building",
+    "category": "办公与业务"
+  },
+  "lucide/factory": {
+    "tier": "general",
+    "label": "factory",
+    "category": "办公与业务"
+  },
+  "lucide/warehouse": {
+    "tier": "general",
+    "label": "warehouse",
+    "category": "办公与业务"
+  },
+  "lucide/landmark": {
+    "tier": "general",
+    "label": "landmark",
+    "category": "办公与业务"
+  },
+  "lucide/banknote": {
+    "tier": "general",
+    "label": "banknote",
+    "category": "办公与业务"
+  },
+  "lucide/coins": {
+    "tier": "general",
+    "label": "coins",
+    "category": "办公与业务"
+  },
+  "lucide/wallet": {
+    "tier": "general",
+    "label": "wallet",
+    "category": "办公与业务"
+  },
+  "lucide/credit-card": {
+    "tier": "general",
+    "label": "credit card",
+    "category": "办公与业务"
+  },
+  "lucide/receipt": {
+    "tier": "general",
+    "label": "receipt",
+    "category": "办公与业务"
+  },
+  "lucide/receipt-text": {
+    "tier": "general",
+    "label": "receipt text",
+    "category": "办公与业务"
+  },
+  "lucide/badge-dollar-sign": {
+    "tier": "general",
+    "label": "badge dollar sign",
+    "category": "办公与业务"
+  },
+  "lucide/dollar-sign": {
+    "tier": "general",
+    "label": "dollar sign",
+    "category": "办公与业务"
+  },
+  "lucide/circle-dollar-sign": {
+    "tier": "general",
+    "label": "circle dollar sign",
+    "category": "办公与业务"
+  },
+  "lucide/hand-coins": {
+    "tier": "general",
+    "label": "hand coins",
+    "category": "办公与业务"
+  },
+  "lucide/piggy-bank": {
+    "tier": "general",
+    "label": "piggy bank",
+    "category": "办公与业务"
+  },
+  "lucide/chart-network": {
+    "tier": "general",
+    "label": "chart network",
+    "category": "办公与业务"
+  },
+  "lucide/trending-up": {
+    "tier": "general",
+    "label": "trending up",
+    "category": "办公与业务"
+  },
+  "lucide/trending-down": {
+    "tier": "general",
+    "label": "trending down",
+    "category": "办公与业务"
+  },
+  "lucide/megaphone": {
+    "tier": "general",
+    "label": "megaphone",
+    "category": "办公与业务"
+  },
+  "lucide/mail": {
+    "tier": "general",
+    "label": "mail",
+    "category": "办公与业务"
+  },
+  "lucide/mails": {
+    "tier": "general",
+    "label": "mails",
+    "category": "办公与业务"
+  },
+  "lucide/mail-check": {
+    "tier": "general",
+    "label": "mail check",
+    "category": "办公与业务"
+  },
+  "lucide/mail-plus": {
+    "tier": "general",
+    "label": "mail plus",
+    "category": "办公与业务"
+  },
+  "lucide/send": {
+    "tier": "general",
+    "label": "send",
+    "category": "办公与业务"
+  },
+  "lucide/inbox": {
+    "tier": "general",
+    "label": "inbox",
+    "category": "办公与业务"
+  },
+  "lucide/phone": {
+    "tier": "general",
+    "label": "phone",
+    "category": "办公与业务"
+  },
+  "lucide/phone-call": {
+    "tier": "general",
+    "label": "phone call",
+    "category": "办公与业务"
+  },
+  "lucide/headset": {
+    "tier": "general",
+    "label": "headset",
+    "category": "办公与业务"
+  },
+  "lucide/contact": {
+    "tier": "general",
+    "label": "contact",
+    "category": "办公与业务"
+  },
+  "lucide/contact-round": {
+    "tier": "general",
+    "label": "contact round",
+    "category": "办公与业务"
+  },
+  "lucide/user-round": {
+    "tier": "general",
+    "label": "user round",
+    "category": "办公与业务"
+  },
+  "lucide/users-round": {
+    "tier": "general",
+    "label": "users round",
+    "category": "办公与业务"
+  },
+  "lucide/user-plus": {
+    "tier": "general",
+    "label": "user plus",
+    "category": "办公与业务"
+  },
+  "lucide/user-check": {
+    "tier": "general",
+    "label": "user check",
+    "category": "办公与业务"
+  },
+  "lucide/user-cog": {
+    "tier": "general",
+    "label": "user cog",
+    "category": "办公与业务"
+  },
+  "lucide/users": {
+    "tier": "general",
+    "label": "users",
+    "category": "办公与业务"
+  },
+  "lucide/settings": {
+    "tier": "general",
+    "label": "settings",
+    "category": "办公与业务"
+  },
+  "lucide/settings-2": {
+    "tier": "general",
+    "label": "settings 2",
+    "category": "办公与业务"
+  },
+  "lucide/unplug": {
+    "tier": "general",
+    "label": "unplug",
+    "category": "办公与业务"
+  },
+  "lucide/code": {
+    "tier": "general",
+    "label": "code",
+    "category": "办公与业务"
+  },
+  "lucide/code-xml": {
+    "tier": "general",
+    "label": "code xml",
+    "category": "办公与业务"
+  },
+  "lucide/terminal": {
+    "tier": "general",
+    "label": "terminal",
+    "category": "办公与业务"
+  },
+  "lucide/database-zap": {
+    "tier": "general",
+    "label": "database zap",
+    "category": "办公与业务"
+  },
+  "lucide/server": {
+    "tier": "general",
+    "label": "server",
+    "category": "办公与业务"
+  },
+  "lucide/server-cog": {
+    "tier": "general",
+    "label": "server cog",
+    "category": "办公与业务"
+  },
+  "lucide/cloud-upload": {
+    "tier": "general",
+    "label": "cloud upload",
+    "category": "办公与业务"
+  },
+  "lucide/cloud-download": {
+    "tier": "general",
+    "label": "cloud download",
+    "category": "办公与业务"
+  },
+  "lucide/laptop": {
+    "tier": "general",
+    "label": "laptop",
+    "category": "办公与业务"
+  },
+  "lucide/monitor": {
+    "tier": "general",
+    "label": "monitor",
+    "category": "办公与业务"
+  },
+  "lucide/smartphone": {
+    "tier": "general",
+    "label": "smartphone",
+    "category": "办公与业务"
+  },
+  "lucide/tablet": {
+    "tier": "general",
+    "label": "tablet",
+    "category": "办公与业务"
+  },
+  "lucide/keyboard": {
+    "tier": "general",
+    "label": "keyboard",
+    "category": "办公与业务"
+  },
+  "lucide/mouse": {
+    "tier": "general",
+    "label": "mouse",
+    "category": "办公与业务"
+  },
+  "lucide/cpu": {
+    "tier": "general",
+    "label": "cpu",
+    "category": "办公与业务"
+  },
+  "lucide/circuit-board": {
+    "tier": "general",
+    "label": "circuit board",
+    "category": "办公与业务"
+  },
+  "lucide/microchip": {
+    "tier": "general",
+    "label": "microchip",
+    "category": "办公与业务"
+  },
+  "lucide/bot": {
+    "tier": "general",
+    "label": "bot",
+    "category": "办公与业务"
+  },
+  "lucide/message-circle": {
+    "tier": "general",
+    "label": "message circle",
+    "category": "办公与业务"
+  },
+  "lucide/message-square": {
+    "tier": "general",
+    "label": "message square",
+    "category": "办公与业务"
+  },
+  "lucide/messages-square": {
+    "tier": "general",
+    "label": "messages square",
+    "category": "办公与业务"
+  },
+  "lucide/projector": {
+    "tier": "general",
+    "label": "projector",
+    "category": "办公与业务"
+  },
+  "lucide/screen-share": {
+    "tier": "general",
+    "label": "screen share",
+    "category": "办公与业务"
+  },
+  "lucide/video": {
+    "tier": "general",
+    "label": "video",
+    "category": "办公与业务"
+  },
+  "lucide/webcam": {
+    "tier": "general",
+    "label": "webcam",
+    "category": "办公与业务"
+  },
+  "lucide/mic": {
+    "tier": "general",
+    "label": "mic",
+    "category": "办公与业务"
+  },
+  "lucide/headphones": {
+    "tier": "general",
+    "label": "headphones",
+    "category": "办公与业务"
+  },
+  "lucide/volume-2": {
+    "tier": "general",
+    "label": "volume 2",
+    "category": "办公与业务"
+  },
+  "lucide/notebook": {
+    "tier": "general",
+    "label": "notebook",
+    "category": "办公与业务"
+  },
+  "lucide/graduation-cap": {
+    "tier": "general",
+    "label": "graduation cap",
+    "category": "办公与业务"
+  },
+  "lucide/school": {
+    "tier": "general",
+    "label": "school",
+    "category": "办公与业务"
+  },
+  "lucide/library-big": {
+    "tier": "general",
+    "label": "library big",
+    "category": "办公与业务"
+  },
+  "lucide/clipboard": {
+    "tier": "general",
+    "label": "clipboard",
+    "category": "办公与业务"
+  },
+  "lucide/square-check": {
+    "tier": "general",
+    "label": "square check",
+    "category": "办公与业务"
+  },
+  "lucide/circle-check": {
+    "tier": "general",
+    "label": "circle check",
+    "category": "办公与业务"
+  },
+  "lucide/shield-alert": {
+    "tier": "general",
+    "label": "shield alert",
+    "category": "办公与业务"
+  },
+  "lucide/key-round": {
+    "tier": "general",
+    "label": "key round",
+    "category": "办公与业务"
+  },
+  "lucide/folder": {
+    "tier": "general",
+    "label": "folder",
+    "category": "办公与业务"
+  },
+  "lucide/folder-search": {
+    "tier": "general",
+    "label": "folder search",
+    "category": "办公与业务"
+  },
+  "lucide/folder-check": {
+    "tier": "general",
+    "label": "folder check",
+    "category": "办公与业务"
+  },
+  "lucide/folder-kanban": {
+    "tier": "general",
+    "label": "folder kanban",
+    "category": "办公与业务"
+  },
+  "lucide/folder-clock": {
+    "tier": "general",
+    "label": "folder clock",
+    "category": "办公与业务"
+  },
+  "lucide/file-spreadsheet": {
+    "tier": "general",
+    "label": "file spreadsheet",
+    "category": "办公与业务"
+  },
+  "lucide/file-check": {
+    "tier": "general",
+    "label": "file check",
+    "category": "办公与业务"
+  },
+  "lucide/file-pen-line": {
+    "tier": "general",
+    "label": "file pen line",
+    "category": "办公与业务"
+  },
+  "lucide/file-cog": {
+    "tier": "general",
+    "label": "file cog",
+    "category": "办公与业务"
+  },
+  "lucide/calendar": {
+    "tier": "general",
+    "label": "calendar",
+    "category": "办公与业务"
+  },
+  "lucide/clock-alert": {
+    "tier": "general",
+    "label": "clock alert",
+    "category": "办公与业务"
+  },
+  "lucide/bell": {
+    "tier": "general",
+    "label": "bell",
+    "category": "办公与业务"
+  },
+  "lucide/bell-ring": {
+    "tier": "general",
+    "label": "bell ring",
+    "category": "办公与业务"
+  },
+  "lucide/bell-dot": {
+    "tier": "general",
+    "label": "bell dot",
+    "category": "办公与业务"
+  },
+  "lucide/search-check": {
+    "tier": "general",
+    "label": "search check",
+    "category": "办公与业务"
+  },
+  "lucide/layout-dashboard": {
+    "tier": "general",
+    "label": "layout dashboard",
+    "category": "办公与业务"
+  },
+  "lucide/layout-grid": {
+    "tier": "general",
+    "label": "layout grid",
+    "category": "办公与业务"
+  },
+  "lucide/panels-top-left": {
+    "tier": "general",
+    "label": "panels top left",
+    "category": "办公与业务"
+  },
+  "lucide/panel-left": {
+    "tier": "general",
+    "label": "panel left",
+    "category": "办公与业务"
+  },
+  "lucide/layers": {
+    "tier": "general",
+    "label": "layers",
+    "category": "办公与业务"
+  },
+  "lucide/panels-left-bottom": {
+    "tier": "general",
+    "label": "panels left bottom",
+    "category": "办公与业务"
+  },
+  "lucide/toggle-left": {
+    "tier": "general",
+    "label": "toggle left",
+    "category": "办公与业务"
+  },
+  "lucide/toggle-right": {
+    "tier": "general",
+    "label": "toggle right",
+    "category": "办公与业务"
+  },
+  "lucide/mouse-pointer-2": {
+    "tier": "general",
+    "label": "mouse pointer 2",
+    "category": "办公与业务"
+  },
+  "lucide/hand": {
+    "tier": "general",
+    "label": "hand",
+    "category": "办公与业务"
+  },
+  "lucide/heart-handshake": {
+    "tier": "general",
+    "label": "heart handshake",
+    "category": "办公与业务"
+  },
+  "lucide/handshake": {
+    "tier": "general",
+    "label": "handshake",
+    "category": "办公与业务"
+  },
+  "lucide/lightbulb": {
+    "tier": "general",
+    "label": "lightbulb",
+    "category": "办公与业务"
+  },
+  "lucide/lightbulb-off": {
+    "tier": "general",
+    "label": "lightbulb off",
+    "category": "办公与业务"
+  },
+  "lucide/rocket": {
+    "tier": "general",
+    "label": "rocket",
+    "category": "办公与业务"
+  },
+  "lucide/trophy": {
+    "tier": "general",
+    "label": "trophy",
+    "category": "办公与业务"
+  },
+  "lucide/medal": {
+    "tier": "general",
+    "label": "medal",
+    "category": "办公与业务"
+  },
+  "lucide/award": {
+    "tier": "general",
+    "label": "award",
+    "category": "办公与业务"
+  },
+  "lucide/star": {
+    "tier": "general",
+    "label": "star",
+    "category": "办公与业务"
+  },
+  "lucide/sparkle": {
+    "tier": "general",
+    "label": "sparkle",
+    "category": "办公与业务"
+  },
+  "lucide/sparkles": {
+    "tier": "general",
+    "label": "sparkles",
+    "category": "办公与业务"
+  },
+  "lucide/bookmark": {
+    "tier": "general",
+    "label": "bookmark",
+    "category": "办公与业务"
+  },
+  "lucide/tag": {
+    "tier": "general",
+    "label": "tag",
+    "category": "办公与业务"
+  },
+  "lucide/ticket": {
+    "tier": "general",
+    "label": "ticket",
+    "category": "办公与业务"
+  },
+  "lucide/ticket-check": {
+    "tier": "general",
+    "label": "ticket check",
+    "category": "办公与业务"
+  },
+  "lucide/gift": {
+    "tier": "general",
+    "label": "gift",
+    "category": "办公与业务"
+  },
+  "lucide/package": {
+    "tier": "general",
+    "label": "package",
+    "category": "办公与业务"
+  },
+  "lucide/package-check": {
+    "tier": "general",
+    "label": "package check",
+    "category": "办公与业务"
+  },
+  "lucide/truck": {
+    "tier": "general",
+    "label": "truck",
+    "category": "办公与业务"
+  },
+  "lucide/ship": {
+    "tier": "general",
+    "label": "ship",
+    "category": "办公与业务"
+  },
+  "lucide/plane": {
+    "tier": "general",
+    "label": "plane",
+    "category": "办公与业务"
+  },
+  "lucide/globe-lock": {
+    "tier": "general",
+    "label": "globe lock",
+    "category": "办公与业务"
+  },
+  "lucide/panels-right-bottom": {
+    "tier": "general",
+    "label": "panels right bottom",
+    "category": "办公与业务"
+  },
+  "lucide/info": {
+    "tier": "general",
+    "label": "info",
+    "category": "办公与业务"
+  },
+  "lucide/circle-x": {
+    "tier": "general",
+    "label": "circle x",
+    "category": "办公与业务"
+  },
+  "lucide/square-pen": {
+    "tier": "general",
+    "label": "square pen",
+    "category": "办公与业务"
+  },
+  "lucide/pen-line": {
+    "tier": "general",
+    "label": "pen line",
+    "category": "办公与业务"
+  },
+  "lucide/scissors": {
+    "tier": "general",
+    "label": "scissors",
+    "category": "办公与业务"
+  },
+  "lucide/image": {
+    "tier": "general",
+    "label": "image",
+    "category": "办公与业务"
+  },
+  "lucide/images": {
+    "tier": "general",
+    "label": "images",
+    "category": "办公与业务"
+  },
+  "lucide/image-plus": {
+    "tier": "general",
+    "label": "image plus",
+    "category": "办公与业务"
+  },
+  "lucide/scan-text": {
+    "tier": "general",
+    "label": "scan text",
+    "category": "办公与业务"
+  },
+  "lucide/qr-code": {
+    "tier": "general",
+    "label": "qr code",
+    "category": "办公与业务"
+  },
+  "lucide/barcode": {
+    "tier": "general",
+    "label": "barcode",
+    "category": "办公与业务"
+  },
+  "lucide/printer": {
+    "tier": "general",
+    "label": "printer",
+    "category": "办公与业务"
+  },
+  "lucide/sticky-note": {
+    "tier": "general",
+    "label": "sticky note",
+    "category": "办公与业务"
+  },
+  "lucide/paperclip": {
+    "tier": "general",
+    "label": "paperclip",
+    "category": "办公与业务"
+  },
+  "lucide/link": {
+    "tier": "general",
+    "label": "link",
+    "category": "办公与业务"
+  },
+  "lucide/link-2": {
+    "tier": "general",
+    "label": "link 2",
+    "category": "办公与业务"
+  },
+  "lucide/external-link": {
+    "tier": "general",
+    "label": "external link",
+    "category": "办公与业务"
+  },
+  "lucide/share-2": {
+    "tier": "general",
+    "label": "share 2",
+    "category": "办公与业务"
+  },
+  "lucide/repeat": {
+    "tier": "general",
+    "label": "repeat",
+    "category": "办公与业务"
+  },
+  "lucide/undo-2": {
+    "tier": "general",
+    "label": "undo 2",
+    "category": "办公与业务"
+  },
+  "lucide/redo-2": {
+    "tier": "general",
+    "label": "redo 2",
+    "category": "办公与业务"
+  },
+  "lucide/arrow-up-right": {
+    "tier": "general",
+    "label": "arrow up right",
+    "category": "办公与业务"
+  },
+  "lucide/arrow-down-right": {
+    "tier": "general",
+    "label": "arrow down right",
+    "category": "办公与业务"
+  },
+  "lucide/move-right": {
+    "tier": "general",
+    "label": "move right",
+    "category": "办公与业务"
+  },
+  "lucide/chevrons-right": {
+    "tier": "general",
+    "label": "chevrons right",
+    "category": "办公与业务"
+  },
+  "lucide/circle-play": {
+    "tier": "general",
+    "label": "circle play",
+    "category": "办公与业务"
+  },
+  "lucide/circle-pause": {
+    "tier": "general",
+    "label": "circle pause",
+    "category": "办公与业务"
+  },
+  "lucide/circle-stop": {
+    "tier": "general",
+    "label": "circle stop",
+    "category": "办公与业务"
+  },
+  "lucide/download": {
+    "tier": "general",
+    "label": "download",
+    "category": "办公与业务"
+  },
+  "lucide/upload": {
+    "tier": "general",
+    "label": "upload",
+    "category": "办公与业务"
+  },
+  "lucide/monitor-check": {
+    "tier": "general",
+    "label": "monitor check",
+    "category": "办公与业务"
+  },
+  "lucide/monitor-cog": {
+    "tier": "general",
+    "label": "monitor cog",
+    "category": "办公与业务"
+  },
+  "lucide/shield-user": {
+    "tier": "general",
+    "label": "shield user",
+    "category": "办公与业务"
+  },
+  "lucide/user-round-cog": {
+    "tier": "general",
+    "label": "user round cog",
+    "category": "办公与业务"
+  },
+  "lucide/calendar-fold": {
+    "tier": "general",
+    "label": "calendar fold",
+    "category": "办公与业务"
+  },
+  "lucide/square-kanban": {
+    "tier": "general",
+    "label": "square kanban",
+    "category": "办公与业务"
+  },
+  "lucide/list-tree": {
+    "tier": "general",
+    "label": "list tree",
+    "category": "办公与业务"
+  },
+  "lucide/git-pull-request": {
+    "tier": "general",
+    "label": "git pull request",
+    "category": "办公与业务"
+  },
+  "lucide/diff": {
+    "tier": "general",
+    "label": "diff",
+    "category": "办公与业务"
+  },
+  "lucide/blocks": {
+    "tier": "general",
+    "label": "blocks",
+    "category": "办公与业务"
+  },
+  "lucide/puzzle": {
+    "tier": "general",
+    "label": "puzzle",
+    "category": "办公与业务"
+  },
+  "lucide/app-window": {
+    "tier": "general",
+    "label": "app window",
+    "category": "办公与业务"
+  },
+  "lucide/app-window-mac": {
+    "tier": "general",
+    "label": "app window mac",
+    "category": "办公与业务"
+  },
+  "lucide/file-sliders": {
+    "tier": "general",
+    "label": "file sliders",
+    "category": "办公与业务"
+  },
+  "lucide/laptop-minimal-check": {
+    "tier": "general",
+    "label": "laptop minimal check",
+    "category": "办公与业务"
+  },
+  "lucide/list-filter": {
+    "tier": "general",
+    "label": "list filter",
+    "category": "办公与业务"
+  }
+}

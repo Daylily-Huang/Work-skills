@@ -1,0 +1,336 @@
+{
+  "title": "合成项目进展通报",
+  "tag": "合成演示 · 项目进展",
+  "demo": true,
+  "design": {
+    "requirements": {
+      "status": "clarified",
+      "brief": {
+        "purpose": "合成项目进展通报，分开完成、阻塞和已确认行动",
+        "audience": "合成项目团队",
+        "duration_or_pages": "四页合成演示，无时长限制",
+        "key_message": "联调已完成，验收排期按用户指令明确保留待定；不编造数值",
+        "source_scope": "仅使用本目录合成项目记录",
+        "content_constraints": "未确定日期按用户明确指令保留待定；不提出新增资源诉求",
+        "design_constraints": "P1/T01基础视觉，不用外部素材，四页独立构图"
+      },
+      "evidence": {
+        "purpose": "合成测试任务明示：合成项目进展通报，分开完成、阻塞和已确认行动",
+        "audience": "合成测试任务明示：合成项目团队",
+        "duration_or_pages": "合成测试任务明示：四页合成演示，无时长限制",
+        "key_message": "合成测试任务明示：联调已完成，验收排期按用户指令明确保留待定；不编造数值",
+        "source_scope": "合成测试任务明示：仅使用本目录合成项目记录",
+        "content_constraints": "合成测试任务明示：未确定日期按用户明确指令保留待定；不提出新增资源诉求",
+        "design_constraints": "合成测试任务明示：P1/T01基础视觉，不用外部素材，四页独立构图"
+      },
+      "open_questions": [],
+      "conflicts": [],
+      "resolved_questions": []
+    },
+    "selection": {
+      "scenario": "project",
+      "palette": "P1",
+      "template": "T01",
+      "assets": []
+    },
+    "approval": {
+      "mode": "confirmed",
+      "evidence": "合成任务指定项目场景、P1/T01、不用素材；仅作演示",
+      "fields": [
+        "scenario",
+        "palette",
+        "template",
+        "assets"
+      ]
+    }
+  },
+  "narrative": {
+    "decision_goal": "通报状态、阻塞及已记录的责任，不新增审批",
+    "audience_question": "哪些已完成、哪些受阻、下一步由谁执行？",
+    "key_claim_id": "C-key",
+    "evidence": [
+      {
+        "id": "E1",
+        "type": "source",
+        "origin": "synthetic",
+        "purpose": "content",
+        "file": "brief.md",
+        "sha256": "a48866c8bfd2dc570f97236283ab2447c8555e6f83daab41b27129e7ee983055",
+        "lines": [
+          1,
+          1
+        ],
+        "quote": "合成项目记录：本例只演示事实型进展通报，不代表真实项目。"
+      },
+      {
+        "id": "E2",
+        "type": "source",
+        "origin": "synthetic",
+        "purpose": "content",
+        "file": "brief.md",
+        "sha256": "a48866c8bfd2dc570f97236283ab2447c8555e6f83daab41b27129e7ee983055",
+        "lines": [
+          2,
+          2
+        ],
+        "quote": "接口联调已完成；验收尚未安排，用户明确要求保留“待定”，禁止代填日期。"
+      },
+      {
+        "id": "E3",
+        "type": "source",
+        "origin": "synthetic",
+        "purpose": "content",
+        "file": "brief.md",
+        "sha256": "a48866c8bfd2dc570f97236283ab2447c8555e6f83daab41b27129e7ee983055",
+        "lines": [
+          3,
+          3
+        ],
+        "quote": "已记录阻塞：测试环境权限未开通，导致验收无法启动。"
+      },
+      {
+        "id": "E4",
+        "type": "source",
+        "origin": "synthetic",
+        "purpose": "content",
+        "file": "brief.md",
+        "sha256": "a48866c8bfd2dc570f97236283ab2447c8555e6f83daab41b27129e7ee983055",
+        "lines": [
+          4,
+          4
+        ],
+        "quote": "已确认行动：陈敏于2026-11-05前完成权限申请，以权限开通记录为完成依据。"
+      },
+      {
+        "id": "E5",
+        "type": "source",
+        "origin": "synthetic",
+        "purpose": "content",
+        "file": "brief.md",
+        "sha256": "a48866c8bfd2dc570f97236283ab2447c8555e6f83daab41b27129e7ee983055",
+        "lines": [
+          5,
+          5
+        ],
+        "quote": "本次无新增资源或审批诉求，用户明确只通报进度。"
+      }
+    ],
+    "findings": [
+      {
+        "id": "P-result",
+        "kind": "observation",
+        "text": "接口联调已完成，验收时间待定。",
+        "evidence_ids": [
+          "E2"
+        ],
+        "scope": "合成项目本次通报时点的状态，不含期间对比",
+        "comparisons": [
+          "level"
+        ]
+      },
+      {
+        "id": "P-block",
+        "kind": "explanation",
+        "text": "按项目记录，权限未开通是当前验收阻塞。",
+        "evidence_ids": [
+          "E3"
+        ],
+        "scope": "合成项目本次通报时点的阻塞项，仅限记录范围",
+        "comparisons": [
+          "level"
+        ],
+        "support_notes": "记录明确将未开通权限列作验收阻塞。",
+        "limits": "依据合成项目记录，未独立核验系统权限，不外推其他原因。"
+      },
+      {
+        "id": "P-plan",
+        "kind": "observation",
+        "text": "项目记录写明：陈敏于2026-11-05前完成权限申请，以开通记录为完成依据。",
+        "evidence_ids": [
+          "E4"
+        ],
+        "scope": "合成项目记录中的责任与期限，截至通报时点",
+        "comparisons": [
+          "level"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C-key",
+        "text": "接口联调已完成，测试权限仍未开通。",
+        "finding_ids": [
+          "P-result",
+          "P-block",
+          "P-plan"
+        ],
+        "comparisons": [
+          "level"
+        ],
+        "scope": "合成项目本次通报时点",
+        "strength": "interpretive"
+      },
+      {
+        "id": "C-result",
+        "text": "接口联调已完成，验收时间待定。",
+        "finding_ids": [
+          "P-result"
+        ],
+        "comparisons": [
+          "level"
+        ],
+        "scope": "合成项目本次通报时点",
+        "strength": "descriptive"
+      },
+      {
+        "id": "C-block",
+        "text": "项目记录显示：测试权限未开通，验收尚不能启动。",
+        "finding_ids": [
+          "P-block"
+        ],
+        "comparisons": [
+          "level"
+        ],
+        "scope": "合成项目本次通报时点",
+        "strength": "interpretive"
+      },
+      {
+        "id": "C-plan",
+        "text": "权限申请由陈敏在11月5日前完成，以开通记录为验收依据。",
+        "finding_ids": [
+          "P-plan"
+        ],
+        "comparisons": [
+          "level"
+        ],
+        "scope": "合成项目记录中的责任与期限",
+        "strength": "descriptive"
+      }
+    ],
+    "actions": [
+      {
+        "id": "P-action",
+        "text": "完成测试权限申请",
+        "finding_ids": [
+          "P-block",
+          "P-plan"
+        ],
+        "owner": "陈敏",
+        "due": "2026-11-05",
+        "success_criteria": "保留权限开通记录",
+        "preconditions": [
+          "权限申请单已提交",
+          "账号已完成审批流登记"
+        ],
+        "falsifier": "逾期未开通则行动不成立",
+        "side_effects": [
+          "权限开通后需按规定回收测试账号"
+        ],
+        "status": "proposed"
+      }
+    ],
+    "requests": [],
+    "requests_none_reason": "用户明确只通报进度，无新增资源或审批诉求。",
+    "coverage": {
+      "goal": {
+        "slides": [
+          1
+        ]
+      },
+      "results": {
+        "slides": [
+          2
+        ]
+      },
+      "gap": {
+        "slides": [
+          2
+        ]
+      },
+      "reasons": {
+        "slides": [
+          3
+        ]
+      },
+      "actions": {
+        "slides": [
+          4
+        ]
+      },
+      "requests": {
+        "slides": [],
+        "skip_reason": "用户明确无新增资源或审批诉求。",
+        "evidence_ids": [
+          "E5"
+        ]
+      }
+    }
+  },
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "项目进展与阻塞",
+      "subtitle": "合成演示｜事实型通报",
+      "purpose": "明确本次通报范围",
+      "message_claim_id": "C-key",
+      "layout_reason": "封面只交代主题和范围",
+      "evidence_ids": [
+        "E1",
+        "E5"
+      ]
+    },
+    {
+      "layout": "comparison",
+      "title": "已完成与待推进事项",
+      "purpose": "区分已有成果和仍待安排事项",
+      "message_claim_id": "C-result",
+      "layout_reason": "对照两种状态，避免把准备事项写成已完成",
+      "finding_ids": [
+        "P-result"
+      ],
+      "items": [
+        {
+          "title": "已完成",
+          "body": "接口联调完成\n依据项目记录"
+        },
+        {
+          "title": "待推进",
+          "body": "验收时间待定\n需先开通测试权限"
+        }
+      ]
+    },
+    {
+      "layout": "risks",
+      "title": "验收卡在测试权限",
+      "purpose": "说明记录支持的阻塞和不可外推部分",
+      "message_claim_id": "C-block",
+      "layout_reason": "分项列明阻塞与边界，方便核查",
+      "finding_ids": [
+        "P-block"
+      ],
+      "items": [
+        {
+          "title": "当前卡点",
+          "body": "测试环境权限未开通，验收无法启动。"
+        },
+        {
+          "title": "后续安排",
+          "body": "拟由陈敏11月5日前完成权限申请。"
+        }
+      ]
+    },
+    {
+      "layout": "office_actions",
+      "title": "测试权限申请安排",
+      "purpose": "让执行责任、期限和生效前提可核查",
+      "message_claim_id": "C-plan",
+      "layout_reason": "行动表由记录投影，前提与反证单独列出",
+      "finding_ids": [
+        "P-plan"
+      ],
+      "action_ids": [
+        "P-action"
+      ]
+    }
+  ]
+}

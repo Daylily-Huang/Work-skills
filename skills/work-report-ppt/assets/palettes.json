@@ -1,0 +1,112 @@
+{
+  "P1": {
+    "name": "经典宝蓝",
+    "primary": "#073B92",
+    "secondary": "#507FB7",
+    "accent": "#2A6FC3",
+    "tint": "#EDF3FA",
+    "paper": "#FFFFFF",
+    "ink": "#24272C",
+    "family": "blue",
+    "basis": "用户18张商业PPT参考的色彩关系，人工取近似色并调整文字可读性；非原文件精确取色"
+  },
+  "P2": {
+    "name": "浅蓝商务",
+    "primary": "#245C91",
+    "secondary": "#6897BE",
+    "accent": "#154C80",
+    "tint": "#EDF4F9",
+    "paper": "#FFFFFF",
+    "ink": "#24272C",
+    "family": "blue",
+    "basis": "用户18张商业PPT参考的色彩关系，人工取近似色并调整文字可读性；非原文件精确取色"
+  },
+  "P3": {
+    "name": "海军蓝青",
+    "primary": "#123E67",
+    "secondary": "#35769A",
+    "accent": "#16889D",
+    "tint": "#ECF3F7",
+    "paper": "#FFFFFF",
+    "ink": "#24272C",
+    "family": "blue",
+    "basis": "用户18张商业PPT参考的色彩关系，人工取近似色并调整文字可读性；非原文件精确取色"
+  },
+  "P4": {
+    "name": "钴蓝灰白",
+    "primary": "#174EB0",
+    "secondary": "#6F91BE",
+    "accent": "#2D68CD",
+    "tint": "#EEF2F8",
+    "paper": "#FFFFFF",
+    "ink": "#24272C",
+    "family": "blue",
+    "basis": "用户18张商业PPT参考的色彩关系，人工取近似色并调整文字可读性；非原文件精确取色"
+  },
+  "P5": {
+    "name": "黑红经营",
+    "primary": "#141414",
+    "secondary": "#767676",
+    "accent": "#D92128",
+    "tint": "#F3F3F4",
+    "paper": "#FFFFFF",
+    "ink": "#24272C",
+    "family": "black",
+    "basis": "用户18张商业PPT参考的色彩关系，人工取近似色并调整文字可读性；非原文件精确取色"
+  },
+  "P6": {
+    "name": "石墨绯红",
+    "primary": "#29272D",
+    "secondary": "#79727A",
+    "accent": "#BC2344",
+    "tint": "#F5F1F3",
+    "paper": "#FFFFFF",
+    "ink": "#24272C",
+    "family": "black",
+    "basis": "用户18张商业PPT参考的色彩关系，人工取近似色并调整文字可读性；非原文件精确取色"
+  },
+  "P7": {
+    "name": "中国红金",
+    "primary": "#AB302D",
+    "secondary": "#C97672",
+    "accent": "#C88F34",
+    "tint": "#F9EDEC",
+    "paper": "#FFFFFF",
+    "ink": "#24272C",
+    "family": "red",
+    "basis": "用户18张商业PPT参考的色彩关系，人工取近似色并调整文字可读性；非原文件精确取色"
+  },
+  "P8": {
+    "name": "酒红粉白",
+    "primary": "#8D3038",
+    "secondary": "#BD7C85",
+    "accent": "#C39752",
+    "tint": "#F7ECEF",
+    "paper": "#FFFFFF",
+    "ink": "#24272C",
+    "family": "red",
+    "basis": "用户18张商业PPT参考的色彩关系，人工取近似色并调整文字可读性；非原文件精确取色"
+  },
+  "P9": {
+    "name": "玫瑰香槟",
+    "primary": "#B94D62",
+    "secondary": "#D58C9A",
+    "accent": "#B58D50",
+    "tint": "#FCF0F2",
+    "paper": "#FFFFFF",
+    "ink": "#24272C",
+    "family": "red",
+    "basis": "用户18张商业PPT参考的色彩关系，人工取近似色并调整文字可读性；非原文件精确取色"
+  },
+  "P10": {
+    "name": "政企红白",
+    "primary": "#B6292D",
+    "secondary": "#CC6868",
+    "accent": "#B78230",
+    "tint": "#FBEFEE",
+    "paper": "#FFFFFF",
+    "ink": "#24272C",
+    "family": "red",
+    "basis": "用户18张商业PPT参考的色彩关系，人工取近似色并调整文字可读性；非原文件精确取色"
+  }
+}

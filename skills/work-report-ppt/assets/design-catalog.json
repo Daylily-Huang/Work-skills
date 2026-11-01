@@ -1,0 +1,835 @@
+{
+  "version": "1.1.0",
+  "scenes": {
+    "business": {
+      "name": "经营汇报",
+      "focus": "指标、原因、项目与改进"
+    },
+    "project": {
+      "name": "项目与工作进展",
+      "focus": "排期、依赖、资源与交付"
+    },
+    "proposal": {
+      "name": "方案与客户提案",
+      "focus": "目标、结构、价值与落地"
+    },
+    "training": {
+      "name": "培训与团队建设",
+      "focus": "流程、能力、练习与检查"
+    },
+    "marketing": {
+      "name": "营销与用户运营",
+      "focus": "触达、转化、留存与复盘"
+    },
+    "research": {
+      "name": "研究与评估",
+      "focus": "问题、维度、样本与边界"
+    }
+  },
+  "layouts": [
+    {
+      "id": "office_actions",
+      "name": "actions",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_before_after",
+      "name": "before_after",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_channel",
+      "name": "channel",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_cover",
+      "name": "cover",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_customer",
+      "name": "customer",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_cycle",
+      "name": "cycle",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_delivery",
+      "name": "delivery",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_finance",
+      "name": "finance",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_funnel",
+      "name": "funnel",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_gantt",
+      "name": "gantt",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_growth",
+      "name": "growth",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_house",
+      "name": "house",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_milestone",
+      "name": "milestone",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_portfolio",
+      "name": "portfolio",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_pyramid",
+      "name": "pyramid",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_resource",
+      "name": "resource",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_retention",
+      "name": "retention",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_review",
+      "name": "review",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_risk",
+      "name": "risk",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_roadmap",
+      "name": "roadmap",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_sales",
+      "name": "sales",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_scorecard",
+      "name": "scorecard",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_six_pillars",
+      "name": "six_pillars",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_sop",
+      "name": "sop",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_summary",
+      "name": "summary",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_supplychain",
+      "name": "supplychain",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_swimlane",
+      "name": "swimlane",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_talent_rings",
+      "name": "talent_rings",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_tiers",
+      "name": "tiers",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_training",
+      "name": "training",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_u_stages",
+      "name": "u_stages",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_value_chain",
+      "name": "value_chain",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_wbs",
+      "name": "wbs",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    },
+    {
+      "id": "office_wings",
+      "name": "wings",
+      "purpose": "结构化商业汇报；具体字段见模板计划"
+    }
+  ],
+  "templates": [
+    {
+      "id": "T01",
+      "name": "年度项目推进",
+      "scene": "project",
+      "style": "blue-commercial",
+      "default_palette": "P1",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_gantt",
+        "office_milestone",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_gantt",
+      "pages": 6,
+      "file": "templates/T01.pptx",
+      "plan": "assets/template-plans/T01.json",
+      "preview": "assets/template-previews/T01.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T02",
+      "name": "跨部门协作",
+      "scene": "project",
+      "style": "blue-commercial",
+      "default_palette": "P2",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_swimlane",
+        "office_sop",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_swimlane",
+      "pages": 6,
+      "file": "templates/T02.pptx",
+      "plan": "assets/template-plans/T02.json",
+      "preview": "assets/template-previews/T02.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T03",
+      "name": "交付里程碑",
+      "scene": "project",
+      "style": "blue-commercial",
+      "default_palette": "P3",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_milestone",
+        "office_delivery",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_milestone",
+      "pages": 6,
+      "file": "templates/T03.pptx",
+      "plan": "assets/template-plans/T03.json",
+      "preview": "assets/template-previews/T03.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T04",
+      "name": "项目任务拆解",
+      "scene": "project",
+      "style": "blue-commercial",
+      "default_palette": "P4",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_wbs",
+        "office_portfolio",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_wbs",
+      "pages": 6,
+      "file": "templates/T04.pptx",
+      "plan": "assets/template-plans/T04.json",
+      "preview": "assets/template-previews/T04.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T05",
+      "name": "资源投入与预算",
+      "scene": "business",
+      "style": "blue-commercial",
+      "default_palette": "P1",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_resource",
+        "office_finance",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_resource",
+      "pages": 6,
+      "file": "templates/T05.pptx",
+      "plan": "assets/template-plans/T05.json",
+      "preview": "assets/template-previews/T05.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T06",
+      "name": "质量验收与交付",
+      "scene": "project",
+      "style": "blue-commercial",
+      "default_palette": "P2",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_delivery",
+        "office_risk",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_delivery",
+      "pages": 6,
+      "file": "templates/T06.pptx",
+      "plan": "assets/template-plans/T06.json",
+      "preview": "assets/template-previews/T06.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T07",
+      "name": "风险评估与应对",
+      "scene": "project",
+      "style": "blue-commercial",
+      "default_palette": "P3",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_risk",
+        "office_roadmap",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_risk",
+      "pages": 6,
+      "file": "templates/T07.pptx",
+      "plan": "assets/template-plans/T07.json",
+      "preview": "assets/template-previews/T07.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T08",
+      "name": "产品迭代路线",
+      "scene": "proposal",
+      "style": "blue-commercial",
+      "default_palette": "P4",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_roadmap",
+        "office_wbs",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_roadmap",
+      "pages": 6,
+      "file": "templates/T08.pptx",
+      "plan": "assets/template-plans/T08.json",
+      "preview": "assets/template-previews/T08.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T09",
+      "name": "标准作业流程",
+      "scene": "training",
+      "style": "blue-commercial",
+      "default_palette": "P1",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_sop",
+        "office_swimlane",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_sop",
+      "pages": 6,
+      "file": "templates/T09.pptx",
+      "plan": "assets/template-plans/T09.json",
+      "preview": "assets/template-previews/T09.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T10",
+      "name": "多项目组合管理",
+      "scene": "business",
+      "style": "blue-commercial",
+      "default_palette": "P2",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_portfolio",
+        "office_resource",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_portfolio",
+      "pages": 6,
+      "file": "templates/T10.pptx",
+      "plan": "assets/template-plans/T10.json",
+      "preview": "assets/template-previews/T10.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T11",
+      "name": "私域经营复盘",
+      "scene": "marketing",
+      "style": "black-commercial",
+      "default_palette": "P5",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_growth",
+        "office_funnel",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_growth",
+      "pages": 6,
+      "file": "templates/T11.pptx",
+      "plan": "assets/template-plans/T11.json",
+      "preview": "assets/template-previews/T11.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T12",
+      "name": "用户留存运营",
+      "scene": "marketing",
+      "style": "black-commercial",
+      "default_palette": "P6",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_retention",
+        "office_customer",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_retention",
+      "pages": 6,
+      "file": "templates/T12.pptx",
+      "plan": "assets/template-plans/T12.json",
+      "preview": "assets/template-previews/T12.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T13",
+      "name": "销售目标达成",
+      "scene": "business",
+      "style": "black-commercial",
+      "default_palette": "P5",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_sales",
+        "office_channel",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_sales",
+      "pages": 6,
+      "file": "templates/T13.pptx",
+      "plan": "assets/template-plans/T13.json",
+      "preview": "assets/template-previews/T13.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T14",
+      "name": "财务收支分析",
+      "scene": "business",
+      "style": "black-commercial",
+      "default_palette": "P6",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_finance",
+        "office_resource",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_finance",
+      "pages": 6,
+      "file": "templates/T14.pptx",
+      "plan": "assets/template-plans/T14.json",
+      "preview": "assets/template-previews/T14.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T15",
+      "name": "转化漏斗分析",
+      "scene": "marketing",
+      "style": "black-commercial",
+      "default_palette": "P5",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_funnel",
+        "office_growth",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_funnel",
+      "pages": 6,
+      "file": "templates/T15.pptx",
+      "plan": "assets/template-plans/T15.json",
+      "preview": "assets/template-previews/T15.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T16",
+      "name": "渠道获客效率",
+      "scene": "marketing",
+      "style": "black-commercial",
+      "default_palette": "P6",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_channel",
+        "office_sales",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_channel",
+      "pages": 6,
+      "file": "templates/T16.pptx",
+      "plan": "assets/template-plans/T16.json",
+      "preview": "assets/template-previews/T16.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T17",
+      "name": "用户分层研究",
+      "scene": "research",
+      "style": "black-commercial",
+      "default_palette": "P5",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_customer",
+        "office_retention",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_customer",
+      "pages": 6,
+      "file": "templates/T17.pptx",
+      "plan": "assets/template-plans/T17.json",
+      "preview": "assets/template-previews/T17.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T18",
+      "name": "新员工培养复盘",
+      "scene": "training",
+      "style": "black-commercial",
+      "default_palette": "P6",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_training",
+        "office_delivery",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_training",
+      "pages": 6,
+      "file": "templates/T18.pptx",
+      "plan": "assets/template-plans/T18.json",
+      "preview": "assets/template-previews/T18.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T19",
+      "name": "供应链运营协同",
+      "scene": "business",
+      "style": "black-commercial",
+      "default_palette": "P5",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_supplychain",
+        "office_swimlane",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_supplychain",
+      "pages": 6,
+      "file": "templates/T19.pptx",
+      "plan": "assets/template-plans/T19.json",
+      "preview": "assets/template-previews/T19.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T20",
+      "name": "经营绩效看板",
+      "scene": "business",
+      "style": "black-commercial",
+      "default_palette": "P6",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_scorecard",
+        "office_finance",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_scorecard",
+      "pages": 6,
+      "file": "templates/T20.pptx",
+      "plan": "assets/template-plans/T20.json",
+      "preview": "assets/template-previews/T20.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T21",
+      "name": "年度协同发展",
+      "scene": "business",
+      "style": "red-commercial",
+      "default_palette": "P7",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_tiers",
+        "office_six_pillars",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_tiers",
+      "pages": 6,
+      "file": "templates/T21.pptx",
+      "plan": "assets/template-plans/T21.json",
+      "preview": "assets/template-previews/T21.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T22",
+      "name": "一体两翼方案",
+      "scene": "proposal",
+      "style": "red-commercial",
+      "default_palette": "P8",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_wings",
+        "office_tiers",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_wings",
+      "pages": 6,
+      "file": "templates/T22.pptx",
+      "plan": "assets/template-plans/T22.json",
+      "preview": "assets/template-previews/T22.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T23",
+      "name": "四阶段能力进阶",
+      "scene": "training",
+      "style": "red-commercial",
+      "default_palette": "P9",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_u_stages",
+        "office_value_chain",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_u_stages",
+      "pages": 6,
+      "file": "templates/T23.pptx",
+      "plan": "assets/template-plans/T23.json",
+      "preview": "assets/template-previews/T23.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T24",
+      "name": "方案支撑框架",
+      "scene": "proposal",
+      "style": "red-commercial",
+      "default_palette": "P10",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_house",
+        "office_wings",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_house",
+      "pages": 6,
+      "file": "templates/T24.pptx",
+      "plan": "assets/template-plans/T24.json",
+      "preview": "assets/template-previews/T24.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T25",
+      "name": "人才梯队建设",
+      "scene": "training",
+      "style": "red-commercial",
+      "default_palette": "P7",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_talent_rings",
+        "office_cycle",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_talent_rings",
+      "pages": 6,
+      "file": "templates/T25.pptx",
+      "plan": "assets/template-plans/T25.json",
+      "preview": "assets/template-previews/T25.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T26",
+      "name": "能力评估模型",
+      "scene": "research",
+      "style": "red-commercial",
+      "default_palette": "P8",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_pyramid",
+        "office_customer",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_pyramid",
+      "pages": 6,
+      "file": "templates/T26.pptx",
+      "plan": "assets/template-plans/T26.json",
+      "preview": "assets/template-previews/T26.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T27",
+      "name": "业务价值链设计",
+      "scene": "proposal",
+      "style": "red-commercial",
+      "default_palette": "P9",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_value_chain",
+        "office_supplychain",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_value_chain",
+      "pages": 6,
+      "file": "templates/T27.pptx",
+      "plan": "assets/template-plans/T27.json",
+      "preview": "assets/template-previews/T27.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T28",
+      "name": "问题改善对比",
+      "scene": "business",
+      "style": "red-commercial",
+      "default_palette": "P10",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_before_after",
+        "office_risk",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_before_after",
+      "pages": 6,
+      "file": "templates/T28.pptx",
+      "plan": "assets/template-plans/T28.json",
+      "preview": "assets/template-previews/T28.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T29",
+      "name": "六项重点工作",
+      "scene": "proposal",
+      "style": "red-commercial",
+      "default_palette": "P7",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_six_pillars",
+        "office_house",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_six_pillars",
+      "pages": 6,
+      "file": "templates/T29.pptx",
+      "plan": "assets/template-plans/T29.json",
+      "preview": "assets/template-previews/T29.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    },
+    {
+      "id": "T30",
+      "name": "复盘治理闭环",
+      "scene": "training",
+      "style": "red-commercial",
+      "default_palette": "P8",
+      "layouts": [
+        "office_cover",
+        "office_summary",
+        "office_cycle",
+        "office_u_stages",
+        "office_actions",
+        "office_review"
+      ],
+      "hero_layout": "office_cycle",
+      "pages": 6,
+      "file": "templates/T30.pptx",
+      "plan": "assets/template-plans/T30.json",
+      "preview": "assets/template-previews/T30.png",
+      "note": "用户认可的三类方向；六页原生合成示例，不含商业卖家源文件或整页生图。"
+    }
+  ],
+  "visual_status": "three directions user approved; actual native templates locally verified separately",
+  "counting": "30 distinct task stories with distinct hero layouts and 6 slides each; colors do not count as templates."
+}

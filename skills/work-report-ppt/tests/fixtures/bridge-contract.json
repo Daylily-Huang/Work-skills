@@ -1,0 +1,161 @@
+{
+  "scope": "测试事业部",
+  "periods": {
+    "current": "2026-10",
+    "previous": null,
+    "year_ago": null
+  },
+  "period_notes": {
+    "previous": "测试夹具只验证目标桥接，不提供环比数据。",
+    "year_ago": "测试夹具不提供同比数据。"
+  },
+  "dimensions": [
+    "region"
+  ],
+  "row_key": [
+    "metric",
+    "period",
+    "region"
+  ],
+  "coverage_policy": "require_same_groups",
+  "input": {
+    "file": "bridge-data.csv",
+    "format": "csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "columns": {
+      "id": "id",
+      "metric": "metric",
+      "period": "period",
+      "region": "region",
+      "value": "value",
+      "numerator": "numerator",
+      "denominator": "denominator",
+      "unit": "unit",
+      "scope": "scope"
+    }
+  },
+  "metrics": [
+    {
+      "id": "revenue",
+      "label": "营业收入",
+      "kind": "additive",
+      "unit": "万元",
+      "direction": "higher",
+      "definition": "本期确认收入合计",
+      "definition_evidence": "测试夹具定义",
+      "target_evidence": "测试夹具预算",
+      "target": 1100
+    },
+    {
+      "id": "cm_ratio",
+      "label": "边际贡献率",
+      "kind": "ratio",
+      "unit": "ratio",
+      "direction": "higher",
+      "ratio_bounds": "zero_to_one",
+      "definition": "边际贡献除以收入",
+      "definition_evidence": "测试夹具定义",
+      "target_evidence": "测试夹具目标",
+      "target": 0.26
+    },
+    {
+      "id": "fixed_cost",
+      "label": "固定费用",
+      "kind": "additive",
+      "unit": "万元",
+      "direction": "lower",
+      "definition": "期间固定费用合计",
+      "definition_evidence": "测试夹具定义",
+      "target_evidence": "测试夹具预算",
+      "target": 70
+    },
+    {
+      "id": "op_profit",
+      "label": "营业利润",
+      "kind": "additive",
+      "unit": "万元",
+      "direction": "higher",
+      "definition": "收入减变动成本再减固定费用",
+      "definition_evidence": "测试夹具定义",
+      "target_evidence": "测试夹具预算",
+      "target": 216
+    }
+  ],
+  "bridges": [
+    {
+      "id": "op_profit_target",
+      "result_metric": "op_profit",
+      "components": [
+        {
+          "id": "revenue_scale",
+          "kind": "gap_times_target_rate",
+          "driver_metric": "revenue",
+          "rate_metric": "cm_ratio",
+          "label": "收入规模"
+        },
+        {
+          "id": "margin_rate",
+          "kind": "rate_gap_times_current_level",
+          "rate_metric": "cm_ratio",
+          "level_metric": "revenue",
+          "label": "贡献率"
+        },
+        {
+          "id": "fixed_cost",
+          "kind": "target_minus_current",
+          "driver_metric": "fixed_cost",
+          "label": "固定费用"
+        }
+      ]
+    }
+  ],
+  "design": {
+    "requirements": {
+      "status": "clarified",
+      "open_questions": [],
+      "conflicts": [],
+      "resolved_questions": [],
+      "brief": {
+        "purpose": "测试夹具：仅用于验证目标差距桥接与门禁，不代表真实经营。",
+        "audience": "测试夹具：仅用于验证目标差距桥接与门禁，不代表真实经营。",
+        "duration_or_pages": "测试夹具：仅用于验证目标差距桥接与门禁，不代表真实经营。",
+        "key_message": "测试夹具：仅用于验证目标差距桥接与门禁，不代表真实经营。",
+        "source_scope": "测试夹具：仅用于验证目标差距桥接与门禁，不代表真实经营。",
+        "content_constraints": "测试夹具：仅用于验证目标差距桥接与门禁，不代表真实经营。",
+        "design_constraints": "测试夹具：仅用于验证目标差距桥接与门禁，不代表真实经营。"
+      },
+      "evidence": {
+        "purpose": "测试夹具说明明示：仅验证计算与门禁。",
+        "audience": "测试夹具说明明示：仅验证计算与门禁。",
+        "duration_or_pages": "测试夹具说明明示：仅验证计算与门禁。",
+        "key_message": "测试夹具说明明示：仅验证计算与门禁。",
+        "source_scope": "测试夹具说明明示：仅验证计算与门禁。",
+        "content_constraints": "测试夹具说明明示：仅验证计算与门禁。",
+        "design_constraints": "测试夹具说明明示：仅验证计算与门禁。"
+      }
+    },
+    "selection": {
+      "scenario": "business",
+      "palette": "P1",
+      "template": "T01",
+      "assets": []
+    },
+    "approval": {
+      "mode": "confirmed",
+      "evidence": "测试夹具明示：按测试目的生成，不对外。",
+      "fields": [
+        "scenario",
+        "palette",
+        "template",
+        "assets"
+      ]
+    }
+  },
+  "scope_evidence": "测试夹具第1行：单一事业部口径",
+  "comparability": {
+    "status": "confirmed",
+    "window_basis": "测试夹具只含单一当前期，不与其他期间混比",
+    "evidence": "测试夹具说明"
+  }
+}

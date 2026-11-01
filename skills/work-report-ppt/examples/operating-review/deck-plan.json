@@ -1,0 +1,517 @@
+{
+  "title": "合成经营复盘",
+  "tag": "合成演示 · 经营复盘",
+  "demo": true,
+  "design": {
+    "requirements": {
+      "status": "clarified",
+      "brief": {
+        "purpose": "合成经营复盘，识别目标差距与需要确认的后续安排",
+        "audience": "合成案例中的业务负责人",
+        "duration_or_pages": "六页合成演示，不设演讲时长",
+        "key_message": "识别增长下的区域差距，不预设原因；结论由合成数据支持",
+        "source_scope": "仅使用随包三期间三地区数据和合成任务记录",
+        "content_constraints": "所有数据均为合成；事实、假说、未批准建议必须区分；不发送或发布",
+        "design_constraints": "蓝白P1、T01基础视觉、逐页按内容构图，不用外部素材"
+      },
+      "evidence": {
+        "purpose": "合成测试任务明示：合成经营复盘，识别目标差距与需要确认的后续安排",
+        "audience": "合成测试任务明示：合成案例中的业务负责人",
+        "duration_or_pages": "合成测试任务明示：六页合成演示，不设演讲时长",
+        "key_message": "合成测试任务明示：识别增长下的区域差距，不预设原因；结论由合成数据支持",
+        "source_scope": "合成测试任务明示：仅使用随包三期间三地区数据和合成任务记录",
+        "content_constraints": "合成测试任务明示：所有数据均为合成；事实、假说、未批准建议必须区分；不发送或发布",
+        "design_constraints": "合成测试任务明示：蓝白P1、T01基础视觉、逐页按内容构图，不用外部素材"
+      },
+      "open_questions": [],
+      "conflicts": [],
+      "resolved_questions": []
+    },
+    "selection": {
+      "scenario": "business",
+      "palette": "P1",
+      "template": "T01",
+      "assets": []
+    },
+    "approval": {
+      "mode": "confirmed",
+      "evidence": "合成测试任务指定经营汇报、P1/T01、不插入素材；仅作功能演示",
+      "fields": [
+        "scenario",
+        "palette",
+        "template",
+        "assets"
+      ]
+    }
+  },
+  "narrative": {
+    "decision_goal": "请负责人确认差距排查的责任建议和协作安排",
+    "audience_question": "总量增长是否掩盖区域差距？",
+    "key_claim_id": "C-key",
+    "evidence": [
+      {
+        "id": "E-goal",
+        "type": "source",
+        "origin": "synthetic",
+        "purpose": "content",
+        "file": "brief.md",
+        "sha256": "a08147e535826829ea10daee3d223725fda2faef077bb6da5dcf7caebfa38062",
+        "lines": [
+          2,
+          2
+        ],
+        "quote": "汇报问题：总量增长是否掩盖区域差距？希望负责人确认一周排查所需的协作安排。"
+      },
+      {
+        "id": "E-staffing",
+        "type": "source",
+        "origin": "synthetic",
+        "purpose": "content",
+        "file": "brief.md",
+        "sha256": "a08147e535826829ea10daee3d223725fda2faef077bb6da5dcf7caebfa38062",
+        "lines": [
+          4,
+          4
+        ],
+        "quote": "合成团队记录：A区10月存在两周缺岗，尚未验证其对销售变化的影响。"
+      },
+      {
+        "id": "E-sales",
+        "type": "analysis",
+        "fact_id": "sales.current"
+      },
+      {
+        "id": "E-growth",
+        "type": "analysis",
+        "fact_id": "sales.previous.relative_change"
+      },
+      {
+        "id": "E-target",
+        "type": "analysis",
+        "fact_id": "sales.actual_to_target"
+      },
+      {
+        "id": "E-gap",
+        "type": "analysis",
+        "fact_id": "sales.required_improvement"
+      },
+      {
+        "id": "E-A",
+        "type": "analysis",
+        "fact_id": "sales.previous.region.0.delta"
+      },
+      {
+        "id": "E-B",
+        "type": "analysis",
+        "fact_id": "sales.previous.region.1.delta"
+      },
+      {
+        "id": "E-conversion",
+        "type": "analysis",
+        "fact_id": "conversion.current"
+      },
+      {
+        "id": "E-pp",
+        "type": "analysis",
+        "fact_id": "conversion.previous.percentage_points"
+      }
+    ],
+    "findings": [
+      {
+        "id": "F-result",
+        "kind": "observation",
+        "text": "销售额900万元，环比增长12.5%，目标达成90%，还差100万元。",
+        "evidence_ids": [
+          "E-sales",
+          "E-growth",
+          "E-target",
+          "E-gap"
+        ],
+        "scope": "合成案例同口径三地区合计，2026-10 对比目标1000万元与2026-09",
+        "comparisons": [
+          "target",
+          "previous"
+        ]
+      },
+      {
+        "id": "F-regions",
+        "kind": "observation",
+        "text": "A区较上期减少150万元，B区增加250万元，C区持平，净增100万元。",
+        "evidence_ids": [
+          "E-A",
+          "E-B"
+        ],
+        "scope": "合成案例同口径三地区，2026-10 对比2026-09",
+        "comparisons": [
+          "previous"
+        ],
+        "limits": "这是变化额的算术分解，只能说明各区贡献，不构成原因证明。"
+      },
+      {
+        "id": "F-rate",
+        "kind": "observation",
+        "text": "整体转化率30%，较上期提高5个百分点，按合计分子/分母计算。",
+        "evidence_ids": [
+          "E-conversion",
+          "E-pp"
+        ],
+        "scope": "合成案例同口径三地区，2026-10 水平值与2026-09 变化，目标35%",
+        "comparisons": [
+          "level",
+          "previous"
+        ],
+        "limits": "按总成交人数除以总到访人数合并计算，不等于各区转化率的简单平均。"
+      },
+      {
+        "id": "F-hypothesis",
+        "kind": "hypothesis",
+        "text": "A区缺岗可能与下滑有关，目前尚未验证。",
+        "evidence_ids": [
+          "E-staffing",
+          "E-A"
+        ],
+        "scope": "合成案例A区，2026-10",
+        "comparisons": [
+          "previous"
+        ],
+        "validation": "核对同期客流、线索质量、在岗时长和成交记录，区分需求变化与供给不足。"
+      }
+    ],
+    "claims": [
+      {
+        "id": "C-key",
+        "text": "总量增长但目标仍有差距，净增长掩盖了A区下滑。",
+        "finding_ids": [
+          "F-result",
+          "F-regions"
+        ],
+        "comparisons": [
+          "target",
+          "previous"
+        ],
+        "scope": "合成案例同口径三地区，2026-10",
+        "strength": "descriptive"
+      },
+      {
+        "id": "C-result",
+        "text": "销售额900万元，目标达成90%，整体转化率30%。",
+        "finding_ids": [
+          "F-result",
+          "F-rate"
+        ],
+        "comparisons": [
+          "target",
+          "level"
+        ],
+        "scope": "合成案例同口径三地区，2026-10",
+        "strength": "descriptive"
+      },
+      {
+        "id": "C-region",
+        "text": "A区减少150万元，B区增加250万元，净增加100万元。",
+        "finding_ids": [
+          "F-regions"
+        ],
+        "comparisons": [
+          "previous"
+        ],
+        "scope": "合成案例同口径三地区，2026-10 对比2026-09",
+        "strength": "descriptive"
+      },
+      {
+        "id": "C-verify",
+        "text": "A区成交下滑，排班影响待核实。",
+        "finding_ids": [
+          "F-regions",
+          "F-hypothesis"
+        ],
+        "comparisons": [
+          "previous"
+        ],
+        "scope": "合成案例A区，2026-10",
+        "strength": "conditional",
+        "conditions": [
+          "取得A区同期客流、线索质量、在岗时长与成交记录"
+        ],
+        "falsifier": "若同期客流与线索质量无明显变化，则缺岗解释不成立，需另找解释"
+      },
+      {
+        "id": "C-action",
+        "text": "一周内复核A区线索、排班和转化率统计。",
+        "finding_ids": [
+          "F-regions",
+          "F-rate"
+        ],
+        "comparisons": [
+          "previous",
+          "level"
+        ],
+        "scope": "合成案例同口径三地区，2026-10",
+        "strength": "descriptive"
+      },
+      {
+        "id": "C-decide",
+        "text": "安排一周排查，核实A区成交下滑原因。",
+        "finding_ids": [
+          "F-hypothesis",
+          "F-regions"
+        ],
+        "comparisons": [
+          "previous"
+        ],
+        "scope": "合成案例A区，2026-10",
+        "strength": "conditional",
+        "conditions": [
+          "先完成A区客流与线索记录的核对"
+        ],
+        "falsifier": "若核对后未见缺岗与成交的对应变化，则本前提不成立"
+      }
+    ],
+    "actions": [
+      {
+        "id": "A-check",
+        "text": "复核A区线索和排班记录",
+        "finding_ids": [
+          "F-regions",
+          "F-hypothesis"
+        ],
+        "owner": "建议：A区负责人",
+        "due": "2026-11-07",
+        "success_criteria": "提交A区排班、客流及线索对照表",
+        "preconditions": [
+          "导出权限已开通",
+          "口径清单已锁定"
+        ],
+        "falsifier": "取不到记录则行动不成立",
+        "side_effects": [
+          "占用A区负责人约两天工时",
+          "可能暴露此前未记录的排班缺口"
+        ],
+        "status": "proposed"
+      },
+      {
+        "id": "A-rate",
+        "text": "核对地区转化率分母",
+        "finding_ids": [
+          "F-rate"
+        ],
+        "owner": "建议：运营分析负责人",
+        "due": "2026-11-07",
+        "success_criteria": "核清成交人数、到访人数及统计范围",
+        "preconditions": [
+          "统计规则已书面确认"
+        ],
+        "falsifier": "口径不一致则环比不可比",
+        "side_effects": [
+          "口径调整后历史数据需重算"
+        ],
+        "status": "proposed"
+      }
+    ],
+    "requests": [
+      {
+        "id": "Q-support",
+        "text": "请确认一周排查所需的跨区协作安排",
+        "finding_ids": [
+          "F-hypothesis"
+        ],
+        "decision_question": "是否同意由A区负责人牵头、运营分析配合，用一周完成差距与分母核查？",
+        "options": [
+          {
+            "text": "按建议执行一周排查",
+            "condition": "A区负责人与运营分析本周内可投入",
+            "consequence": "下周例会前形成差距分解，改善措施延后决定"
+          },
+          {
+            "text": "先只核查转化率分母",
+            "condition": "本周只能投入一名分析人员",
+            "consequence": "缺口解释仍待验证，改善措施继续搁置"
+          }
+        ],
+        "evidence_needed": [
+          "A区同期客流与线索质量记录",
+          "各地区到访人数统计规则"
+        ],
+        "status": "proposed"
+      }
+    ],
+    "coverage": {
+      "goal": {
+        "slides": [
+          1
+        ]
+      },
+      "results": {
+        "slides": [
+          2
+        ]
+      },
+      "gap": {
+        "slides": [
+          3
+        ]
+      },
+      "reasons": {
+        "slides": [
+          4
+        ]
+      },
+      "actions": {
+        "slides": [
+          5
+        ]
+      },
+      "requests": {
+        "slides": [
+          6
+        ]
+      }
+    }
+  },
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "经营复盘与行动建议",
+      "subtitle": "合成演示｜2026年10月",
+      "meta": "仅用于技能验证",
+      "purpose": "明确汇报的问题和决策目标",
+      "message_claim_id": "C-key",
+      "layout_reason": "封面聚焦主题，不堆砌全部数据",
+      "evidence_ids": [
+        "E-goal"
+      ]
+    },
+    {
+      "layout": "metrics",
+      "title": "10月销售额900万元，目标达成90%",
+      "purpose": "先给出总量结果及整体效率",
+      "message_claim_id": "C-result",
+      "layout_reason": "三个指标并列，建立后续差距分析的基准",
+      "finding_ids": [
+        "F-result",
+        "F-rate"
+      ],
+      "items": [
+        {
+          "title": "销售额",
+          "value": null,
+          "body": "同口径三地区合计"
+        },
+        {
+          "title": "目标达成比",
+          "value": null,
+          "body": "按实际/正目标计算"
+        },
+        {
+          "title": "整体转化率",
+          "value": null,
+          "body": "按总分子/总分母计算"
+        }
+      ],
+      "analysis_bindings": [
+        {
+          "path": "items.0.value",
+          "fact_id": "sales.current",
+          "format": "text",
+          "decimals": 0,
+          "append_unit": true
+        },
+        {
+          "path": "items.1.value",
+          "fact_id": "sales.actual_to_target",
+          "format": "percent",
+          "decimals": 0
+        },
+        {
+          "path": "items.2.value",
+          "fact_id": "conversion.current",
+          "format": "percent",
+          "decimals": 0
+        }
+      ]
+    },
+    {
+      "layout": "bar",
+      "title": "A区下滑被B区增长抵消",
+      "purpose": "分解环比净变化的地区构成",
+      "message_claim_id": "C-region",
+      "layout_reason": "有正有负的变化额用柱图，避免饼图掩盖抵消关系",
+      "finding_ids": [
+        "F-regions"
+      ],
+      "chart": {
+        "categories": [
+          "A区",
+          "B区",
+          "C区"
+        ],
+        "series": [
+          {
+            "name": "环比变化额",
+            "values": [
+              null,
+              null,
+              null
+            ]
+          }
+        ]
+      },
+      "insight": "净增100万元\n不等于各区都改善",
+      "unit": "单位：万元（10月较9月变化）",
+      "analysis_bindings": [
+        {
+          "path": "chart.series.0.values",
+          "fact_ids": [
+            "sales.previous.region.0.delta",
+            "sales.previous.region.1.delta",
+            "sales.previous.region.2.delta"
+          ],
+          "format": "number"
+        }
+      ]
+    },
+    {
+      "layout": "comparison",
+      "title": "A区销售下滑150万元，排班影响待核实",
+      "purpose": "明确已知变化和仍需验证的原因",
+      "message_claim_id": "C-verify",
+      "layout_reason": "两栏对照事实与假说，防止把相关性写成原因",
+      "finding_ids": [
+        "F-regions",
+        "F-hypothesis"
+      ],
+      "items": [
+        {
+          "title": "销售变化",
+          "body": "A区减少150万元\nB区增加250万元\n净增100万元"
+        },
+        {
+          "title": "待核实的问题",
+          "body": "缺岗是否影响成交？\n对照排班、客流和线索记录"
+        }
+      ]
+    },
+    {
+      "layout": "office_actions",
+      "title": "一周内复核A区线索与排班",
+      "purpose": "把发现转成可执行的建议",
+      "message_claim_id": "C-action",
+      "layout_reason": "行动表对齐责任建议、期限、完成标准、前提与反证，全部由行动记录投影",
+      "action_ids": [
+        "A-check",
+        "A-rate"
+      ]
+    },
+    {
+      "layout": "closing",
+      "title": "请确认后续协作安排",
+      "purpose": "明确希望听众作出的下一步决定",
+      "message_claim_id": "C-decide",
+      "headline_claim_id": "C-decide",
+      "layout_reason": "收束成一个明确请求，便于讨论与决策",
+      "request_ids": [
+        "Q-support"
+      ]
+    }
+  ]
+}

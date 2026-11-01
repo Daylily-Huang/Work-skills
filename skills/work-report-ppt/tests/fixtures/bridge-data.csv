@@ -1,0 +1,5 @@
+﻿id,metric,period,region,value,numerator,denominator,unit,scope
+r1,revenue,2026-10,全部,1000,,,万元,测试事业部
+r2,cm_ratio,2026-10,全部,,240,1000,ratio,测试事业部
+r3,fixed_cost,2026-10,全部,80,,,万元,测试事业部
+r4,op_profit,2026-10,全部,160,,,万元,测试事业部

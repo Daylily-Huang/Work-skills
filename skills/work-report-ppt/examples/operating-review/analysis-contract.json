@@ -1,0 +1,108 @@
+{
+  "design": {
+    "requirements": {
+      "status": "clarified",
+      "brief": {
+        "purpose": "合成经营复盘，识别目标差距与需要确认的后续安排",
+        "audience": "合成案例中的业务负责人",
+        "duration_or_pages": "六页合成演示，不设演讲时长",
+        "key_message": "识别增长下的区域差距，不预设原因；结论由合成数据支持",
+        "source_scope": "仅使用随包三期间三地区数据和合成任务记录",
+        "content_constraints": "所有数据均为合成；事实、假说、未批准建议必须区分；不发送或发布",
+        "design_constraints": "蓝白P1、T01基础视觉、逐页按内容构图，不用外部素材"
+      },
+      "evidence": {
+        "purpose": "合成测试任务明示：合成经营复盘，识别目标差距与需要确认的后续安排",
+        "audience": "合成测试任务明示：合成案例中的业务负责人",
+        "duration_or_pages": "合成测试任务明示：六页合成演示，不设演讲时长",
+        "key_message": "合成测试任务明示：识别增长下的区域差距，不预设原因；结论由合成数据支持",
+        "source_scope": "合成测试任务明示：仅使用随包三期间三地区数据和合成任务记录",
+        "content_constraints": "合成测试任务明示：所有数据均为合成；事实、假说、未批准建议必须区分；不发送或发布",
+        "design_constraints": "合成测试任务明示：蓝白P1、T01基础视觉、逐页按内容构图，不用外部素材"
+      },
+      "open_questions": [],
+      "conflicts": [],
+      "resolved_questions": []
+    },
+    "selection": {
+      "scenario": "business",
+      "palette": "P1",
+      "template": "T01",
+      "assets": []
+    },
+    "approval": {
+      "mode": "confirmed",
+      "evidence": "合成测试任务指定经营汇报、P1/T01、不插入素材；仅作功能演示",
+      "fields": [
+        "scenario",
+        "palette",
+        "template",
+        "assets"
+      ]
+    }
+  },
+  "scope": "合成案例同口径三地区",
+  "scope_evidence": "合成任务说明第3行：明确同一业务范围",
+  "comparability": {
+    "status": "confirmed",
+    "window_basis": "三个完整自然月；不是整月与部分月份混比",
+    "evidence": "合成任务说明第3行"
+  },
+  "dimensions": [
+    "region"
+  ],
+  "row_key": [
+    "metric",
+    "period",
+    "region"
+  ],
+  "coverage_policy": "require_same_groups",
+  "periods": {
+    "current": "2026-10",
+    "previous": "2026-09",
+    "year_ago": "2025-10"
+  },
+  "period_notes": {},
+  "input": {
+    "file": "data.csv",
+    "format": "csv",
+    "encoding": "utf-8",
+    "delimiter": ",",
+    "columns": {
+      "id": "id",
+      "metric": "metric",
+      "period": "period",
+      "region": "region",
+      "value": "value",
+      "numerator": "numerator",
+      "denominator": "denominator",
+      "unit": "unit",
+      "scope": "scope"
+    }
+  },
+  "metrics": [
+    {
+      "id": "sales",
+      "label": "销售额",
+      "kind": "additive",
+      "unit": "万元",
+      "direction": "higher",
+      "definition": "同范围内本期已确认销售额，按地区加总",
+      "definition_evidence": "合成任务说明第3行及合成表口径",
+      "target": 1000,
+      "target_evidence": "合成任务说明第3行：1000万元"
+    },
+    {
+      "id": "conversion",
+      "label": "整体转化率",
+      "kind": "ratio",
+      "ratio_bounds": "zero_to_one",
+      "unit": "ratio",
+      "direction": "higher",
+      "definition": "所有地区成交人数之和除以到访人数之和；不用地区百分比的简单平均",
+      "definition_evidence": "合成任务说明第3行",
+      "target": "0.35",
+      "target_evidence": "合成任务说明第3行：35%"
+    }
+  ]
+}

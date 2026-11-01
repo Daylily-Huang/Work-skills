@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Edit-time backups and generated validation output
+*.bak-*
+validation/
+test-output/
+
+# Office lock files and scratch decks
+~$*
+*.pptx.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini

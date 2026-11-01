@@ -1,0 +1,11 @@
+# 文本统一按 LF 存储，避免不同平台检出后内容不一致。
+* text=auto eol=lf
+
+# 素材库不做任何行尾转换：catalog.json 逐项固定了 994 个 SHA256，
+# assets.py 在插入前会强制校验，字节被转换即报 mismatched。
+assets/media-library/**  -text
+
+*.pptx  binary
+*.png   binary
+*.jpg   binary
+*.pdf   binary
