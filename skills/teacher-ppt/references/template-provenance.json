@@ -1,0 +1,1920 @@
+{
+  "source_library": "bundled portable reference library (20 templates packaged under assets/templates/*.pptx)",
+  "template_files": [
+    {
+      "id": "T01",
+      "sha256": "83f13d5ca110bf43a5df5eed2948b944be5aab922e38f0e8d16c8243de1dabde"
+    },
+    {
+      "id": "T02",
+      "sha256": "66ecdca030e8a869ac6d242931e3d77c3bed7797eb9ca5294730c0a3eba62b97"
+    },
+    {
+      "id": "T03",
+      "sha256": "faa3f71ad63d8ce8d3215791040ec2997a6c394ed70c9b2d3e2f2d23142e7550"
+    },
+    {
+      "id": "T04",
+      "sha256": "0638fbf7894ffb23092d60e203c523c71b45b95efff04e38d8f7ec9d38290ddd"
+    },
+    {
+      "id": "T05",
+      "sha256": "30756dc9ffca6e32b7d8737bf5ed85e33e3264f6336fe9605c449aa0b586589d"
+    },
+    {
+      "id": "T06",
+      "sha256": "86888dac746e7a0c3fa0899cb56c39cb92ba639a8df6cc95c1ae10838a712a5a"
+    },
+    {
+      "id": "T07",
+      "sha256": "3c3699531a57c9995b6a4d3f10ced4287d23f4a5bc78453c5d108987042789d1"
+    },
+    {
+      "id": "T08",
+      "sha256": "965eb68e32fc015ee645b969ecb28d67891ce879d709e68be87c7a482cb2a234"
+    },
+    {
+      "id": "T09",
+      "sha256": "18cbee668e6eee4ba1f3f85e97c4c9b5813a2943ed9b46e8bdc90521c0fc6b29"
+    },
+    {
+      "id": "T10",
+      "sha256": "a4a7d2a89b1305ad7c9112c3ba998b9418728aaa6143cc5d9cfc9a4a068c5dde"
+    },
+    {
+      "id": "T11",
+      "sha256": "33a64b97ad854b7280a1fd70f4d2bbe899660062af7eccca89953f146c4ec431"
+    },
+    {
+      "id": "T12",
+      "sha256": "ffe8cd16b44696a9e773493950482b0e20269ac343ee7a08fac007ba61257ee3"
+    },
+    {
+      "id": "T13",
+      "sha256": "6666a33fa224b207dc8a083d6447d801a5908b594b6d9cbc324af744e21702a0"
+    },
+    {
+      "id": "T14",
+      "sha256": "34195704a8a202a0c27f9837dbaa36eb614c754579c4500f34b6c153dde23240"
+    },
+    {
+      "id": "T15",
+      "sha256": "43aecdcd43a09ed1874ab21be73573774e2e3a5a4f9a5fbcb6331b4c9c8365f7"
+    },
+    {
+      "id": "T16",
+      "sha256": "8d7d27ed96127b8f5690851c9903d11225f66a802799bcab2387d1b3982477d0"
+    },
+    {
+      "id": "T17",
+      "sha256": "c89695d4537f4cd6059e74b4c56d808a473c4e713c423b5c1cc033a90d140b66"
+    },
+    {
+      "id": "T18",
+      "sha256": "5ccdcc12912783bc7b857472eb37bcd4bbb78818794f2b69d51b503fa4ae87e6"
+    },
+    {
+      "id": "T19",
+      "sha256": "14543769205b3b4bacbbdbafa1318b3d0a1a6f1d4fb5118e24328e82df5abf09"
+    },
+    {
+      "id": "T20",
+      "sha256": "21a7bd2d77bfce3069ae049d008b9e5d1ab19145153773ea64fe2f9777c8bc9c"
+    }
+  ],
+  "generated_images": {
+    "date": "2026-11-02",
+    "assets": [
+      {
+        "id": "T13",
+        "key": "T13-cover",
+        "prompt": "Preserve this exact 16:9 botanical paper collage classroom slide, with cream handmade paper, layered real leaves and yellow ginkgo, magnifier and open sketch notebook on the right, pressed leaves corners and sage bottom paper strip. REMOVE EVERY CHINESE CHARACTER and all typography including tiny writing on notebook, all three section labels/subtitles/footer words, the title. Leave their paper strips and three small illustrated icons in place EMPTY. Preserve all original illustration detail and spatial positions, warm natural craft feel. No new words, no watermark. This is a clean textless slide background for editable PowerPoint overlay; remove the tiny top-right watermark symbol too.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "3e3e1751aa75b698b3408d480f7958b207c739480d69924ac159cffd8112c572",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-c58582c5-383d-4c82-9925-1dc21acf19ae.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T13-cover.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T13",
+        "key": "T13-content",
+        "prompt": "Edit this exact PowerPoint content background. REMOVE ONLY the tiny faint rectangular watermark/logo symbol at the extreme TOP RIGHT corner among the leaves. Reconstruct the underlying leaf/paper texture naturally. Preserve EVERYTHING else pixel-close: all botanical collage, cream paper, magnifier and notebook bottom-right, branch bottom-left, colors, composition, dimensions and empty text area. Do not add text, logos, symbols or new objects. This must be a clean watermark-free background.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "b2abe531f6177d43043b7aab199448c50dfcdf46fd87851d5834fb2c08c4fcc1",
+        "alpha_extrema": null,
+        "previous_pass": {
+          "prompt": "Create matching INNER CONTENT PAGE background for the approved botanical paper collage PPT. Same cream handmade paper, pressed green leaves, yellow ginkgo, magnifier and sketch notebook style. 16:9 slide. Recompose artwork into a small harmonious cluster at bottom right occupying rightmost 26% and bottommost 30%, a few delicate leaf sprigs only at far top right/bottom left. Entire left 72% and upper-middle must be clean almost uniform cream paper for editable teaching text. No title, no words, no ruled lines, no cards, no icons across content area, no watermark. Airy bright tactile paper collage, NOT a rectangular pasted photo. Seamless complete composition with organic paper/leaf edges.",
+          "sha256": "4f5486edc705f5e27bd9cedb0665747449c0d9aa704a241954e1684693b0e5f4",
+          "generation_artifact": "exec-4415b639-6f7a-4104-9bf1-36af2e3033a6.png (superseded prior pass)"
+        },
+        "generation_artifact": "exec-3ef69def-9596-4b3d-bb52-b749e5854432.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T13-content.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T14",
+        "key": "T14-cover",
+        "prompt": "Preserve this exact entire 16:9 blue-white classroom illustrated slide composition, including teacher and two pupils on the left, the blue circular arc, three right-hand pale blue rounded ribbons, their circular icons and small right side landscape book/path/books vignettes, wavy navy footer, gold accents and bamboo. REMOVE ALL typography: all Chinese text, all navigation words at top, title, subtitles, blackboard chalk words, three ribbon texts, footer words. Leave those areas completely blank and retain original colors, imagery and positions. No new text, numbers, logos or watermark. Clean high quality teacher lesson PowerPoint background.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "a36c2aeb988933d1cd4fae2aafb788c688d65b0da55d69743442893091ba54aa",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-757098f6-923d-47c3-9cc2-c8483ddf7247.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T14-cover.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T14",
+        "key": "T14-content",
+        "prompt": "Create matching INNER CONTENT PAGE background for approved blue-white cartoon teacher classroom PPT. 16:9. Keep same soft dimensional cartoon teacher and two children but small integrated classroom vignette at bottom LEFT, occupying leftmost 27% and bottommost 34%, no circles or enclosing frames. Subtle pale sky-blue/white near-uniform background and a very thin blue-gold wave along extreme bottom edge, small bamboo sprig top RIGHT. The central and right 70% and upper 65% fully empty light background for teaching content. No words or letters on board or books, no title, no card grid, no watermark. Friendly school illustration, coherent lighting and naturally fading background, polished airy design.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "e23b3c3bd13a27bbf14dbaa82e54dd0d3568f96ea361eab310e3f96b33b26a57",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-cc571569-594d-4ebf-9cf4-ba38e1f4cc44.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T14-content.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T15",
+        "key": "T15-cover",
+        "prompt": "Preserve this exact entire 16:9 Chinese ink painting lesson slide composition. Keep parchment paper texture, bamboo right, faint mountains, open scroll centered, THREE circular illustrations on scroll, three maroon brushstroke strips empty, curved thin path linking them, ink landscape bottom-left, master and child bottom-right. REMOVE EVERY character and text: big top title, subtitle, top-right labels, three labels on scroll, three explanation lines, bottom question and the 思 round seal and small title seal. Keep other art and brush strips, no replacement lettering. Clean text-free background for native editable PPT text; no watermark.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "8f0b121861baeccc43ae9123591ddfb2148019ebd95513ae6f5a429b758502f1",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-bd656097-53df-4aac-a0e9-03cdf00e99c9.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T15-cover.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T15",
+        "key": "T15-content",
+        "prompt": "Create matching INNER CONTENT PAGE background for approved ancient Chinese ink parchment teaching PPT. 16:9. Same refined master and child in small natural watercolor vignette at bottom RIGHT, occupying rightmost 24% and bottommost 31%, a little bamboo far right edge, extremely faint ink mountains along bottom edge only. Uniform light warm parchment across upper 70% and left 72%, plenty of empty space for editable text. No scroll in main body, no panels, no words, no seals, no brush title strips, no watermark. Delicate book illustration with soft natural transparent wash edges, NOT a hard rectangle of pasted scene.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "84fd4157e73dd39392add00ee7dd88c9e7259686ef50a85ab9938208b7caaca2",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-e9c9b843-e415-4ae7-8df6-157026b7a6e2.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T15-content.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T16",
+        "key": "T16-cover",
+        "prompt": "Preserve this exact entire 16:9 cheerful 3D classroom geometry slide. Keep cube, cylinder and sphere in same positions and proportions, sunny classroom backdrop, big top title region empty, left pale blue organic question patch empty, three small colored blank label tabs with leader lines, three bottom illustrated icons and colored blank ribbons, cream bottom question ribbon. REMOVE ALL CHINESE CHARACTERS and lettering from every region. Remove the white sticker outlines that only belong to the original title text, keep everything else including geometry solid models. No new letters, no watermark. A text-free educational PPT background matching approved source.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "e11f4f38373ce5a5b33c1b955cc22a69e7b0667e1da5835ceb56c30bcb5d5248",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-4d77e3f5-d330-49ed-b97c-e334e0acb321.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T16-cover.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T16",
+        "key": "T16-content",
+        "prompt": "Create matching INNER CONTENT PAGE background for approved bright playful 3D geometry classroom PowerPoint. 16:9. Keep three simple pastel solids (blue cube, orange cylinder, lavender sphere) small arranged as a coherent mini scene at bottom RIGHT on light warm wooden desk corner, restricted to rightmost 27% and bottommost 29%; sunlit classroom window faint far right. Main left 74%, upper 72%, central area fully blank warm white/very pale blue paper-like background, suitable for native large teaching text and diagrams. No words, no letters, no labels, no card or icon grid, no watermark. Natural clean transitions, cheerful but no toy clutter.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "8371811e42d1459ae9fe693491991e181ef52f71866c28c7b511b448b1aaa361",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-f9caf281-03ac-4722-a180-89f02bb6155a.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T16-content.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T17",
+        "key": "T17-cover",
+        "prompt": "Edit this approved 16:9 lively sky blue orange school illustration into a textless PowerPoint background. Preserve exactly the beautiful watercolor/anime teen boy and girl lower left, window on left, books, sketchbook and little paper plane bottom right, plants, loose blue flourish. Remove ALL Chinese title, upper small title, question text and any handwritten letters in sketchbook. Keep empty upper right white space, blue and orange accents. Remove yellow/orange flourishes that are only part of the title glyphs but keep independent accents. Absolutely no text, letters, watermark. Preserve scene detail and same scale/placement.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "ddcb4dd899e8d8ef3ba057b6e1af4e685a22492609a715ea0a48db639535aedb",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-c64a1c4a-5f2b-43fc-9578-96a2106925bf.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T17-cover.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T17",
+        "key": "T17-content",
+        "prompt": "Create a matching INNER CONTENT PAGE background for this approved sky-blue and orange anime teen classroom PPT, 16:9. Preserve the same boy/girl duo and watercolor line style, but as a compact bottom LEFT vignette with sketchbook and desk, restricted to leftmost 24% and bottommost 30%. A thin bit of window only at extreme left, a tiny paper plane upper right. Main upper 70% and central/right 73% is completely blank near-white, with just light airy blue paint at corners. No words, no letters, no large circles or panels, no watermark. Illustration naturally blends into page without a pasted rectangle or border.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "172e42aba7ec75af7c041df9947be6b416bfb576404e9afed5ccada65bc33f71",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-011b6d80-94fb-4ec2-b0bf-2c8c40a2e870.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T17-content.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T18",
+        "key": "T18-cover",
+        "prompt": "Edit this approved 16:9 mint green and lemon yellow field notebook school illustration into a textless PowerPoint background. Preserve paper texture, spiral binding at far left, green leaf corners, teen boy observing and sketching lower right with ferns and magnifier, beautiful airy white space. Remove ALL Chinese words from title, small natural-study label and lower question. Keep yellow underline and pale green brush strip empty, and the two fine notebook writing lines. No text or letters anywhere, no watermark. All composition and artwork otherwise unchanged.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "2e6c1af95cb592386f0a5c3274e705db52fadd360e3dc81287230ff0da2f4e65",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-4192dce8-552d-4ed9-986f-632fa969d9e0.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T18-cover.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T18",
+        "key": "T18-content",
+        "prompt": "Create matching INNER CONTENT PAGE background for approved mint-lemon nature notebook PPT, 16:9. Retain faint sketchbook binding at extreme left and delicate leaf sprig top-right. Same teen boy with sketchbook in ferns as a much smaller corner scene bottom RIGHT confined to rightmost 24% and bottommost 30%, subtle green watercolor ground only at lower edge. Main upper 72% and left/center 73% clean warm-white paper completely blank, NO ruled writing lines, no text, no paint title strips, no cards, no watermark. Coherent natural soft illustration edges, light fresh cheerful school notebook aesthetic.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "d22e1693e47c52a2ed32778ca93a2348b0d181f0ec63c17cb828248dea701f2d",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-1af65672-2f51-498e-87dd-4b6fe6a9abed.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T18-content.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T19",
+        "key": "T19-cover",
+        "prompt": "Edit this approved 16:9 coral blue-white classroom comic illustration into a textless PowerPoint background. Preserve the two teens and desk lower right, large organically drawn blank blue speech area left, two small speech bubbles above students and paint brush title strips in place. Remove ALL Chinese text: top left title, orange top right title, two speech bubble questions. Keep coral orange blue accents. No text or lettering anywhere including notebooks, no watermark. Preserve exactly existing characters, airy proportions and natural illustration.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "a0f040429fb8ba693036391f51a03b587606b6d992dc07664bbc772b2c2051ad",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-b1ed93c4-37b5-4d3f-8e9b-c29030f2668a.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T19-cover.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T19",
+        "key": "T19-content",
+        "prompt": "Create matching INNER CONTENT PAGE background for approved coral/blue discussion comic PPT, 16:9. Same two teenage students and desk in a compact naturally integrated bottom RIGHT corner vignette, restricted to rightmost 27% and bottommost 30%. Tiny loose coral/blue doodle strokes at far corners, very pale background. Remove large speech outlines and title brush strips so entire upper 70% and left/central 72% is blank white working space for native editable teaching content. No lettering, no words, no watermark, no cards. Friendly lively watercolor manga school illustration, not cropped/pasted.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "695c83af25d2fda81da3e347c24fff36451442285144f8f5558ea59e1c99187d",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-bc2117a8-3568-4d8c-9f48-a7d09bdd9dcd.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T19-content.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T20",
+        "key": "T20-cover",
+        "prompt": "Edit this approved 16:9 lake blue warm yellow reading school illustration into a textless PowerPoint background. Preserve the beautiful open book bottom left with a whole miniature school garden scene, tree left, teen boy/girl reading, foliage, pencil, school architecture, cream white background, thin blue loop upper right with sticky note. Remove ALL Chinese characters from big title, blue small label, subtitle; preserve their yellow underline and small blue brush strip empty. Absolutely no words, no watermark, preserve original scene and positions.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "c82e412158f9134bfef6d9e5b7fc116b81dceba4a8c586ddfae7995ed52bdf40",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-d903b0a7-0671-490d-9324-e8520f5f8ae8.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T20-cover.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "T20",
+        "key": "T20-content",
+        "prompt": "Create matching INNER CONTENT PAGE background for approved lake-blue warm-yellow reading book-world PPT, 16:9. Preserve same beautiful watercolor open book with miniature tree and two teen readers, but make a compact bottom LEFT scene restricted to leftmost 27% and bottommost 31%. Very delicate single floating leaf and small thin blue flourish extreme top-right. Entire upper 72% and center/right 72% blank warm-white paper for teaching content. No title, no text, no brush strips, no words, no watermark. Same coherent soft watercolor style and cheerful warm light, natural organic illustration edges without a rectangle.",
+        "method": "built-in image_gen",
+        "size": [
+          1672,
+          941
+        ],
+        "mode": "RGB",
+        "sha256": "ed34b9028dab60b87c83c2279dac073a9aef3728f2e1a0a96e9f252132fdbd23",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-96df6937-cc58-466a-b26b-faba8c1a3f44.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/T20-content.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "book-lightbulb",
+        "key": "book-lightbulb",
+        "prompt": "Rebuild ONLY the isolated open blue-edged book, yellow lightbulb above, small pencil leaning on book, and tiny blue yellow learning accents as a clean high-resolution friendly school illustration. Match original cheerful soft dimensional cartoon, wide-ish nearly-square composition. Remove the entire screenshot background and ALL grey/blue rectangular residue, every border, cropped panel fragments. Isolate complete objects with natural clean edges on GENUINELY TRANSPARENT alpha, no white matte, no surrounding card, no text, no watermark. All objects fully inside canvas with ample transparent margin.",
+        "method": "built-in image_gen",
+        "size": [
+          1423,
+          1105
+        ],
+        "mode": "RGBA",
+        "sha256": "468e0c675f1d4e9ab58d4bcecc48af17fa470042f6e38baf30cf891e6533547e",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "generation_artifact": "exec-829863a9-1f3a-4ec0-8e63-3429e06adffa.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/book-lightbulb.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "celebration",
+        "key": "celebration",
+        "prompt": "Recreate this small illustration of two cheerful adolescent school students running with books/backpacks as a complete polished clean flat-vector cartoon illustration for teacher PowerPoint. Keep blue navy white uniforms, warm yellow backpack accents and a tiny green plant at feet; restore any clipped limbs, normal anatomy. Remove every screenshot fragment, card corner and pale rectangular background. GENUINELY TRANSPARENT alpha backdrop, no white/grey matte rectangle, no sticker border, no frame, no words. Portrait-ish nearly square composition, both students fully inside canvas.",
+        "method": "built-in image_gen",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "sha256": "89dabfc3c95603fce9487387c85eebab8e1972d72ae8ddfbef7a7a22b727bd68",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "generation_artifact": "exec-cfa335fe-3861-45e8-81bc-f42379132ff5.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/celebration.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "teacher-cartoon",
+        "key": "teacher-cartoon",
+        "prompt": "Recreate this friendly bespectacled male teacher reading a blue book behind a wooden lectern, as a clean polished warm cartoon school illustration. Whole head, lectern, feet all fully inside canvas. Portrait 0.64 width-to-height composition. Keep white shirt, brown hair, navy pants, orange wooden podium, expressive kind eyes. Remove all screenshot background, tiny borders, rectangular wash. GENUINELY TRANSPARENT alpha, no white matte, no sticker stroke, no text, no watermark.",
+        "method": "built-in image_gen",
+        "size": [
+          1005,
+          1566
+        ],
+        "mode": "RGBA",
+        "sha256": "81d2ec9692780f1f3a53814507549bb4b306994bc3088c5408e4f0b12b6ec22e",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "generation_artifact": "exec-699cd163-ca05-402d-98a9-c372435bb40b.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/teacher-cartoon.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "ink-poet",
+        "key": "ink-poet",
+        "prompt": "Recreate the pictured ancient Chinese scholar/poet reading a small open book as a complete refined Chinese watercolor/ink illustration. Portrait 0.87 width-to-height aspect composition with the entire head, dark topknot hat, light sage robe, hands and book inside canvas; softly painted lower robe edges. REMOVE absolutely ALL original cream and brown stripe screenshot backgrounds, horizontal brown rectangle and white residue. GENUINELY TRANSPARENT alpha only behind person. Natural fine watercolor edges, no halo, no modern cartoon, no text, no seal, no watermark. Match aged scholarly expression and subtle ink washes.",
+        "method": "built-in image_gen",
+        "size": [
+          1170,
+          1344
+        ],
+        "mode": "RGBA",
+        "sha256": "d58d401718d4db2f9ed1315e9d1348d66e8f47f70133811735d49abc80f1bb86",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "generation_artifact": "exec-8a345cbe-3ccb-4316-9ce5-61259b153874.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/ink-poet.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "ink-book",
+        "key": "ink-book",
+        "prompt": "Create an isolated classical Chinese stitched-bound ivory/sage school book standing slightly open, with tiny tasteful ink landscape on cover but absolutely NO readable lettering, plus a slim bookmark. Portrait aspect 0.75:1. Match reference's warm scholarly Chinese ink watercolor palette but remove all screenshot badges, labels, colored blocks and crop fragments. GENUINELY TRANSPARENT alpha, no white or beige rectangle, no frame, no watermark. Complete standalone book inside canvas with natural handpainted edge.",
+        "method": "built-in image_gen",
+        "size": [
+          1086,
+          1448
+        ],
+        "mode": "RGBA",
+        "sha256": "f8e742f2da427bf31510f1a6a149958289deadb071c0679c5c6c058162705fa0",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "generation_artifact": "exec-87ab7ba5-6a67-4f01-ae5c-68d5b406238d.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/ink-book.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "ink-openbook",
+        "key": "ink-openbook",
+        "prompt": "Recreate the pictured small OPEN CLASSICAL BOOK with a faint ink mountain landscape rising out of its pages as a delicate refined watercolor illustration for Chinese teaching PPT. Landscape aspect about 1.85:1. Remove ALL beige screenshot background, brown bottom line, crop residues. GENUINELY TRANSPARENT alpha behind artwork, no white rectangle or halo. Complete object with soft watercolor natural edge inside transparent margin. No text or readable characters on pages, no seal, no watermark. Warm ivory page edges, muted sage-grey mountains.",
+        "method": "built-in image_gen",
+        "size": [
+          1705,
+          922
+        ],
+        "mode": "RGBA",
+        "sha256": "73357fc86c709ec65e52c8f3ca3f82a5445a753afaed2d58e1c349e93e1ebf42",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "generation_artifact": "exec-16209697-9cea-495d-a07f-f04e174340ac.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/ink-openbook.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "ink-birds",
+        "key": "ink-birds",
+        "prompt": "Recreate the pictured two graceful ink-painted magpies sitting on a slender flowering plum tree branch, landscape aspect 1.4:1, delicate traditional Chinese ink/watercolor, warm subtle blossom accents. Remove ALL pale beige screenshot background and any cut border. GENUINELY TRANSPARENT alpha with clean painterly edges, no matte rectangle, no white halo. Entire two birds and graceful branch fully inside canvas, no text, no seal, no watermark.",
+        "method": "built-in image_gen",
+        "size": [
+          1484,
+          1060
+        ],
+        "mode": "RGBA",
+        "sha256": "ca97e2141ca7b98df9bf387521195a5d37f72d8800b69e3f519d98b595b0a237",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "generation_artifact": "exec-26ea9f61-a2f9-4d83-a9fb-f3329fa02f3f.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/ink-birds.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "ink-master-child",
+        "key": "ink-master-child",
+        "prompt": "Recreate the reference subject: a friendly traditional Chinese scholar and a child reading an open classical book together. Replace rough cartoon with refined light Chinese watercolor and ink wash, old scholar in muted blue/sage robe, child in warm cream robe, a small wooden reading desk. Nearly-square composition 0.96:1, full heads and body/desk visible inside canvas. GENUINELY TRANSPARENT alpha background. Absolutely no beige screenshot rectangle, no border, no clipped body, no seals or words. Soft natural watercolor edges, readable silhouettes, coherent single illustration.",
+        "method": "built-in image_gen",
+        "size": [
+          1229,
+          1280
+        ],
+        "mode": "RGBA",
+        "sha256": "ad92d2a1418dc7f9ea71bdfaddbcf916d78bfae63ff933b226e5345c0f00c7ea",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "generation_artifact": "exec-c40c68ee-e3af-4dae-b356-5d079eedfcbe.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/ink-master-child.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "classroom-a",
+        "key": "classroom-a",
+        "prompt": "Wide 16:10 complete watercolor editorial illustration for an educational PowerPoint photo placeholder. A Chinese middle school teacher and students discussing a real open book at a table in a bright modern classroom, genuine human expressions, natural anatomy, light blue/sage palette and a small orange accent, semi-realistic clean drawn illustration rather than a documentary photograph. Entire continuous scene from edge to edge, no pasted snippets, no text or lettering, no watermark, no border. Soft daylight, legible simple figures, educational warmth.",
+        "method": "built-in image_gen",
+        "size": [
+          1586,
+          992
+        ],
+        "mode": "RGB",
+        "sha256": "9a1bcc2074bfae2fa1997b46a27e930c7928a04ae461424a506facc9f545c615",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-469d7f08-923f-433d-95e2-41c26e93c14e.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/classroom-a.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "classroom-b",
+        "key": "classroom-b",
+        "prompt": "Wide 16:10 complete watercolor editorial illustration for educational PowerPoint classroom activity placeholder. Three Chinese adolescent students collaboratively making a science project at a classroom desk, notebooks, a simple wooden model, teacher nearby listening. Natural anatomy, expressive warm faces, airy cream/blue/green with small orange accents. Illustrated fictional scene, not a documentary photo. Full coherent scene edge to edge, no words or lettering, no watermark, no frames or cropped screenshot residues. Carefully drawn hands, clean high resolution.",
+        "method": "built-in image_gen",
+        "size": [
+          1586,
+          992
+        ],
+        "mode": "RGB",
+        "sha256": "81a47ebf746eb8dbff1b4cecba92f7e33a1745480870596b491c638f4f609cdd",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-81a60531-ca17-46bf-a10a-b21a6f4c7ae2.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/classroom-b.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "classroom-c",
+        "key": "classroom-c",
+        "prompt": "Wide 16:10 complete watercolor editorial illustration for educational PowerPoint classroom sharing placeholder. Chinese adolescent girl at classroom front explaining a plain colorful diagram on a board to seated classmates while friendly teacher watches, bright sunlit room, warm cream, sage, lake blue palette, small yellow accent. Fictional drawn illustration, not a real classroom photograph. Simple natural human anatomy and hands. Entire continuous scene, absolutely no words or letters or watermark or added border.",
+        "method": "built-in image_gen",
+        "size": [
+          1586,
+          992
+        ],
+        "mode": "RGB",
+        "sha256": "a6a9b2bceef23cf0c6abeb94b65277d24e719e6bc3a5ea764c68f96720a1e89f",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-4374b40a-2fc2-4adf-9867-4c533ffcfcc4.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/classroom-c.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "blue-footer",
+        "key": "blue-footer",
+        "prompt": "Wide horizontal decorative PowerPoint FOOTER BACKGROUND asset, 16:3 composition. Almost-white pale blue transparent-looking sky across upper two thirds. A single sophisticated but cheerful deep navy/royal-blue undulating paper wave hugging extreme bottom edge with one fine golden-yellow accent curve and a lighter blue layer, horizontal full bleed at left and right. NO landscape, no objects, no text, no watermark, no frame. Simple seamless wave ribbon, high-quality clean material, upper edge naturally flowing. Designed to be placed as full width bottom margin, NOT a panel.",
+        "method": "built-in image_gen",
+        "size": [
+          2048,
+          768
+        ],
+        "mode": "RGB",
+        "sha256": "cf600f14947054d72cb3cab2fa120c71100d7be986a7bc7aa86bb9b3a84ae6ca",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-e653f624-5ced-4bef-80ca-66fc293a72ea.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/blue-footer.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "green-footer",
+        "key": "green-footer",
+        "prompt": "Wide horizontal decorative PowerPoint FOOTER BACKGROUND asset, 16:3 composition. Very pale mint white across upper two thirds. A clean rich classroom-green undulating paper wave hugging extreme bottom edge, one small lighter mint layer and thin white edge, horizontal full bleed left and right. No landscape, no objects, no text, no watermark, no border. Simple seamless cheerful wave ribbon with a naturally flowing upper edge, full width slide bottom accent.",
+        "method": "built-in image_gen",
+        "size": [
+          1774,
+          887
+        ],
+        "mode": "RGB",
+        "sha256": "a9e46aa13968a4b79d4d10000d3629efdf9d826e010a7c559e8c546be133fd0d",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-3279b8b3-311c-45dc-9fab-71b2ddb4cf96.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/green-footer.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "ink-mountains",
+        "key": "ink-mountains",
+        "prompt": "Wide horizontal 16:3 Chinese watercolor ink mountain border for a teaching PPT. Warm very light ivory parchment background, extremely delicate golden ochre/sage/grey distant mountain peaks along bottom quarter, ethereal natural ink wash fading upward seamlessly into near-uniform warm cream. Continuous panoramic peaks fill width and run out both side edges, no rectangular pasted edges. No words, no lettering, no seals, no bird, no figures, no watermark. Bright refined Chinese lesson page footer, subtle high-resolution texture.",
+        "method": "built-in image_gen",
+        "size": [
+          2048,
+          768
+        ],
+        "mode": "RGB",
+        "sha256": "99b058a7820a7e3b4baf2b4f5c9c7e5e4d592e3bf5c533fcca8cb690f894940b",
+        "alpha_extrema": null,
+        "generation_artifact": "exec-349de8c0-abb8-476f-87dd-dfed4ffc8464.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/ink-mountains.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "blue-footer-alpha",
+        "key": "blue-footer-alpha",
+        "prompt": "Extract just the continuous layered BLUE WAVES and fine gold curve at bottom of this wide footer image onto GENUINELY TRANSPARENT alpha. Remove ENTIRE pale blue sky and all upper background completely, preserving only the smooth solid blue paper waves and gold line, a natural undulating upper silhouette with fully transparent pixels above. Preserve wide panoramic full-width design and clean left/right/bottom full bleed waves. No rectangular matte, no grey checkerboard drawn into image, no text, no new objects.",
+        "method": "built-in image_gen",
+        "size": [
+          2048,
+          768
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "sha256": "ea51271cc892b123d808e01c8403fe397bbd42aab9f98f8b7ac4146b5ea1bdf1",
+        "generation_artifact": "exec-6b98b9e3-1e41-47ac-bd5b-a7efd92816dd.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/blue-footer-alpha.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "green-footer-alpha",
+        "key": "green-footer-alpha",
+        "prompt": "Extract just the continuous GREEN WAVES at bottom of this wide footer image onto GENUINELY TRANSPARENT alpha. Remove ENTIRE pale mint/white background, preserve only green and mint layered paper waves with thin white accent line, a natural undulating upper silhouette, fully transparent above. Preserve wide panoramic full-width design and smooth edges. No rectangular matte or drawn checkerboard, no text, no new objects.",
+        "method": "built-in image_gen",
+        "size": [
+          1774,
+          887
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "sha256": "63ea91fa46deddc7bf219923bca33de52995c52c5ff7f39f55cffc61978be82b",
+        "generation_artifact": "exec-26ce4815-52c6-4983-850d-388de04cce17.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/green-footer-alpha.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      },
+      {
+        "id": "ink-mountains-alpha",
+        "key": "ink-mountains-alpha",
+        "prompt": "Extract only the delicate watercolor MOUNTAINS at bottom of this wide panoramic image onto GENUINELY TRANSPARENT alpha. Remove entire cream paper background including upper sky, keep natural semi-transparent ink wash edges fading into alpha around mountains, retaining their golden ochre/sage colors and panoramic arrangement. No rectangular matte, no cream rectangle, no white halo, no drawn checkerboard. No text, no new objects. Wide decorative mountain strip for use on arbitrary warm parchment slide backgrounds.",
+        "method": "built-in image_gen",
+        "size": [
+          2048,
+          768
+        ],
+        "mode": "RGBA",
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "sha256": "8b2e184d19ddada6e485ab8ddfce58182d43ea14e57bf4412858f0a7edea8cb1",
+        "generation_artifact": "exec-1da297e1-aaba-4a34-82e0-1babd7713588.png (embedded in template PPTX)",
+        "embedded_asset_ref": "assets/generated/ink-mountains-alpha.png (intermediate asset embedded in assets/templates/*.pptx; not shipped separately)"
+      }
+    ]
+  },
+  "open_asset_catalog": {
+    "schema_version": 1,
+    "assets": [
+      {
+        "id": "lucide-book-open",
+        "label": "book-open",
+        "tags": [
+          "阅读",
+          "教材",
+          "语文"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/book-open.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/book-open.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/book-open.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "9b9bed0ff057283d5c5c5a1c71f8d3e927db26a56639603a92fdf7b25961510e",
+        "bytes": 387,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-graduation-cap",
+        "label": "graduation-cap",
+        "tags": [
+          "学习",
+          "教育",
+          "毕业"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/graduation-cap.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/graduation-cap.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/graduation-cap.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "326b4a1c18429509a697cbc0c49fdfcf9316da34bcf581569c2fc73cc772b86f",
+        "bytes": 412,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-school",
+        "label": "school",
+        "tags": [
+          "校园",
+          "学校"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/school.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/school.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/school.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "30ffb7f18e62bf6c0d592556f8cd45c936265af578f7dbf5cb7b85a867e1dbe5",
+        "bytes": 504,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-notebook-pen",
+        "label": "notebook-pen",
+        "tags": [
+          "笔记",
+          "书写"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/notebook-pen.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/notebook-pen.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/notebook-pen.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "56705c35e839977bd6f133d7ca4e9c93a6eea563c89e4be125efd0a32e1fa041",
+        "bytes": 519,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-pencil",
+        "label": "pencil",
+        "tags": [
+          "写作",
+          "绘画"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/pencil.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/pencil.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/pencil.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "7e1ca7a6f5c1eb949671df762f2baadd32f5bd841d43153c3a15279af7d78d0c",
+        "bytes": 377,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-ruler",
+        "label": "ruler",
+        "tags": [
+          "测量",
+          "数学"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/ruler.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/ruler.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/ruler.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "af9710f70510217ef33773d502d0be2425c3a9cb1e3294ace27da9f0b4c8850b",
+        "bytes": 461,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-compass",
+        "label": "compass",
+        "tags": [
+          "方向",
+          "地理"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/compass.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/compass.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/compass.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "c5a4d147bf48424f48b514712dd61c1b07cb689612a7baef87c88870092c1659",
+        "bytes": 351,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-calculator",
+        "label": "calculator",
+        "tags": [
+          "计算",
+          "数学"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/calculator.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/calculator.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/calculator.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "a6b191250b1ffabdf9fc9536662309f1b0f65336aa681d75bae9f1708baaefd0",
+        "bytes": 523,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-lightbulb",
+        "label": "lightbulb",
+        "tags": [
+          "思考",
+          "灵感"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/lightbulb.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/lightbulb.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/lightbulb.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "e33bbec15b1e64cca958e086850f951c0dc2201cd5778bb3695fda3cb6ea457d",
+        "bytes": 371,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-target",
+        "label": "target",
+        "tags": [
+          "教学目标"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/target.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/target.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/target.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "96a6b16628825a1a207a77e9a5818f74c3e74ea3664783ff5c2a44e6347b90df",
+        "bytes": 314,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-brain",
+        "label": "brain",
+        "tags": [
+          "思维",
+          "理解"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/brain.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/brain.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/brain.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "91830115f859daa12e7f2f63fc072311329e363bb8b0b4707f510bcb60c2ab18",
+        "bytes": 596,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-circle-question-mark",
+        "label": "circle-question-mark",
+        "tags": [
+          "提问",
+          "疑问"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/circle-question-mark.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/circle-question-mark.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/circle-question-mark.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "975db087da041530dbf59ba1e61a7b99c3519fad43dae6375e42ccc74ba63924",
+        "bytes": 322,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-messages-square",
+        "label": "messages-square",
+        "tags": [
+          "讨论",
+          "交流"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/messages-square.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/messages-square.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/messages-square.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "97733c58b74f8beddd569927f8453c86bca4afa394e6aad606db1acff4bd8355",
+        "bytes": 457,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-users",
+        "label": "users",
+        "tags": [
+          "合作",
+          "小组"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/users.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/users.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/users.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "eeed488a1ec95ba730dd69996536fb65061d6ea273afb2429ae47e65eebf401c",
+        "bytes": 383,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-presentation",
+        "label": "presentation",
+        "tags": [
+          "讲解",
+          "演示"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/presentation.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/presentation.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/presentation.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "5d15abfdfca21e40abe3b8daead5e8f6a7d38e623fb1a4dd8890448c79e75342",
+        "bytes": 316,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-clipboard-check",
+        "label": "clipboard-check",
+        "tags": [
+          "评价",
+          "检查"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/clipboard-check.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/clipboard-check.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/clipboard-check.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "e2bac86a6b24caa0d7d0dcc2719ec6b7870ec5eef2d21afae498d8cb5eefda96",
+        "bytes": 383,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-list-checks",
+        "label": "list-checks",
+        "tags": [
+          "任务",
+          "清单"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/list-checks.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/list-checks.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/list-checks.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "08d26ab05aaf724222c4c0cd5a19d5eae753b2a5fff0eb2d81759dde11bac6b6",
+        "bytes": 336,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-clock",
+        "label": "clock",
+        "tags": [
+          "时间",
+          "课时"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/clock.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/clock.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/clock.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "e9d3e3acf4d1c280fcf8092293439dc0a4756a908ceb859de144b12451cd1cb9",
+        "bytes": 271,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-route",
+        "label": "route",
+        "tags": [
+          "过程",
+          "路线"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/route.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/route.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/route.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "fc169fd38a9963b016ad6d60fd72baa2b0ea8e0cec085bbc53287297c3d8121a",
+        "bytes": 344,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-git-compare-arrows",
+        "label": "git-compare-arrows",
+        "tags": [
+          "比较",
+          "对照"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/git-compare-arrows.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/git-compare-arrows.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/git-compare-arrows.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "312a5913462dd0bd33bb3dae8e136ee2a4396e0906b917be4a2c1dd3c2d2a2a2",
+        "bytes": 413,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-microscope",
+        "label": "microscope",
+        "tags": [
+          "科学",
+          "实验"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/microscope.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/microscope.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/microscope.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "72fab65c4fdd0a7d784485dc7aaa8bf8c4fba9a4dc9ae38a6538e58bdd8b5f42",
+        "bytes": 429,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-flask-conical",
+        "label": "flask-conical",
+        "tags": [
+          "化学",
+          "实验"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/flask-conical.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/flask-conical.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/flask-conical.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "a2ce857c159bef4c128a6d9f0b6dcbd6504ecf1a2a670ee220efd14fd032b561",
+        "bytes": 383,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-atom",
+        "label": "atom",
+        "tags": [
+          "物理",
+          "科学"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/atom.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/atom.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/atom.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "9ac2f48402368cb4e4db5c59371698a86f35598c8b8076411bfdfdd63550ffd8",
+        "bytes": 523,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-dna",
+        "label": "dna",
+        "tags": [
+          "生物",
+          "遗传"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/dna.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/dna.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/dna.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "fb1e39ad72394a4090aaaeb620fc8057d72e3df9497cbbbd26247ba57e747431",
+        "bytes": 614,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-globe",
+        "label": "globe",
+        "tags": [
+          "地理",
+          "世界"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/globe.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/globe.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/globe.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "82c6b8fa0b8e8d775ec9becd86f74a4e50bff7bee4c81f7362de45348504f14d",
+        "bytes": 331,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-leaf",
+        "label": "leaf",
+        "tags": [
+          "自然",
+          "植物"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/leaf.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/leaf.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/leaf.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "ac2b65d8d35b5038c9388cd1f161e74570fce6ef6a4c3d99a6b0c2bd68e0cb28",
+        "bytes": 404,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-sprout",
+        "label": "sprout",
+        "tags": [
+          "生长",
+          "植物"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/sprout.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/sprout.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/sprout.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "cf4cd97166b3239348dfe2a94dad045bf788883c32292b16fd8c953f619a4f7b",
+        "bytes": 397,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-mountain",
+        "label": "mountain",
+        "tags": [
+          "山川",
+          "地理"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/mountain.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/mountain.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/mountain.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "fced3dd3ffb1472e62a13d92e72633e9c68a4655da3d8aa801bc65a041fe64be",
+        "bytes": 248,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-palette",
+        "label": "palette",
+        "tags": [
+          "美术",
+          "色彩"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/palette.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/palette.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/palette.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "8e7d3fde990cffd10469ba351f27c50202b057a9bb9af5626322e53fd3abc78c",
+        "bytes": 571,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-file-music",
+        "label": "file-music",
+        "tags": [
+          "音乐",
+          "艺术"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/file-music.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/file-music.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/file-music.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "3590a42fac78e9d87e28062cf5572ddb963ba501b197c983033745cad0793954",
+        "bytes": 436,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-languages",
+        "label": "languages",
+        "tags": [
+          "语言",
+          "英语"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/languages.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/languages.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/languages.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "ae9048feb2c7b19855da9a8f5414f68125573039777a89b9c253cceed5dc5075",
+        "bytes": 362,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-speech",
+        "label": "speech",
+        "tags": [
+          "表达",
+          "演讲"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/speech.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/speech.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/speech.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "1395395c66b64ef09ffb4051c0d6ee0344b6fed0b688f0215353b064242424ac",
+        "bytes": 447,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-image",
+        "label": "image",
+        "tags": [
+          "图片",
+          "插图"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/image.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/image.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/image.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "619c9db58c879dce6250376ba67d9c9102ca6dbb3b1efb9294c9f180e22273a5",
+        "bytes": 358,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-chart-column",
+        "label": "chart-column",
+        "tags": [
+          "数据",
+          "柱状图"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/chart-column.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/chart-column.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/chart-column.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "80664a4c5ca1bca10bcb88c1a99f62593c94d61d72d3a4bbf577eb3f3ea4da57",
+        "bytes": 320,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-table-2",
+        "label": "table-2",
+        "tags": [
+          "表格",
+          "比较"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/table-2.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/table-2.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/table-2.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "7b1808e170670d644af828bed77022fc8baba27a654e0805f3fb98e0bec62077",
+        "bytes": 307,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-search",
+        "label": "search",
+        "tags": [
+          "观察",
+          "探究"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/search.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/search.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/search.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "283d371c2e433817bb9c0c8310caa6c77fa4177c0f4f1168d9c83b97af7389dc",
+        "bytes": 275,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-puzzle",
+        "label": "puzzle",
+        "tags": [
+          "问题",
+          "组合"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/puzzle.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/puzzle.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/puzzle.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "6d80d0c3b214c96945ed0f1c6ee0e4c4ea3911c6cc91c75751fdba08c31eab02",
+        "bytes": 685,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-trophy",
+        "label": "trophy",
+        "tags": [
+          "成果",
+          "激励"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/trophy.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/trophy.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/trophy.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "c641553befdb899b2eb01075c0962c73b4b0e0d1835d9d407f5d5d4d70f77d03",
+        "bytes": 554,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-scroll-text",
+        "label": "scroll-text",
+        "tags": [
+          "古文",
+          "国风"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/scroll-text.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/scroll-text.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/scroll-text.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "57739b59816cedf5b2fd92559784431ce59f3d14eb77eabb659591b6789e223d",
+        "bytes": 419,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "lucide-feather",
+        "label": "feather",
+        "tags": [
+          "书写",
+          "文学"
+        ],
+        "collection": "Lucide",
+        "file": "assets/open/lucide/feather.svg",
+        "license": "ISC/MIT (see upstream LICENSE)",
+        "source_url": "https://github.com/lucide-icons/lucide/blob/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/feather.svg",
+        "download_url": "https://raw.githubusercontent.com/lucide-icons/lucide/a630cec77eac6568b989e87e4947a8bfe45caacd/icons/feather.svg",
+        "license_url": "https://lucide.dev/license",
+        "revision": "a630cec77eac6568b989e87e4947a8bfe45caacd",
+        "attribution": "Lucide Icons and Contributors; includes Feather-derived icons by Cole Bemis",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "11752dce3362876c82df0eb4da5372e74792f8e96b1ff4c83c4e847106d5c9ba",
+        "bytes": 367,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-books",
+        "label": "books",
+        "tags": [
+          "书籍",
+          "阅读"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/books.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4da.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4da.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "64e045f1b9b28e511d03495cf793fcdf2cf9290de5f7a1ea5080182f99e3b73f",
+        "bytes": 1335,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-graduation",
+        "label": "graduation",
+        "tags": [
+          "毕业",
+          "学习"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/graduation.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f393.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f393.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "14e71be3ff5aa2e7773210530b6f25ac38218c1833c4efec611f8c89e650db52",
+        "bytes": 958,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-school",
+        "label": "school",
+        "tags": [
+          "校园"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/school.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f3eb.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f3eb.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "301e89109c866e3d4d8f8f015d78efe7acc6b48ab16c6216c98554bc5c620335",
+        "bytes": 895,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-open-book",
+        "label": "open-book",
+        "tags": [
+          "教材",
+          "阅读"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/open-book.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4d6.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4d6.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "78f4d87e4e97c7ab24215a1a04cf9093a1a7556709e00c2e65543ad21e54413d",
+        "bytes": 853,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-set-square",
+        "label": "set-square",
+        "tags": [
+          "几何",
+          "数学"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/set-square.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4d0.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4d0.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "19465c86b21ef41109f66ce89051da87c220c29d5f8c8c876ee0e933873f1f65",
+        "bytes": 305,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-ruler",
+        "label": "ruler",
+        "tags": [
+          "测量",
+          "数学"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/ruler.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4cf.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4cf.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "3d8f2cba26552f2d8d7f1483e1849d2c185a946f813778eeb0d21eea1b6cc3ad",
+        "bytes": 1096,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-pencil",
+        "label": "pencil",
+        "tags": [
+          "书写"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/pencil.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/270f.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/270f.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "18ebb4538d20d645b88c6973262ac644480f77e229efcb22b1e6149b2f3bb558",
+        "bytes": 1031,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-crayon",
+        "label": "crayon",
+        "tags": [
+          "美术"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/crayon.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f58d.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f58d.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "cb52d265d761cde5feaaea1e8c67b28bf087d7af36177829c41f9b513e9a4a4e",
+        "bytes": 709,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-microscope",
+        "label": "microscope",
+        "tags": [
+          "显微镜",
+          "科学"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/microscope.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f52c.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f52c.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "e73d9ff09ea52cd92a00b98e7b6da86ef7c35ee491bd8cd4d31d2af0cfd67de6",
+        "bytes": 1623,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-telescope",
+        "label": "telescope",
+        "tags": [
+          "天文",
+          "科学"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/telescope.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f52d.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f52d.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "4cad9412613617c67ba8e66eab0197e2bd2d9a9aa051fb6eb134eb3e226118a9",
+        "bytes": 1228,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-test-tube",
+        "label": "test-tube",
+        "tags": [
+          "化学",
+          "实验"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/test-tube.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f9ea.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f9ea.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "98bf884f79a76a7028d252e63c5b93fea4b0d17ad276eaf0f2c8904cbd7f8189",
+        "bytes": 1879,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-dna",
+        "label": "dna",
+        "tags": [
+          "生物"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/dna.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f9ec.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f9ec.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "9eedfe7d48f60c445b0df7b221252920d19886c5b27570d5f5c2ee9599748de5",
+        "bytes": 2824,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-abacus",
+        "label": "abacus",
+        "tags": [
+          "数学",
+          "计算"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/abacus.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f9ee.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f9ee.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "27510a77a815f438bab500f9aa87f3a249a60882d9d57cf467e96f0e69c04b85",
+        "bytes": 2745,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-globe",
+        "label": "globe",
+        "tags": [
+          "地理"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/globe.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f30d.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f30d.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "593d59f9f319875b02111ac46a9f70df2c1e0f3a5fd92810c3f5ddbb598ca62c",
+        "bytes": 1156,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-seedling",
+        "label": "seedling",
+        "tags": [
+          "生长",
+          "自然"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/seedling.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f331.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f331.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "0be5e03bf83a6d8981bef07f84bfd64b54c36d34a7824b69a706891648eed9ce",
+        "bytes": 515,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-tree",
+        "label": "tree",
+        "tags": [
+          "树木",
+          "自然"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/tree.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f333.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f333.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "28b0601f687f84e5fd61d3bd9637d30db7c280967a4518e85bba9f4b24671f57",
+        "bytes": 862,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-lightbulb",
+        "label": "lightbulb",
+        "tags": [
+          "思考"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/lightbulb.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4a1.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4a1.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "2cd037cce2c3c16c3d33b1fbe4d9d46206633af2f8b4e082cea209c56a3e8b56",
+        "bytes": 1078,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-target",
+        "label": "target",
+        "tags": [
+          "目标"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/target.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f3af.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f3af.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "e6c11ef16f86c3c06a36ce4e3af7bd3ec27b7a8f1791f510b0e7a1638edbfca2",
+        "bytes": 1029,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-map",
+        "label": "map",
+        "tags": [
+          "地图"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/map.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f5fa.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f5fa.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "b77fd1cd1c0e226cc02a9e52157529eb38267cc6a9a5b544e10488c606741eb5",
+        "bytes": 5682,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-palette",
+        "label": "palette",
+        "tags": [
+          "美术"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/palette.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f3a8.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f3a8.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "236f87cf38405432478a58b369400f8d7ce55ffd2c248a4721d1fccb53f8b347",
+        "bytes": 656,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-music",
+        "label": "music",
+        "tags": [
+          "音乐"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/music.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f3b5.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f3b5.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "953dde59b0af98f950dd4a4afdb38b554fcb65fdf23448dd39e615663f5e16da",
+        "bytes": 373,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-scroll",
+        "label": "scroll",
+        "tags": [
+          "古文",
+          "国风"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/scroll.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4dc.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4dc.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "e8d2fa22f334a6e170fc4b156d677eaa3f19b23699a2b594e8f47b952bfddec3",
+        "bytes": 912,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-laptop",
+        "label": "laptop",
+        "tags": [
+          "信息技术"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/laptop.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4bb.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f4bb.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "d79848b4a09f0c1ea74b7cef8c3296593d60788a32d0edde3177a492c39b61b3",
+        "bytes": 1188,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "twemoji-compass",
+        "label": "compass",
+        "tags": [
+          "方向",
+          "地理"
+        ],
+        "collection": "Twemoji",
+        "file": "assets/open/twemoji/compass.svg",
+        "license": "CC-BY-4.0",
+        "source_url": "https://github.com/jdecked/twemoji/blob/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f9ed.svg",
+        "download_url": "https://raw.githubusercontent.com/jdecked/twemoji/b6b55fef1e8636b540a6d016a4729ca8cdf2e60b/assets/svg/1f9ed.svg",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "revision": "b6b55fef1e8636b540a6d016a4729ca8cdf2e60b",
+        "attribution": "Twemoji graphics, Twitter and contributors / jdecked/twemoji, CC BY 4.0",
+        "editable": "SVG vector source; slide insertion is an independently replaceable image, not native paths",
+        "sha256": "d986071e709430122f36a875048f8fde5ca2261cf47b2b5dcd12205da1ba52f2",
+        "bytes": 636,
+        "modification": "original asset unchanged"
+      },
+      {
+        "id": "met-old-trees",
+        "label": "树色平远图",
+        "tags": [
+          "国风",
+          "山水",
+          "古画"
+        ],
+        "collection": "The Metropolitan Museum of Art",
+        "file": "assets/open/art/old-trees-level-distance.jpg",
+        "license": "CC0-1.0",
+        "source_url": "https://www.metmuseum.org/art/collection/search/39668",
+        "download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP167812_CRD.jpg",
+        "license_url": "https://www.metmuseum.org/hubs/open-access",
+        "attribution": "Guo Xi, Old Trees, Level Distance, The Metropolitan Museum of Art, 1981.276 (CC0)",
+        "editable": "Raster artwork; independent image object, internal brushwork not editable",
+        "sha256": "1112eb30b089b9644c83510a42b67e710ac3623d02848fb7497138fd62020398",
+        "bytes": 67684,
+        "modification": "original asset unchanged"
+      }
+    ]
+  },
+  "license_files": "../assets/licenses/",
+  "notes": "Generated illustrations are embedded inside assets/templates/*.pptx; all 65 external open SVG/artwork assets remain under assets/open/ with full upstream provenance; zero machine-local paths remain."
+}

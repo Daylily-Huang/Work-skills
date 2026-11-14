@@ -1,4 +1,4 @@
-# 仓库只发布 work-report-ppt 技能本体。
+# 仓库只发布技能本体（work-report-ppt、teacher-ppt）。
 # 工作区的模板源稿、设计过程、构建产物、验证输出与研究资料留在本地，不进入版本库。
 /*
 
@@ -10,3 +10,4 @@
 
 /skills/*
 !/skills/work-report-ppt/
+!/skills/teacher-ppt/

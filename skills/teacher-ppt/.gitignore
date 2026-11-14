@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Generated validation and local review outputs
+validation/
+test-output/
+
+# Office lock files and temporary decks
+~$*
+*.pptx.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini

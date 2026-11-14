@@ -1,0 +1,1666 @@
+{
+  "schema_version": 1,
+  "skill_version": "1.0.1",
+  "templates": [
+    {
+      "id": "T01",
+      "name": "蓝白教材笔记",
+      "file": "assets/templates/T01_蓝白教材笔记.pptx",
+      "sha256": "83f13d5ca110bf43a5df5eed2948b944be5aab922e38f0e8d16c8243de1dabde",
+      "preview": "assets/previews/T01.png",
+      "overview": "assets/previews/T01-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "教材分析",
+          "purpose": "课程结构与教材图文",
+          "components": [
+            "文字框27个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "教材内容",
+          "purpose": "教材定位与价值关系",
+          "components": [
+            "文字框25个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "教材背景",
+          "purpose": "背景、重点与教学落地",
+          "components": [
+            "文字框29个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "教学目标",
+          "purpose": "三类目标与对应实践",
+          "components": [
+            "文字框26个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "学情分析",
+          "purpose": "三栏图表与学习画像",
+          "components": [
+            "文字框30个",
+            "原生图表x3"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "教法实践",
+          "purpose": "双栏任务与课堂活动",
+          "components": [
+            "文字框22个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "单元设计",
+        "复习",
+        "讲评"
+      ],
+      "subjects": [
+        "通用",
+        "语文",
+        "数学",
+        "英语",
+        "科学",
+        "历史",
+        "道法"
+      ],
+      "visual_scene": "蓝白手绘风说课教研页，含顶部教材/目标/学情/教法导航条，适合说课稿、教研汇报与多图表学情分析",
+      "avoid_for": [
+        "需要大留白无导航栏的课堂投影（每页带固定顶部说课导航条与多处分点卡片）"
+      ]
+    },
+    {
+      "id": "T02",
+      "name": "蓝白学情图解",
+      "file": "assets/templates/T02_蓝白学情图解.pptx",
+      "sha256": "66ecdca030e8a869ac6d242931e3d77c3bed7797eb9ca5294730c0a3eba62b97",
+      "preview": "assets/previews/T02.png",
+      "overview": "assets/previews/T02-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "学情分析",
+          "purpose": "三栏图表与学习画像",
+          "components": [
+            "文字框30个",
+            "原生图表x3"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "学情分析",
+          "purpose": "已有基础与学习短板",
+          "components": [
+            "文字框21个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "教法实践",
+          "purpose": "双栏任务与课堂活动",
+          "components": [
+            "文字框22个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "教学反思",
+          "purpose": "五阶段反思闭环",
+          "components": [
+            "文字框22个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "教学目标",
+          "purpose": "知识、素养与技能结构图",
+          "components": [
+            "文字框25个"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "教学内容",
+          "purpose": "六阶段路线与三层任务",
+          "components": [
+            "文字框61个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "学情分析",
+        "复习"
+      ],
+      "subjects": [
+        "通用",
+        "数学",
+        "语文",
+        "科学",
+        "理化"
+      ],
+      "visual_scene": "蓝白学情图解风说课模版，含顶部导航条与第1页三联对比柱状图表，适合学情数据支撑与单元内容拆解",
+      "avoid_for": [
+        "无学情数据图表支撑或纯课堂即时互动（卡片密度偏高、带固定说课导航条）"
+      ]
+    },
+    {
+      "id": "T03",
+      "name": "蓝白板书课堂",
+      "file": "assets/templates/T03_蓝白板书课堂.pptx",
+      "sha256": "faa3f71ad63d8ce8d3215791040ec2997a6c394ed70c9b2d3e2f2d23142e7550",
+      "preview": "assets/previews/T03.png",
+      "overview": "assets/previews/T03-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "说板书设计",
+          "purpose": "单板书与设计说明",
+          "components": [
+            "文字框18个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "说板书设计",
+          "purpose": "双板书与笔记页",
+          "components": [
+            "文字框17个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "课堂练习",
+          "purpose": "板书作答与分步提示",
+          "components": [
+            "文字框16个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "答案解析",
+          "purpose": "板书解题与易错点",
+          "components": [
+            "文字框17个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "教学反思",
+          "purpose": "五阶段反思闭环",
+          "components": [
+            "文字框22个"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "教材背景",
+          "purpose": "背景、重点与教学落地",
+          "components": [
+            "文字框29个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "讲评",
+        "复习",
+        "习题课"
+      ],
+      "subjects": [
+        "通用",
+        "数学",
+        "语文",
+        "英语",
+        "物理",
+        "化学"
+      ],
+      "visual_scene": "蓝白板书课堂说课模板，含手绘绿黑板板书框（1-2页）与练习解析框架（3-4页），适合说板书与例题讲评展示",
+      "avoid_for": [
+        "需要大画幅自然实拍或全幅手绘背景的沉浸式导学"
+      ]
+    },
+    {
+      "id": "T04",
+      "name": "橄榄绿环形教研",
+      "file": "assets/templates/T04_橄榄绿环形教研.pptx",
+      "sha256": "0638fbf7894ffb23092d60e203c523c71b45b95efff04e38d8f7ec9d38290ddd",
+      "preview": "assets/previews/T04.png",
+      "overview": "assets/previews/T04-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "学情分析",
+          "purpose": "环形分区与多维学情",
+          "components": [
+            "文字框23个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "课程评价",
+          "purpose": "中心目标与五项改进",
+          "components": [
+            "文字框16个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "教学内容",
+          "purpose": "六阶段路线与三层任务",
+          "components": [
+            "文字框59个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "教学内容",
+          "purpose": "岗位、课程与任务矩阵",
+          "components": [
+            "文字框31个",
+            "原生表格(7x1)"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "学情分析",
+          "purpose": "已有基础与学习短板",
+          "components": [
+            "文字框19个"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "教法实践",
+          "purpose": "双栏任务与课堂活动",
+          "components": [
+            "文字框20个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "课程改革",
+        "复习"
+      ],
+      "subjects": [
+        "通用",
+        "职教",
+        "信息科技",
+        "科学",
+        "数理"
+      ],
+      "visual_scene": "橄榄绿环形教研模板，含顶部导航与第4页7行1列课程结构对比原生表格，适合高年段教研、课改与专业课程汇报",
+      "avoid_for": [
+        "低龄儿童活泼绘本课堂（色彩偏沉稳，文字框密度较高）"
+      ]
+    },
+    {
+      "id": "T05",
+      "name": "豆绿暖橙单元",
+      "file": "assets/templates/T05_豆绿暖橙单元.pptx",
+      "sha256": "30756dc9ffca6e32b7d8737bf5ed85e33e3264f6336fe9605c449aa0b586589d",
+      "preview": "assets/previews/T05.png",
+      "overview": "assets/previews/T05-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "教学内容",
+          "purpose": "岗位、课程与任务矩阵",
+          "components": [
+            "文字框31个",
+            "原生表格(7x1)"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "教学内容",
+          "purpose": "六阶段路线与三层任务",
+          "components": [
+            "文字框59个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "教学目标",
+          "purpose": "知识、素养与技能结构图",
+          "components": [
+            "文字框23个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "教学目标",
+          "purpose": "三类目标与对应实践",
+          "components": [
+            "文字框24个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "课程评价",
+          "purpose": "中心目标与五项改进",
+          "components": [
+            "文字框16个"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "学情分析",
+          "purpose": "环形分区与多维学情",
+          "components": [
+            "文字框23个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "单元设计",
+        "复习"
+      ],
+      "subjects": [
+        "通用",
+        "职教",
+        "专业课",
+        "语文",
+        "历史"
+      ],
+      "visual_scene": "豆绿暖橙单元说课模板，第1页含7行1列原生表格与多维拆解框，第2页为高密度知识点网格",
+      "avoid_for": [
+        "少文字现场授课课件（信息容量大，偏教师教研汇报视角）"
+      ]
+    },
+    {
+      "id": "T06",
+      "name": "深绿教材画册",
+      "file": "assets/templates/T06_深绿教材画册.pptx",
+      "sha256": "86888dac746e7a0c3fa0899cb56c39cb92ba639a8df6cc95c1ae10838a712a5a",
+      "preview": "assets/previews/T06.png",
+      "overview": "assets/previews/T06-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "教材分析",
+          "purpose": "课程结构与教材图文",
+          "components": [
+            "文字框27个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "教材内容",
+          "purpose": "教材定位与价值关系",
+          "components": [
+            "文字框25个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "教学内容",
+          "purpose": "双侧实践与中心成长路径",
+          "components": [
+            "文字框31个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "教学目标",
+          "purpose": "三类目标与对应实践",
+          "components": [
+            "文字框26个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "学情分析",
+          "purpose": "三栏图表与学习画像",
+          "components": [
+            "文字框30个",
+            "原生图表x3"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "教材背景",
+          "purpose": "背景、重点与教学落地",
+          "components": [
+            "文字框29个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "教材解读",
+        "复习"
+      ],
+      "subjects": [
+        "通用",
+        "语文",
+        "历史",
+        "生物",
+        "化学",
+        "地理"
+      ],
+      "visual_scene": "深绿教材画册风说课模板，含顶部导航条、三栏教材结构页及第5页三图表学情页，沉稳清新",
+      "avoid_for": [
+        "追求零导航边框、纯插画留白的低段现场课堂"
+      ]
+    },
+    {
+      "id": "T07",
+      "name": "深绿学情目标",
+      "file": "assets/templates/T07_深绿学情目标.pptx",
+      "sha256": "3c3699531a57c9995b6a4d3f10ced4287d23f4a5bc78453c5d108987042789d1",
+      "preview": "assets/previews/T07.png",
+      "overview": "assets/previews/T07-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "学情分析",
+          "purpose": "已有基础与学习短板",
+          "components": [
+            "文字框21个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "学情分析",
+          "purpose": "三栏图表与学习画像",
+          "components": [
+            "文字框30个",
+            "原生图表x3"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "教学目标",
+          "purpose": "三类目标与对应实践",
+          "components": [
+            "文字框26个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "教材背景",
+          "purpose": "背景、重点与教学落地",
+          "components": [
+            "文字框29个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "实施过程",
+          "purpose": "三条实践主线与成果",
+          "components": [
+            "文字框37个"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课程评价",
+          "purpose": "中心目标与五项改进",
+          "components": [
+            "文字框18个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "学情分析",
+        "复习"
+      ],
+      "subjects": [
+        "通用",
+        "数学",
+        "科学",
+        "英语",
+        "历史"
+      ],
+      "visual_scene": "深绿学情目标说课模板，含第2页三联学情分析原生图表与5页实施过程分步框",
+      "avoid_for": [
+        "仅做两三页课堂提问且无需说课栏目的简短片段"
+      ]
+    },
+    {
+      "id": "T08",
+      "name": "深绿反思实践",
+      "file": "assets/templates/T08_深绿反思实践.pptx",
+      "sha256": "965eb68e32fc015ee645b969ecb28d67891ce879d709e68be87c7a482cb2a234",
+      "preview": "assets/previews/T08.png",
+      "overview": "assets/previews/T08-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "教学反思",
+          "purpose": "五阶段反思闭环",
+          "components": [
+            "文字框22个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "教学内容",
+          "purpose": "双侧实践与中心成长路径",
+          "components": [
+            "文字框31个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "教法实践",
+          "purpose": "双栏任务与课堂活动",
+          "components": [
+            "文字框22个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "教材背景",
+          "purpose": "背景、重点与教学落地",
+          "components": [
+            "文字框29个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "教学内容",
+          "purpose": "六阶段路线与三层任务",
+          "components": [
+            "文字框61个"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课程评价",
+          "purpose": "中心目标与五项改进",
+          "components": [
+            "文字框18个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "反思总结",
+        "复习"
+      ],
+      "subjects": [
+        "通用",
+        "数学",
+        "语文",
+        "道法",
+        "科学"
+      ],
+      "visual_scene": "深绿反思实践说课模板，第1页聚焦教学反思、2页教材分析、5页多点结构归纳与6页评价框架",
+      "avoid_for": [
+        "无教研反思栏目需求的一线学生课堂主讲页"
+      ]
+    },
+    {
+      "id": "T09",
+      "name": "蓝橙目标体系",
+      "file": "assets/templates/T09_蓝橙目标体系.pptx",
+      "sha256": "18cbee668e6eee4ba1f3f85e97c4c9b5813a2943ed9b46e8bdc90521c0fc6b29",
+      "preview": "assets/previews/T09.png",
+      "overview": "assets/previews/T09-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "教学目标",
+          "purpose": "目标、能力与实践三层关联",
+          "components": [
+            "文字框30个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "教学目标",
+          "purpose": "知识、素养与技能结构图",
+          "components": [
+            "文字框23个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "学情分析",
+          "purpose": "三栏图表与学习画像",
+          "components": [
+            "文字框28个",
+            "原生图表x3"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "实施过程",
+          "purpose": "三条实践主线与成果",
+          "components": [
+            "文字框35个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "教学内容",
+          "purpose": "双侧实践与中心成长路径",
+          "components": [
+            "文字框29个"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "教法实践",
+          "purpose": "双栏任务与课堂活动",
+          "components": [
+            "文字框20个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "目标设计",
+        "讲评"
+      ],
+      "subjects": [
+        "通用",
+        "数学",
+        "物理",
+        "化学",
+        "科学"
+      ],
+      "visual_scene": "蓝橙目标体系说课模板，第3页含三组学情图表，第4页提供清晰过程轴线与卡片对比",
+      "avoid_for": [
+        "古风诗文情境熏陶（蓝橙现代几何感较强）"
+      ]
+    },
+    {
+      "id": "T10",
+      "name": "蓝橙实践路径",
+      "file": "assets/templates/T10_蓝橙实践路径.pptx",
+      "sha256": "a4a7d2a89b1305ad7c9112c3ba998b9418728aaa6143cc5d9cfc9a4a068c5dde",
+      "preview": "assets/previews/T10.png",
+      "overview": "assets/previews/T10-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "实施过程",
+          "purpose": "三条实践主线与成果",
+          "components": [
+            "文字框35个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "教学目标",
+          "purpose": "目标、能力与实践三层关联",
+          "components": [
+            "文字框30个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "教学目标",
+          "purpose": "知识、素养与技能结构图",
+          "components": [
+            "文字框23个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "教法实践",
+          "purpose": "双栏任务与课堂活动",
+          "components": [
+            "文字框20个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "教学反思",
+          "purpose": "五阶段反思闭环",
+          "components": [
+            "文字框20个"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "学情分析",
+          "purpose": "三栏图表与学习画像",
+          "components": [
+            "文字框28个",
+            "原生图表x3"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "实施路径",
+        "讲评"
+      ],
+      "subjects": [
+        "通用",
+        "数学",
+        "科学",
+        "信息科技",
+        "体育"
+      ],
+      "visual_scene": "蓝橙实践路径说课模板，过程链条突出，第6页附三联学情图表",
+      "avoid_for": [
+        "需要柔和自然水彩氛围的情感美育课"
+      ]
+    },
+    {
+      "id": "T11",
+      "name": "国风书卷说课",
+      "file": "assets/templates/T11_国风书卷说课.pptx",
+      "sha256": "33a64b97ad854b7280a1fd70f4d2bbe899660062af7eccca89953f146c4ec431",
+      "preview": "assets/previews/T11.png",
+      "overview": "assets/previews/T11-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "语文说课",
+          "purpose": "书卷封面与课题信息",
+          "components": [
+            "文字框5个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "教材分析",
+          "purpose": "课程结构与教材图文",
+          "components": [
+            "文字框20个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "教学目标",
+          "purpose": "人物、笔触横幅与四项目标",
+          "components": [
+            "文字框19个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "教法学法",
+          "purpose": "三栏卷轴与学习活动",
+          "components": [
+            "文字框30个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "实施过程",
+          "purpose": "课堂环节与核心素养",
+          "components": [
+            "文字框37个"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课堂亮点",
+          "purpose": "卷轴反思与课堂成果",
+          "components": [
+            "文字框17个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "文本解读"
+      ],
+      "subjects": [
+        "语文",
+        "历史",
+        "道法",
+        "传统文化",
+        "人文"
+      ],
+      "visual_scene": "米白青绿国风书卷说课模板，卷轴印章点缀，第1页含传统纵横留白标题区，内页带顶部语文说课导航",
+      "avoid_for": [
+        "现代数理化实验与英语听说等西式/理工场景"
+      ]
+    },
+    {
+      "id": "T12",
+      "name": "国风墨竹课堂",
+      "file": "assets/templates/T12_国风墨竹课堂.pptx",
+      "sha256": "ffe8cd16b44696a9e773493950482b0e20269ac343ee7a08fac007ba61257ee3",
+      "preview": "assets/previews/T12.png",
+      "overview": "assets/previews/T12-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "语文说课",
+          "purpose": "书卷封面与课题信息",
+          "components": [
+            "文字框5个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "教学过程",
+          "purpose": "递进主线与双栏课堂活动",
+          "components": [
+            "文字框19个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "存在不足",
+          "purpose": "问题、指标与改进方向",
+          "components": [
+            "文字框23个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "教法学法",
+          "purpose": "三栏卷轴与学习活动",
+          "components": [
+            "文字框30个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "教学目标",
+          "purpose": "人物、笔触横幅与四项目标",
+          "components": [
+            "文字框19个"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课堂亮点",
+          "purpose": "卷轴反思与课堂成果",
+          "components": [
+            "文字框17个"
+          ]
+        }
+      ],
+      "category": "说课与教研",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "说课",
+        "教研",
+        "诗文赏析"
+      ],
+      "subjects": [
+        "语文",
+        "古诗文",
+        "历史",
+        "书法",
+        "传统文化"
+      ],
+      "visual_scene": "米白淡雅墨竹国风说课模板，水墨竹枝配清雅色块，含教学过程、存在不足、教法学法等说课内页",
+      "avoid_for": [
+        "现代理工科公式推演、编程实操或低龄卡通风格课堂"
+      ]
+    },
+    {
+      "id": "T13",
+      "name": "纸艺自然课堂",
+      "file": "assets/templates/T13_纸艺自然课堂.pptx",
+      "sha256": "6666a33fa224b207dc8a083d6447d801a5908b594b6d9cbc324af744e21702a0",
+      "preview": "assets/previews/T13.png",
+      "overview": "assets/previews/T13-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "参考效果页",
+          "purpose": "贴合认可效果图的可编辑示例",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "学习任务",
+          "purpose": "错落任务与短说明",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "提问讨论",
+          "purpose": "大问题与思考留白",
+          "components": [
+            "文字框4个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "课堂活动",
+          "purpose": "分步活动与任务安排",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "观察记录",
+          "purpose": "原生表格与对照记录",
+          "components": [
+            "文字框2个",
+            "原生表格(4x3)"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课末回看",
+          "purpose": "学习总结与新的问题",
+          "components": [
+            "文字框7个"
+          ]
+        }
+      ],
+      "category": "课堂教学",
+      "grade_bands": [
+        "小学",
+        "初中"
+      ],
+      "lesson_types": [
+        "新授",
+        "探究",
+        "实验",
+        "观察记录",
+        "复习"
+      ],
+      "subjects": [
+        "科学",
+        "自然",
+        "生物",
+        "地理",
+        "语文写景",
+        "综合实践"
+      ],
+      "visual_scene": "浅牛皮纸拼贴课堂模板：真实树叶、黄色银杏叶、放大镜与植物素描本（背景插画固定）",
+      "avoid_for": [
+        "纯室内数理计算或与自然/植物/写景观察毫不相关的题材（右下有固定银杏叶与放大镜素描本）"
+      ]
+    },
+    {
+      "id": "T14",
+      "name": "蓝白学情课堂",
+      "file": "assets/templates/T14_蓝白学情课堂.pptx",
+      "sha256": "34195704a8a202a0c27f9837dbaa36eb614c754579c4500f34b6c153dde23240",
+      "preview": "assets/previews/T14.png",
+      "overview": "assets/previews/T14-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "参考效果页",
+          "purpose": "贴合认可效果图的可编辑示例",
+          "components": [
+            "文字框14个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "学习任务",
+          "purpose": "错落任务与短说明",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "提问讨论",
+          "purpose": "大问题与思考留白",
+          "components": [
+            "文字框4个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "课堂活动",
+          "purpose": "分步活动与任务安排",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "观察记录",
+          "purpose": "原生表格与对照记录",
+          "components": [
+            "文字框2个",
+            "原生表格(4x3)"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课末回看",
+          "purpose": "学习总结与新的问题",
+          "components": [
+            "文字框7个"
+          ]
+        }
+      ],
+      "category": "课堂教学",
+      "grade_bands": [
+        "小学",
+        "初中"
+      ],
+      "lesson_types": [
+        "新授",
+        "复习",
+        "讲评",
+        "阅读",
+        "班会"
+      ],
+      "subjects": [
+        "语文",
+        "数学",
+        "英语",
+        "道法",
+        "通用"
+      ],
+      "visual_scene": "明亮蓝白教室手绘模板：教室黑板前女教师指导两名佩戴红领巾少先队员学生看课本，第1页含课前摸底小条形图示意框",
+      "avoid_for": [
+        "高年段成人向或高等教育专题（人物为少先队员低龄教室场景）"
+      ]
+    },
+    {
+      "id": "T15",
+      "name": "水墨书院课堂",
+      "file": "assets/templates/T15_水墨书院课堂.pptx",
+      "sha256": "43aecdcd43a09ed1874ab21be73573774e2e3a5a4f9a5fbcb6331b4c9c8365f7",
+      "preview": "assets/previews/T15.png",
+      "overview": "assets/previews/T15-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "参考效果页",
+          "purpose": "贴合认可效果图的可编辑示例",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "学习任务",
+          "purpose": "错落任务与短说明",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "提问讨论",
+          "purpose": "大问题与思考留白",
+          "components": [
+            "文字框4个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "课堂活动",
+          "purpose": "分步活动与任务安排",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "观察记录",
+          "purpose": "原生表格与对照记录",
+          "components": [
+            "文字框2个",
+            "原生表格(4x3)"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课末回看",
+          "purpose": "学习总结与新的问题",
+          "components": [
+            "文字框7个"
+          ]
+        }
+      ],
+      "category": "课堂教学",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "新授",
+        "诵读",
+        "赏析",
+        "复习",
+        "讲评"
+      ],
+      "subjects": [
+        "语文",
+        "古诗文",
+        "传统文化",
+        "历史",
+        "文学"
+      ],
+      "visual_scene": "雅致水墨书院课堂模板：远山竹影古风书院场景，先生与学童共读古卷，内页右侧留水墨卷轴留白",
+      "avoid_for": [
+        "现代理化实验、编程实务或外语情景对话"
+      ]
+    },
+    {
+      "id": "T16",
+      "name": "立体几何课堂",
+      "file": "assets/templates/T16_立体几何课堂.pptx",
+      "sha256": "8d7d27ed96127b8f5690851c9903d11225f66a802799bcab2387d1b3982477d0",
+      "preview": "assets/previews/T16.png",
+      "overview": "assets/previews/T16-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "参考效果页",
+          "purpose": "贴合认可效果图的可编辑示例",
+          "components": [
+            "文字框11个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "学习任务",
+          "purpose": "错落任务与短说明",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "提问讨论",
+          "purpose": "大问题与思考留白",
+          "components": [
+            "文字框4个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "课堂活动",
+          "purpose": "分步活动与任务安排",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "观察记录",
+          "purpose": "原生表格与对照记录",
+          "components": [
+            "文字框2个",
+            "原生表格(4x3)"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课末回看",
+          "purpose": "学习总结与新的问题",
+          "components": [
+            "文字框7个"
+          ]
+        }
+      ],
+      "category": "课堂教学",
+      "grade_bands": [
+        "小学",
+        "初中"
+      ],
+      "lesson_types": [
+        "新授",
+        "探究",
+        "练习",
+        "复习",
+        "讲评"
+      ],
+      "subjects": [
+        "数学",
+        "空间几何",
+        "科学图形"
+      ],
+      "visual_scene": "晴朗木桌教室课堂模板：阳光木桌上放置蓝色正方体、橙色圆柱与紫色球体三个固定立体教具",
+      "avoid_for": [
+        "非几何与非形状认知主题（背景桌面固定画有蓝正方体、橙圆柱、紫球体教具，仅建议直接作为立体图形教具主题使用）"
+      ]
+    },
+    {
+      "id": "T17",
+      "name": "晴空蓝橙探究",
+      "file": "assets/templates/T17_晴空蓝橙探究.pptx",
+      "sha256": "c89695d4537f4cd6059e74b4c56d808a473c4e713c423b5c1cc033a90d140b66",
+      "preview": "assets/previews/T17.png",
+      "overview": "assets/previews/T17-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "参考效果页",
+          "purpose": "贴合认可效果图的可编辑示例",
+          "components": [
+            "文字框3个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "学习任务",
+          "purpose": "错落任务与短说明",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "提问讨论",
+          "purpose": "大问题与思考留白",
+          "components": [
+            "文字框4个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "课堂活动",
+          "purpose": "分步活动与任务安排",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "观察记录",
+          "purpose": "原生表格与对照记录",
+          "components": [
+            "文字框2个",
+            "原生表格(4x3)"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课末回看",
+          "purpose": "学习总结与新的问题",
+          "components": [
+            "文字框7个"
+          ]
+        }
+      ],
+      "category": "课堂教学",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中"
+      ],
+      "lesson_types": [
+        "新授",
+        "探究",
+        "复习",
+        "讲评"
+      ],
+      "subjects": [
+        "数学",
+        "科学",
+        "信息科技",
+        "建筑与图形"
+      ],
+      "visual_scene": "晴空蓝橙校园探究模板：窗边穿校服的中学生指着画有“L形立体方块与小树太阳”的素描本讨论探究",
+      "avoid_for": [
+        "纯叙事散文、抒情阅读或传统文学赏析（画本中明确绘制了几何方块与积木结构，文本无关时易穿帮）"
+      ]
+    },
+    {
+      "id": "T18",
+      "name": "薄荷柠檬研学",
+      "file": "assets/templates/T18_薄荷柠檬研学.pptx",
+      "sha256": "5ccdcc12912783bc7b857472eb37bcd4bbb78818794f2b69d51b503fa4ae87e6",
+      "preview": "assets/previews/T18.png",
+      "overview": "assets/previews/T18-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "参考效果页",
+          "purpose": "贴合认可效果图的可编辑示例",
+          "components": [
+            "文字框3个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "学习任务",
+          "purpose": "错落任务与短说明",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "提问讨论",
+          "purpose": "大问题与思考留白",
+          "components": [
+            "文字框4个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "课堂活动",
+          "purpose": "分步活动与任务安排",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "观察记录",
+          "purpose": "原生表格与对照记录",
+          "components": [
+            "文字框2个",
+            "原生表格(4x3)"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课末回看",
+          "purpose": "学习总结与新的问题",
+          "components": [
+            "文字框7个"
+          ]
+        }
+      ],
+      "category": "课堂教学",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中"
+      ],
+      "lesson_types": [
+        "新授",
+        "探究",
+        "实验",
+        "研学",
+        "复习"
+      ],
+      "subjects": [
+        "科学",
+        "生物",
+        "地理",
+        "综合实践",
+        "环境探索"
+      ],
+      "visual_scene": "薄荷柠檬活页研学模板：左侧活页装订孔纹理，右下角为草地上一名背双肩包持放大镜记录的男生",
+      "avoid_for": [
+        "纯室内古诗文鉴赏或高阶纯符号理论推导"
+      ]
+    },
+    {
+      "id": "T19",
+      "name": "珊瑚蓝白讨论",
+      "file": "assets/templates/T19_珊瑚蓝白讨论.pptx",
+      "sha256": "14543769205b3b4bacbbdbafa1318b3d0a1a6f1d4fb5118e24328e82df5abf09",
+      "preview": "assets/previews/T19.png",
+      "overview": "assets/previews/T19-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "参考效果页",
+          "purpose": "贴合认可效果图的可编辑示例",
+          "components": [
+            "文字框6个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "学习任务",
+          "purpose": "错落任务与短说明",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "提问讨论",
+          "purpose": "大问题与思考留白",
+          "components": [
+            "文字框4个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "课堂活动",
+          "purpose": "分步活动与任务安排",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "观察记录",
+          "purpose": "原生表格与对照记录",
+          "components": [
+            "文字框2个",
+            "原生表格(4x3)"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课末回看",
+          "purpose": "学习总结与新的问题",
+          "components": [
+            "文字框7个"
+          ]
+        }
+      ],
+      "category": "课堂教学",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中",
+        "大学"
+      ],
+      "lesson_types": [
+        "新授",
+        "讨论",
+        "阅读",
+        "复习",
+        "讲评"
+      ],
+      "subjects": [
+        "通用",
+        "语文",
+        "数学",
+        "英语",
+        "道法",
+        "历史",
+        "地理",
+        "物理",
+        "化学"
+      ],
+      "visual_scene": "珊瑚橙与天蓝教室讨论模板：明亮教室课桌前两名穿橙色与蓝色卫衣的中学生面对面翻看笔记讨论，无特定学科器物限制，通用性强",
+      "avoid_for": [
+        "需要浓厚水墨古风或自然植物标本实拍的专项意境课"
+      ]
+    },
+    {
+      "id": "T20",
+      "name": "湖蓝暖黄阅读",
+      "file": "assets/templates/T20_湖蓝暖黄阅读.pptx",
+      "sha256": "21a7bd2d77bfce3069ae049d008b9e5d1ab19145153773ea64fe2f9777c8bc9c",
+      "preview": "assets/previews/T20.png",
+      "overview": "assets/previews/T20-overview.jpg",
+      "pages": [
+        {
+          "page": 1,
+          "name": "参考效果页",
+          "purpose": "贴合认可效果图的可编辑示例",
+          "components": [
+            "文字框3个"
+          ]
+        },
+        {
+          "page": 2,
+          "name": "学习任务",
+          "purpose": "错落任务与短说明",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 3,
+          "name": "提问讨论",
+          "purpose": "大问题与思考留白",
+          "components": [
+            "文字框4个"
+          ]
+        },
+        {
+          "page": 4,
+          "name": "课堂活动",
+          "purpose": "分步活动与任务安排",
+          "components": [
+            "文字框10个"
+          ]
+        },
+        {
+          "page": 5,
+          "name": "观察记录",
+          "purpose": "原生表格与对照记录",
+          "components": [
+            "文字框2个",
+            "原生表格(4x3)"
+          ]
+        },
+        {
+          "page": 6,
+          "name": "课末回看",
+          "purpose": "学习总结与新的问题",
+          "components": [
+            "文字框7个"
+          ]
+        }
+      ],
+      "category": "课堂教学",
+      "grade_bands": [
+        "小学",
+        "初中",
+        "高中"
+      ],
+      "lesson_types": [
+        "新授",
+        "阅读",
+        "写作",
+        "讨论",
+        "复习"
+      ],
+      "subjects": [
+        "语文",
+        "英语",
+        "历史",
+        "道法",
+        "人文",
+        "通用"
+      ],
+      "visual_scene": "湖蓝暖黄大树阅读模板：草坪大树下摊开巨型书本，两名学生坐在书页旁阅读与记录，氛围温馨开阔",
+      "avoid_for": [
+        "高密度仪器实验数据对比或精密几何制图课"
+      ]
+    }
+  ],
+  "backgrounds": "imagegen illustrations; text/tables/charts are native PowerPoint objects; original screenshots are not embedded",
+  "origin": "2026-11-02 naturalized teacher template library"
+}
