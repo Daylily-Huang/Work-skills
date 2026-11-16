@@ -67,7 +67,7 @@ python -X utf8 scripts/teacher_ppt.py finalize <任务目录> --output <最终PP
 }
 ```
 
-例子只说明字段，**不保证字段名与任一具体页一致**。必须先用 `catalog --template ... --page ...` 检查实际字段、表格、图表和 `visual_scene`/`avoid_for`。`catalog` 还会给出各文本框的 `width_pt`、`height_pt`、`max_chars_per_line` 与 `max_lines`，以及已有备注 `notes_text`；填写过长文本时脚本会在 `flags` 中标出 `text_capacity_risk`，应换更宽版式或精简文句。`T01`–`T12` 偏向说课教研（带顶部导航条），`T13`–`T20` 偏向一线课堂教学（含全页插画背景）。每页所有文字都需在 `text` 替换，或在 `keep_text` 以“字段:保留理由”明确保留；保留导航等家具是合理的，不能保留待填提示和超过 12 字的样例段落而不作说明。选择不同版式可调整页面容量；脚本不自动扩表或重排任意复杂对象。
+例子只说明字段，**不保证字段名与任一具体页一致**。必须先用 `catalog --template ... --page ...` 检查实际字段、表格、图表和 `visual_scene`/`avoid_for`（`catalog --query` 已支持 `一年级`~`九年级`/`初一`~`高三` 等年级别名自动映射到学段）。`catalog` 还会给出各文本框的 `left_pt`、`top_pt` 坐标与 `width_pt`/`text_width_pt`/`height_pt`、`max_chars_per_line` 与 `max_lines`，以及已有备注 `notes_text`；填写过长文本时脚本会在 `flags` 中标出 `text_capacity_risk`，应换更宽版式或精简文句。`T01`–`T12` 偏向说课教研（带顶部导航条），`T13`–`T20` 偏向一线课堂教学（含全页插画背景）。每页所有文字都需在 `text` 替换，或在 `keep_text` 以“字段:保留理由”明确保留；保留导航等家具是合理的，不能保留待填提示和超过 12 字的样例段落而不作说明。选择不同版式可调整页面容量；脚本不自动扩表或重排任意复杂对象。
 
 普通页面 `kind` 用 `cover/goal/explain/question/exercise/activity/record/summary/divider` 等清楚名称（已校验 `cover/goal/explain/question/exercise/activity/record/summary/divider/review/edit`）。问题、习题页需要教师指导；封闭题是答案依据，开放题是可接受思路和评价要点。不要把隐藏备注当成学生已看见的内容。
 

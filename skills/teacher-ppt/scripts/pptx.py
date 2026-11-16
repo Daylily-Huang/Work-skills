@@ -40,15 +40,19 @@ def inventory(path,page):
  need(isinstance(page,int) and 1<=page<=len(order),'模板页码超出范围')
  part=order[page-1];root=xml(parts[part]);t=[]
  for key,shape,body in fields(root):
-  ext=shape.find('p:spPr/a:xfrm/a:ext',NS);sz_val=0
+  xfrm=shape.find('p:spPr/a:xfrm',NS);off=xfrm.find('a:off',NS) if xfrm is not None else None;ext=xfrm.find('a:ext',NS) if xfrm is not None else None;bp=body.find('a:bodyPr',NS);sz_val=0
   for sel in ('.//a:rPr','.//a:defRPr','.//a:endParaRPr'):
    node=next((n for n in body.findall(sel,NS) if n.get('sz')),None)
    if node is not None:sz_val=int(node.get('sz'));break
   font_pt=round(sz_val/100,2) if sz_val else None
+  l_pt=round(int(off.get('x','0'))/12700,1) if off is not None and off.get('x') is not None else None
+  t_pt=round(int(off.get('y','0'))/12700,1) if off is not None and off.get('y') is not None else None
   w_pt=round(int(ext.get('cx','0'))/12700,1) if ext is not None and ext.get('cx') else None
   h_pt=round(int(ext.get('cy','0'))/12700,1) if ext is not None and ext.get('cy') else None
+  lins=int(bp.get('lIns','91440')) if bp is not None else 91440;rins=int(bp.get('rIns','91440')) if bp is not None else 91440
+  eff_w=round(max(0.0,w_pt-(lins+rins)/12700),1) if w_pt is not None else None
   eff_sz=font_pt if font_pt and font_pt>0 else 18.0
-  t.append({'field':key,'text':text_of(body),'font_size_pt':font_pt,'width_pt':w_pt,'height_pt':h_pt,'max_chars_per_line':max(1,int(w_pt//eff_sz)) if w_pt else None,'max_lines':max(1,int((h_pt+3)//(eff_sz*1.25))) if h_pt else None})
+  t.append({'field':key,'text':text_of(body),'font_size_pt':font_pt,'left_pt':l_pt,'top_pt':t_pt,'width_pt':w_pt,'text_width_pt':eff_w,'height_pt':h_pt,'max_chars_per_line':max(1,int(eff_w//eff_sz)) if eff_w else None,'max_lines':max(1,int((h_pt+3)//(eff_sz*1.25))) if h_pt else None})
  need(len({x['field'] for x in t})==len(t),'当前页文字字段id重名，先修复或采用原生Office窄改')
  tables=[]
  for table in root.findall('.//a:tbl',NS):

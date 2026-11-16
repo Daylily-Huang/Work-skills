@@ -4,10 +4,10 @@ display_name: 教学课件 PPT
 description: 为小学、初高中教师优先、大学教师兼容地制作和修改可编辑教学PPT。根据课题、年级和课型调整教学重点与组织，澄清重要歧义，使用随包二十套轻快自然模板，完成内容判断、原生课件与实际渲染检查。适用于上课、复习、习题讲评和说课，不用于一般工作汇报或学术研究汇报。
 description_zh: 为中小学与高校教师制作或修改原生可编辑教学课件 PPT，支持说课教研、课堂新授、复习讲评与局部改稿。
 description_en: Create and refine native editable teaching PPTX decks for K-12 and university courses with pedagogical gates and PowerPoint render verification.
-version: "1.0.1"
+version: "1.0.2"
 author: workskill contributors
 metadata:
-  version: "1.0.1"
+  version: "1.0.2"
   validation_status: "trial"
 ---
 
