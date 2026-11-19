@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "skill_version": "1.0.2",
+  "skill_version": "1.1.0",
   "templates": [
     {
       "id": "T01",
@@ -1000,7 +1000,7 @@
       "id": "T13",
       "name": "纸艺自然课堂",
       "file": "assets/templates/T13_纸艺自然课堂.pptx",
-      "sha256": "6666a33fa224b207dc8a083d6447d801a5908b594b6d9cbc324af744e21702a0",
+      "sha256": "60cb200f2c42baeca598299d5bba09e3c627da59d33837d0e23c2051d73a36e3",
       "preview": "assets/previews/T13.png",
       "overview": "assets/previews/T13-overview.jpg",
       "pages": [
@@ -1048,7 +1048,7 @@
         {
           "page": 6,
           "name": "课末回看",
-          "purpose": "学习总结与新的问题（左下text6靠叶枝，宜简短不超过16字）",
+          "purpose": "学习总结与新的问题（内页已配半透明底卡与右移避叶枝）",
           "components": [
             "文字框7个"
           ]
@@ -1074,7 +1074,7 @@
         "语文写景",
         "综合实践"
       ],
-      "visual_scene": "浅牛皮纸拼贴课堂模板：真实树叶、黄色银杏叶、放大镜与植物素描本（背景插画固定；P1主标题约容6大字，P2/P4末项与P6左下text6紧邻叶枝建议不超过16字并看图核验）",
+      "visual_scene": "浅牛皮纸拼贴课堂模板：真实树叶、银杏叶、放大镜与植物素描本，内页配暖米半透明圆角卡片与三线观察表（P1主标题约容6大字）",
       "avoid_for": [
         "纯室内数理计算或与自然/植物/写景观察毫不相关的题材（右下有固定银杏叶与放大镜素描本）"
       ]
@@ -1083,7 +1083,7 @@
       "id": "T14",
       "name": "蓝白学情课堂",
       "file": "assets/templates/T14_蓝白学情课堂.pptx",
-      "sha256": "34195704a8a202a0c27f9837dbaa36eb614c754579c4500f34b6c153dde23240",
+      "sha256": "c94e3fb7a1f5e6f4d7e595cdfbdb7ed1a3731ee158e733357ffb8b94153a6ec3",
       "preview": "assets/previews/T14.png",
       "overview": "assets/previews/T14-overview.jpg",
       "pages": [
@@ -1165,7 +1165,7 @@
       "id": "T15",
       "name": "水墨书院课堂",
       "file": "assets/templates/T15_水墨书院课堂.pptx",
-      "sha256": "43aecdcd43a09ed1874ab21be73573774e2e3a5a4f9a5fbcb6331b4c9c8365f7",
+      "sha256": "4894ef192f06102739d7d2002677f8522887064c01e469f974eff154716ba043",
       "preview": "assets/previews/T15.png",
       "overview": "assets/previews/T15-overview.jpg",
       "pages": [
@@ -1240,7 +1240,7 @@
         "历史",
         "文学"
       ],
-      "visual_scene": "雅致水墨书院课堂模板：远山竹影古风书院场景，先生与学童共读古卷，内页右侧留水墨卷轴留白",
+      "visual_scene": "雅致水墨书院课堂模板：远山竹影古风书院场景，内页配宣纸半透明卡片、朱砂印记竖条与无竖线古籍三线表（标题与首列楷体）",
       "avoid_for": [
         "现代理化实验、编程实务或外语情景对话"
       ]
@@ -1249,7 +1249,7 @@
       "id": "T16",
       "name": "立体几何课堂",
       "file": "assets/templates/T16_立体几何课堂.pptx",
-      "sha256": "8d7d27ed96127b8f5690851c9903d11225f66a802799bcab2387d1b3982477d0",
+      "sha256": "2f0d6fb5504d84ce9dcb4786033fbcbacbf1c133f5b2d96235ba585f6bfa75a9",
       "preview": "assets/previews/T16.png",
       "overview": "assets/previews/T16-overview.jpg",
       "pages": [
@@ -1329,7 +1329,7 @@
       "id": "T17",
       "name": "晴空蓝橙探究",
       "file": "assets/templates/T17_晴空蓝橙探究.pptx",
-      "sha256": "c89695d4537f4cd6059e74b4c56d808a473c4e713c423b5c1cc033a90d140b66",
+      "sha256": "a388c5937c7d0aa80a34571175cf716256347e67fae67d1ee7b6d7187f0167b3",
       "preview": "assets/previews/T17.png",
       "overview": "assets/previews/T17-overview.jpg",
       "pages": [
@@ -1410,7 +1410,7 @@
       "id": "T18",
       "name": "薄荷柠檬研学",
       "file": "assets/templates/T18_薄荷柠檬研学.pptx",
-      "sha256": "5ccdcc12912783bc7b857472eb37bcd4bbb78818794f2b69d51b503fa4ae87e6",
+      "sha256": "034f530dfedb5aff90af51cfbbb2b3116d30f2d3a18c298a30b8fb3851335d18",
       "preview": "assets/previews/T18.png",
       "overview": "assets/previews/T18-overview.jpg",
       "pages": [
@@ -1493,7 +1493,7 @@
       "id": "T19",
       "name": "珊瑚蓝白讨论",
       "file": "assets/templates/T19_珊瑚蓝白讨论.pptx",
-      "sha256": "14543769205b3b4bacbbdbafa1318b3d0a1a6f1d4fb5118e24328e82df5abf09",
+      "sha256": "ac7ddfbf71d84197d29fdec64843de6e223c311a0446666964c7d17fa4341931",
       "preview": "assets/previews/T19.png",
       "overview": "assets/previews/T19-overview.jpg",
       "pages": [
@@ -1581,7 +1581,7 @@
       "id": "T20",
       "name": "湖蓝暖黄阅读",
       "file": "assets/templates/T20_湖蓝暖黄阅读.pptx",
-      "sha256": "21a7bd2d77bfce3069ae049d008b9e5d1ab19145153773ea64fe2f9777c8bc9c",
+      "sha256": "6aa9f57cd00dc6945a87f678331715d96abc4b846b4dfb4b9058304d5d897e60",
       "preview": "assets/previews/T20.png",
       "overview": "assets/previews/T20-overview.jpg",
       "pages": [

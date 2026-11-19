@@ -49,7 +49,7 @@ Copy-Item -Recurse Work-skills\skills\work-report-ppt "$env:USERPROFILE\.workbud
 
 ## 教学课件 PPT
 
-**v1.0.2 (trial) · MIT · Python 3.10+ (无额外依赖) · PowerPoint / WPS**
+**v1.1.0 (trial) · MIT · Python 3.10+ (无额外依赖) · PowerPoint / WPS**
 
 面向小学、初高中优先、大学兼容的专门教学课件制作与改稿技能。它按教学逻辑与课堂现场来组织页面：
 

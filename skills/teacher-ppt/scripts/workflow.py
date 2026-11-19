@@ -90,9 +90,9 @@ def check_plan(job,plan,inventory):
    if field['field'] in page.get('text',{}) and (field.get('text_width_pt') or field.get('width_pt')) and field.get('max_lines'):
     sz=field.get('font_size_pt') or 18.0;avail_w=field.get('text_width_pt') or field['width_pt'];cap=max(0.5,avail_w/sz);ml=field['max_lines'];est=0
     for ln in value.replace('\r\n','\n').replace('\r','\n').split('\n'):
-     w=sum(0.58 if ord(ch)<128 else 1.0 for ch in ln)
+     w=sum(0.52 if ord(ch)<128 else 1.0 for ch in ln)
      est+=max(1,math.ceil(w/cap))
-    if (ml==1 and est>=2) or (est>ml+1):
+    if est>ml:
      flags.append({'id':page['id']+':capacity:'+field['field'],'page':page['id'],'kind':'text_capacity_risk','excerpt':f"{field['field']}预计{est}行超出容量{ml}行：{value[:24]}"})
   tables=page.get('tables',[]);need(len(tables)==len(inv['tables']),f"{page['id']}所有原生表格都须显式填写，不能残留样例")
   for spec,base in zip(tables,inv['tables']):

@@ -47,16 +47,18 @@ def main():
     result['template']={'id':f['id'],'name':f['name'],'category':f.get('category',''),'visual_scene':f.get('visual_scene',''),'avoid_for':f.get('avoid_for',[])}
    else:result=f
   else:
-   aliases={'一年级':'小学','二年级':'小学','三年级':'小学','四年级':'小学','五年级':'小学','六年级':'小学','小一':'小学','小二':'小学','小三':'小学','小四':'小学','小五':'小学','小六':'小学','七年级':'初中','八年级':'初中','九年级':'初中','初一':'初中','初二':'初中','初三':'初中','高一':'高中','高二':'高中','高三':'高中','大一':'大学','大二':'大学','大三':'大学','大四':'大学','本科':'大学','研究生':'大学'}
-   def norm_term(w):
-    w=w.lower()
+   aliases={'一年级':'小学','二年级':'小学','三年级':'小学','四年级':'小学','五年级':'小学','六年级':'小学','小一':'小学','小二':'小学','小三':'小学','小四':'小学','小五':'小学','小六':'小学','七年级':'初中','八年级':'初中','九年级':'初中','初一':'初中','初二':'初中','初三':'初中','高一':'高中','高二':'高中','高三':'高中','大一':'大学','大二':'大学','大三':'大学','大四':'大学','本科':'大学','研究生':'大学','错题':'讲评','习题':'讲评'}
+   terms=[]
+   for raw in args.query.split():
+    w=raw.lower().strip()
+    if not w:continue
     for k,v in aliases.items():
-     if k in w:w=w.replace(k,v)
-    return w
-   terms=[norm_term(w) for w in args.query.split() if w.strip()]
+     if k in w:
+      terms.append(v);w=w.replace(k,'')
+    if w:terms.append(w)
    def match(t):
     if not terms:return True
-    hay=' '.join([t['id'],t['name'],t.get('category',''),' '.join(t.get('grade_bands',[])),' '.join(t.get('lesson_types',[])),' '.join(t.get('subjects',[])),t.get('visual_scene',''),' '.join(t.get('avoid_for',[])),' '.join(p.get('name','')+' '+p.get('purpose','')+' '+' '.join(p.get('components',[])) for p in t.get('pages',[]))]).lower()
+    hay=' '.join([t['id'],t['name'],t.get('category',''),' '.join(t.get('grade_bands',[])),' '.join(t.get('lesson_types',[])),' '.join(t.get('subjects',[])),t.get('visual_scene',''),' '.join(p.get('name','')+' '+p.get('purpose','')+' '+' '.join(p.get('components',[])) for p in t.get('pages',[]))]).lower()
     return all(term in hay for term in terms)
    result={'entry':str(ROOT/'assets/gallery.html'),'templates':[{'id':x['id'],'name':x['name'],'category':x.get('category',''),'grade_bands':x.get('grade_bands',[]),'lesson_types':x.get('lesson_types',[]),'subjects':x.get('subjects',[]),'visual_scene':x.get('visual_scene',''),'avoid_for':x.get('avoid_for',[]),'pages':x['pages'],'preview':str(ROOT/x['preview'])} for x in data['templates'] if match(x)]}
  elif args.command=='audit':result=audit(Path(args.file).resolve())

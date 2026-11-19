@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <code>v1.0.2 (trial)</code>　·　Python 3.10+ (零第三方依赖)　·　PowerPoint / WPS
+  <code>v1.1.0 (trial)</code>　·　Python 3.10+ (零第三方依赖)　·　PowerPoint / WPS
 </p>
 
 <p align="center">
